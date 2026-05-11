@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3h6viryukdjl"
+path="res://.godot/imported/walkei talkei static.mp3-e2c0edda11cd65cc7c09c893bffc8e2c.mp3str"
+
+[deps]
+
+source_file="res://Sounds/walkei talkei static.mp3"
+dest_files=["res://.godot/imported/walkei talkei static.mp3-e2c0edda11cd65cc7c09c893bffc8e2c.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
