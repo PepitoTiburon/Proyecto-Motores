@@ -9,7 +9,7 @@ class_name Player
 ## 
 ## This player contains the inputs that will be used in the function 
 ## [b]move()[/b] in [b]_physics_process()[/b].
-## The input process only happens when mouse is in capture mode.
+## The input process only happens when mouse is in capture mode.asd
 ## This script also adds submerged and emerged signals to change the 
 ## [Environment] when we are in the water.
 

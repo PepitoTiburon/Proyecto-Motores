@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/character-controller/plugin.cfg", "res://addons/raytraced_audio/plugin.cfg")
+enabled=PackedStringArray("res://addons/character-controller/plugin.cfg", "res://addons/raytraced_audio/plugin.cfg", "res://addons/ridiculous_coding/plugin.cfg")
 
 [input]
 
