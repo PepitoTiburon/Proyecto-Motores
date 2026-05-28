@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=20 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_noarx"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="2_a0tk4"]
@@ -6,7 +6,11 @@
 [ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="4_jka67"]
 [ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://Sounds/BIG monster groul.mp3" id="5_wc5p8"]
 [ext_resource type="PackedScene" uid="uid://5p6v5tm222x7" path="res://Scenes/cabin.tscn" id="6_i5arm"]
+[ext_resource type="Script" uid="uid://cd25dfuk2v57n" path="res://rama.gd" id="7_4arys"]
+[ext_resource type="AudioStream" uid="uid://cjm16x8b0c5u4" path="res://Sounds/fantasma.MP3" id="7_tereu"]
 [ext_resource type="PackedScene" uid="uid://df4paeevgrok6" path="res://Scenes/Tree.tscn" id="7_wc5p8"]
+[ext_resource type="AudioStream" uid="uid://c8dba3yfdkni1" path="res://Sounds/rama.MP3" id="8_6iypd"]
+[ext_resource type="AudioStream" uid="uid://c8bmqyi3eqlsk" path="res://Sounds/murcielago.MP3" id="8_cdqbm"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -30,6 +34,8 @@ albedo_color = Color(0.356333, 0.467906, 0.332077, 1)
 
 [sub_resource type="SphereMesh" id="SphereMesh_i5arm"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_tereu"]
+
 [node name="Node3D" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -51,7 +57,7 @@ transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0)
 mesh = SubResource("PlaneMesh_jka67")
 surface_material_override/0 = SubResource("StandardMaterial3D_i5arm")
 
-[node name="Player" parent="." instance=ExtResource("1_noarx")]
+[node name="Player" parent="." groups=["jugador"] instance=ExtResource("1_noarx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.76531, 1.19209e-07, -1.08743)
 
 [node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
@@ -78,7 +84,7 @@ script = ExtResource("4_jka67")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="SpotLight3D" type="SpotLight3D" parent="MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 4.87414, 0)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.19828, 5.04802, 0.401047)
 spot_range = 11.0621
 spot_attenuation = 0.24
 spot_angle = 50.625
@@ -90,7 +96,7 @@ mesh = SubResource("SphereMesh_i5arm")
 script = ExtResource("3_jka67")
 
 [node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="MeshInstance3D2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -57.9921)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.1946)
 stream = ExtResource("5_wc5p8")
 volume_db = 5.995
 unit_size = 16.66
@@ -109,6 +115,52 @@ spot_angle_attenuation = 0.895248
 
 [node name="Node" parent="." instance=ExtResource("6_i5arm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, -0.0958753, -26)
+
+[node name="fantasma" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.7675, -0.102245, -33.7891)
+mesh = SubResource("SphereMesh_i5arm")
+skeleton = NodePath("../MeshInstance3D2")
+script = ExtResource("3_jka67")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="fantasma"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.074585, 0.348457, 0.0617943)
+stream = ExtResource("7_tereu")
+volume_db = 5.995
+unit_size = 16.66
+autoplay = true
+bus = &"RaytracedAmbient"
+script = ExtResource("4_jka67")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="murcielago" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.42998, 1.78548, -21.7577)
+visible = false
+mesh = SubResource("SphereMesh_i5arm")
+skeleton = NodePath("../MeshInstance3D2")
+script = ExtResource("3_jka67")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="murcielago"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.074585, 0.348457, 0.0617943)
+stream = ExtResource("8_cdqbm")
+volume_db = 5.995
+unit_size = 16.66
+autoplay = true
+bus = &"RaytracedAmbient"
+script = ExtResource("4_jka67")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="rama" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.15415, -0.042501, -15.4895)
+script = ExtResource("7_4arys")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="rama"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="rama/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.78466, 0)
+shape = SubResource("CylinderShape3D_tereu")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="rama"]
+stream = ExtResource("8_6iypd")
 
 [node name="Trees" type="Node3D" parent="."]
 
