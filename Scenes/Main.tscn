@@ -1,0 +1,170 @@
+[gd_scene load_steps=19 format=3 uid="uid://dk6j0p886iuys"]
+
+[ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_50glp"]
+[ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="2_vy5pj"]
+[ext_resource type="Script" uid="uid://wmxu2hotr2bk" path="res://Scripts/mesh_instance_3d.gd" id="3_bmxlf"]
+[ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://Scenes/ray_cast_3d.gd" id="3_v1gob"]
+[ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="4_4kpch"]
+[ext_resource type="PackedScene" uid="uid://dn4m34tk1ldmn" path="res://Scenes/TestObjetoInteractuable.tscn" id="4_jw32o"]
+[ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://Assets/Sounds/BIG monster groul.mp3" id="5_grg3l"]
+[ext_resource type="Script" uid="uid://b42j7ggb7g2em" path="res://Scenes/dot.gd" id="8_50glp"]
+[ext_resource type="Script" uid="uid://dvd1ow4aausmq" path="res://Scenes/test_objeto_interactuable_2.gd" id="9_vy5pj"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_wc5p8"]
+sky_material = SubResource("ProceduralSkyMaterial_i5arm")
+
+[sub_resource type="Environment" id="Environment_jsk3o"]
+background_mode = 1
+background_energy_multiplier = 1.98
+sky = SubResource("Sky_wc5p8")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_r3fl7"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_jka67"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i5arm"]
+albedo_color = Color(0.356333, 0.467906, 0.332077, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_i5arm"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_bmxlf"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_4kpch"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.904614, -0.109274, -0.411987, -0.266443, -0.609474, 0.746692, -0.33269, 0.785239, 0.522224, 0, 0, 0)
+light_energy = 0.05
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_jsk3o")
+
+[node name="Piso" type="StaticBody3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Piso"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+shape = SubResource("WorldBoundaryShape3D_r3fl7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Piso"]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0)
+mesh = SubResource("PlaneMesh_jka67")
+surface_material_override/0 = SubResource("StandardMaterial3D_i5arm")
+
+[node name="Player" parent="." groups=["jugador"] instance=ExtResource("1_50glp")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.76531, 1.16837, -31.7896)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
+
+[node name="RaytracedAudioListener" type="AudioListener3D" parent="Player/Head/Camera3D"]
+script = ExtResource("2_vy5pj")
+metadata/_custom_type_script = "uid://bjpmu5sklv5h8"
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Player/Head/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.64, 0)
+spot_range = 24.3425
+spot_attenuation = -0.59
+spot_angle = 24.2819
+spot_angle_attenuation = 4.72512
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Player/Head/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.64, 0)
+light_energy = 0.187
+light_indirect_energy = 16.0
+spot_range = 34.9561
+spot_attenuation = -1.49
+spot_angle = 36.9706
+spot_angle_attenuation = 10.1285
+
+[node name="RayCast3D" type="RayCast3D" parent="Player/Head/Camera3D"]
+target_position = Vector3(0, 0, -3)
+script = ExtResource("3_v1gob")
+
+[node name="ObjetoTester" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1632, 18.7069)
+mesh = SubResource("SphereMesh_i5arm")
+script = ExtResource("3_bmxlf")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="ObjetoTester"]
+autoplay = true
+bus = &"RaytracedAmbient"
+script = ExtResource("4_4kpch")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="ObjetoTester2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1632, -76.6942)
+mesh = SubResource("SphereMesh_i5arm")
+script = ExtResource("3_bmxlf")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="ObjetoTester2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.1946)
+stream = ExtResource("5_grg3l")
+volume_db = 5.995
+unit_size = 16.66
+autoplay = true
+bus = &"RaytracedAmbient"
+script = ExtResource("4_4kpch")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="SpotLight3D" type="SpotLight3D" parent="ObjetoTester2"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 4.87414, 0)
+light_color = Color(1, 0, 0, 1)
+spot_range = 11.0621
+spot_attenuation = 0.24
+spot_angle = 50.625
+spot_angle_attenuation = 0.895248
+
+[node name="StaticBody3D" parent="." instance=ExtResource("4_jw32o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.23574, 2.26229, -31.7668)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dot" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("8_50glp")
+
+[node name="TestObjetoInteractuable2" type="StaticBody3D" parent="." groups=["interactuable"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14255, 1.33845, -34.5939)
+script = ExtResource("9_vy5pj")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TestObjetoInteractuable2"]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+mesh = SubResource("SphereMesh_bmxlf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TestObjetoInteractuable2"]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+shape = SubResource("SphereShape3D_4kpch")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="TestObjetoInteractuable2"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.703269, 0)
+light_energy = 0.0
+
+[connection signal="hasSidoInteractuado" from="Player/Head/Camera3D/RayCast3D" to="StaticBody3D" method="_on_ray_cast_3d_has_sido_interactuado"]
+[connection signal="hasSidoInteractuado2" from="Player/Head/Camera3D/RayCast3D" to="TestObjetoInteractuable2" method="_on_ray_cast_3d_has_sido_interactuado_2"]
+
+[editable path="Player"]
