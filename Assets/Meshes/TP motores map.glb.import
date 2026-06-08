@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://n2wvlv4d48wp"
-path="res://.godot/imported/TP motores map walls.glb-3e3a5183783428f167dd4b17781b835c.scn"
+uid="uid://dqd4ngjqfh71u"
+path="res://.godot/imported/TP motores map.glb-775118f0298f50a679eb1d38c8787fe5.scn"
 
 [deps]
 
-source_file="res://Assets/Meshes/TP motores map walls.glb"
-dest_files=["res://.godot/imported/TP motores map walls.glb-3e3a5183783428f167dd4b17781b835c.scn"]
+source_file="res://Assets/Meshes/TP motores map.glb"
+dest_files=["res://.godot/imported/TP motores map.glb-775118f0298f50a679eb1d38c8787fe5.scn"]
 
 [params]
 

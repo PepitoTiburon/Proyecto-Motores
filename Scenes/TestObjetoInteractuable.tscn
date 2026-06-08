@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dn4m34tk1ldmn"]
+[gd_scene load_steps=6 format=3 uid="uid://dn4m34tk1ldmn"]
 
 [ext_resource type="Script" uid="uid://dpvkfa5od4shc" path="res://Scenes/test_objeto_interactuable.gd" id="1_f03ia"]
 [ext_resource type="AudioStream" uid="uid://c8dba3yfdkni1" path="res://Assets/Sounds/rama.MP3" id="2_4h057"]
+[ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="3_f03ia"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_jwbpb"]
 
@@ -20,3 +21,5 @@ shape = SubResource("SphereShape3D_1mow4")
 
 [node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("2_4h057")
+script = ExtResource("3_f03ia")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
