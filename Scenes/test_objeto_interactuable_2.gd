@@ -14,8 +14,6 @@ func _on_ray_cast_3d_has_sido_interactuado_2() -> void:
 	if !Encendido:
 		Encendido = true
 		$SpotLight3D.light_energy = 9
-		print("apagado")
 	elif Encendido:
-		print("encender")
 		Encendido = false
 		$SpotLight3D.light_energy = 0
