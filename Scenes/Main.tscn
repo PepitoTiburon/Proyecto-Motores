@@ -1,6 +1,7 @@
-[gd_scene load_steps=23 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=24 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_50glp"]
+[ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/Meshes/flashlight/flashlight.fbx" id="2_4kpch"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="2_vy5pj"]
 [ext_resource type="Script" uid="uid://wmxu2hotr2bk" path="res://Scripts/mesh_instance_3d.gd" id="3_bmxlf"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://Scenes/ray_cast_3d.gd" id="3_v1gob"]
@@ -70,8 +71,22 @@ surface_material_override/0 = SubResource("StandardMaterial3D_i5arm")
 
 [node name="Player" parent="." groups=["jugador"] instance=ExtResource("1_50glp")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.76531, 1.16837, -31.7896)
+speed = 4.0
+sprint_speed_multiplier = 1.8
+step_lengthen = 0.3
+step_interval = 2.5
 
-[node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
+[node name="Walk Ability 3D" parent="Player" index="2"]
+acceleration = 6
+deceleration = 9
+
+[node name="Sprint Ability 3D" parent="Player" index="3"]
+speed_multiplier = 1.5
+
+[node name="flashlight" parent="Player/Head" index="0" instance=ExtResource("2_4kpch")]
+transform = Transform3D(0.00890364, 0, -0.079503, 0, 0.08, 0, 0.079503, 0, 0.00890364, 0.497974, -0.366915, -0.358368)
+
+[node name="Camera3D" type="Camera3D" parent="Player/Head" index="4"]
 
 [node name="RaytracedAudioListener" type="AudioListener3D" parent="Player/Head/Camera3D"]
 script = ExtResource("2_vy5pj")
