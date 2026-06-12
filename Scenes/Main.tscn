@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=45 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_50glp"]
 [ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/Meshes/flashlight/flashlight.fbx" id="2_4kpch"]
@@ -24,6 +24,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/Meshes/cosas_Mansion/Meshes/OBJ/Decor/picture8.obj" id="22_c4ay3"]
 [ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://Assets/Meshes/cosas_Mansion/Textures/picture8_texture.png" id="23_aht7i"]
 [ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://Assets/Meshes/cosas_Mansion/Meshes/textures/wood (15).jpg" id="24_3tgeq"]
+[ext_resource type="PackedScene" uid="uid://cduc1hukreon" path="res://Scenes/puerta.tscn" id="25_c4ay3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -82,11 +83,6 @@ albedo_texture = ExtResource("23_aht7i")
 albedo_texture = ExtResource("24_3tgeq")
 
 [node name="Node3D" type="Node3D"]
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.904614, -0.109274, -0.411987, -0.266443, -0.609474, 0.746692, -0.33269, 0.785239, 0.522224, 0, 0, 0)
-light_energy = 0.05
-shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_jsk3o")
@@ -369,6 +365,12 @@ surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
 transform = Transform3D(-4.37114e-08, 0, 5.92498, 0, 1, 0, -1, 0, -2.58989e-07, 5.39226, 0.0397834, -13.4352)
 mesh = ExtResource("16_2w5on")
 surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
+
+[node name="Puerta" parent="." instance=ExtResource("25_c4ay3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.572351, -0.00337887, -26.6271)
+
+[node name="Puerta2" parent="." instance=ExtResource("25_c4ay3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.06, 0.111011, -31.7742)
 
 [editable path="Player"]
 [editable path="StaticBody3D2/TP motores map"]
