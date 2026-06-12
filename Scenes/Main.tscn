@@ -206,7 +206,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("8_50glp")
 
-[node name="TestObjetoInteractuable2" type="StaticBody3D" parent="." groups=["interactuable"]]
+[node name="TestObjetoInteractuable2" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14255, 1.33845, -34.5939)
 script = ExtResource("9_vy5pj")
 

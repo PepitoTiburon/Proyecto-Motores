@@ -1,10 +1,11 @@
 # Hereda de nuestra clase custom, no directo de StaticBody
 extends ObjetoInteractuable
 
-var encendido: bool = false
-
+var encendido: bool
+func _ready() -> void:
+	encendido = false
 # Sobreescribimos el método del padre
-func interactuar() -> void:
+func react() -> void:
 	encendido = !encendido
 	if encendido:
 		$SpotLight3D.light_energy = 9

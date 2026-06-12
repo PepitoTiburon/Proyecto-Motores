@@ -4,5 +4,5 @@ extends StaticBody3D
 # Método polimórfico abstracto. 
 # La clase es abstracta y no se instancia por sí sola
 # Solo obliga a los hijos a definir su propio comportamiento.
-func interactuar() -> void:
+func react() -> void:
     pass

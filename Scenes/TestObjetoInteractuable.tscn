@@ -8,7 +8,7 @@
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_1mow4"]
 
-[node name="StaticBody3D" type="StaticBody3D" groups=["interactuable"]]
+[node name="StaticBody3D" type="StaticBody3D"]
 script = ExtResource("1_f03ia")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]

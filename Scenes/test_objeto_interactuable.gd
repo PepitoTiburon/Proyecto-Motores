@@ -1,4 +1,4 @@
 extends ObjetoInteractuable
 
-func interactuar() -> void:
+func react() -> void:
 	$RaytracedAudioPlayer3D.play()

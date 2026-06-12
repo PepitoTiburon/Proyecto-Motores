@@ -23,10 +23,6 @@ enabled=PackedStringArray("res://addons/character-controller/plugin.cfg", "res:/
 
 import/blender/enabled=false
 
-[global_group]
-
-interactuable=""
-
 [input]
 
 move_forward={
