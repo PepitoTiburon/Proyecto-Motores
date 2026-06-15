@@ -690,12 +690,6 @@ mesh = ExtResource("16_rdnm8")
 skeleton = NodePath("../../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
 
-[node name="Floor1" type="MeshInstance3D" parent="mansion/pasillos/pasillo1/piso"]
-transform = Transform3D(-4.37114e-08, 0, 5.20177, 0, 1, 0, -1, 0, -2.27377e-07, 2.60639, 0.0641489, 3.59216)
-mesh = ExtResource("16_rdnm8")
-skeleton = NodePath("../../../../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
-
 [node name="Floor2" type="MeshInstance3D" parent="mansion/pasillos/pasillo1/piso"]
 transform = Transform3D(-5.07456e-08, 0, 5.50282, 0, 1, 0, -1.16092, 0, -2.40536e-07, 2.5573, 0.0923615, -3.5997)
 mesh = ExtResource("16_rdnm8")
@@ -853,32 +847,32 @@ skeleton = NodePath("../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
 
 [node name="Wall0" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 15.6765)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, 15.6765)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="Wall1" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 9.67652)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, 9.67652)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="Wall2" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 3.67653)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, 3.67653)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="Wall3" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -2.32347)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, -2.32347)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="Wall4" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -8.32347)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, -8.32347)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="Wall5" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
-transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -14.3235)
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.44805, -3.53957, -14.3235)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
