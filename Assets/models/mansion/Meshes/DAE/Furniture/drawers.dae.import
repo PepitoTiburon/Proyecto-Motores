@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3pl48dfen010"
-path="res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"
+uid="uid://cef1edar14l5o"
+path="res://.godot/imported/drawers.dae-46589e530e85d7e6fd64f3eedecd43fc.scn"
 
 [deps]
 
-source_file="res://assets/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"]
+source_file="res://assets/models/mansion/Meshes/DAE/Furniture/drawers.dae"
+dest_files=["res://.godot/imported/drawers.dae-46589e530e85d7e6fd64f3eedecd43fc.scn"]
 
 [params]
 
@@ -28,11 +28,8 @@ meshes/force_disable_compression=false
 skins/use_named_skins=true
 animation/import=true
 animation/fps=30
-animation/trimming=true
+animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={}
-fbx/importer=0
-fbx/allow_geometry_helper_nodes=false
-fbx/embedded_image_handling=1

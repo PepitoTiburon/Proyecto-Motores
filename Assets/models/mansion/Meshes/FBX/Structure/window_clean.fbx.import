@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3pl48dfen010"
-path="res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"
+uid="uid://2dgh3nce46fs"
+path="res://.godot/imported/window_clean.fbx-3111d8aa402723d457e9bfb7e1d3a115.scn"
 
 [deps]
 
-source_file="res://assets/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"]
+source_file="res://assets/models/mansion/Meshes/FBX/Structure/window_clean.fbx"
+dest_files=["res://.godot/imported/window_clean.fbx-3111d8aa402723d457e9bfb7e1d3a115.scn"]
 
 [params]
 

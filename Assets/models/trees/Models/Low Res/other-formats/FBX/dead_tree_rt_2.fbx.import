@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3pl48dfen010"
-path="res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"
+uid="uid://dvyomg4goajtu"
+path="res://.godot/imported/dead_tree_rt_2.fbx-5fb1b52176ae29e61c6021c6c1d96302.scn"
 
 [deps]
 
-source_file="res://assets/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"]
+source_file="res://assets/models/trees/Models/Low Res/other-formats/FBX/dead_tree_rt_2.fbx"
+dest_files=["res://.godot/imported/dead_tree_rt_2.fbx-5fb1b52176ae29e61c6021c6c1d96302.scn"]
 
 [params]
 

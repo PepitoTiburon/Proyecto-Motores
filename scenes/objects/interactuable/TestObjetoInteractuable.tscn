@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://dn4m34tk1ldmn"]
+
+[ext_resource type="Script" uid="uid://dpvkfa5od4shc" path="res://scenes/objects/interactuable/test_objeto_interactuable.gd" id="1_f03ia"]
+[ext_resource type="AudioStream" uid="uid://c8dba3yfdkni1" path="res://assets/audio/sfx/rama.MP3" id="2_4h057"]
+[ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="3_f03ia"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_jwbpb"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1mow4"]
+
+[node name="StaticBody3D" type="StaticBody3D"]
+script = ExtResource("1_f03ia")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+mesh = SubResource("SphereMesh_jwbpb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+shape = SubResource("SphereShape3D_1mow4")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("2_4h057")
+script = ExtResource("3_f03ia")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"

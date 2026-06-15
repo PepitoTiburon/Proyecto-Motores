@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3pl48dfen010"
-path="res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"
+uid="uid://ca5nofgvicg5o"
+path="res://.godot/imported/candle0.fbx-dea9dabf345d7bdbac78db9c3ae648e6.scn"
 
 [deps]
 
-source_file="res://assets/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"]
+source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/candle0.fbx"
+dest_files=["res://.godot/imported/candle0.fbx-dea9dabf345d7bdbac78db9c3ae648e6.scn"]
 
 [params]
 

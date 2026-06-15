@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c3pl48dfen010"
-path="res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"
+uid="uid://bes8v3bgeqaiq"
+path="res://.godot/imported/rubbish.fbx-c27d383d818d4a37c2cb7a226eb55e84.scn"
 
 [deps]
 
-source_file="res://assets/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-83c90af84e469364eb725011af71a3d9.scn"]
+source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/rubbish.fbx"
+dest_files=["res://.godot/imported/rubbish.fbx-c27d383d818d4a37c2cb7a226eb55e84.scn"]
 
 [params]
 

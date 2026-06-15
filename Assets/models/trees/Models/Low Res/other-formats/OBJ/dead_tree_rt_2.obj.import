@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bnaxujtohvaol"
+path="res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"
+
+[deps]
+
+files=["res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"]
+
+source_file="res://assets/models/trees/Models/Low Res/other-formats/OBJ/dead_tree_rt_2.obj"
+dest_files=["res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh", "res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
