@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c43eqm0kxsi8"
-path="res://.godot/imported/rug2.obj-265edc08ee4d40b8ed7142d437f7a67c.mesh"
+path="res://.godot/imported/rug2.obj-c3184a73fe9bec0122db162c037fa622.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rug2.obj-265edc08ee4d40b8ed7142d437f7a67c.mesh"]
+files=["res://.godot/imported/rug2.obj-c3184a73fe9bec0122db162c037fa622.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Decor/rug2.obj"
-dest_files=["res://.godot/imported/rug2.obj-265edc08ee4d40b8ed7142d437f7a67c.mesh", "res://.godot/imported/rug2.obj-265edc08ee4d40b8ed7142d437f7a67c.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Decor/rug2.obj"
+dest_files=["res://.godot/imported/rug2.obj-c3184a73fe9bec0122db162c037fa622.mesh", "res://.godot/imported/rug2.obj-c3184a73fe9bec0122db162c037fa622.mesh"]
 
 [params]
 

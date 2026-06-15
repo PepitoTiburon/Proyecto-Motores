@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://byav5hgn1vkid"
-path="res://.godot/imported/drawers.obj-37b154350477eb7fd6cf4fab2b602da0.mesh"
+path="res://.godot/imported/drawers.obj-d245a0f94906d47da8a3bda0d581f3cc.mesh"
 
 [deps]
 
-files=["res://.godot/imported/drawers.obj-37b154350477eb7fd6cf4fab2b602da0.mesh"]
+files=["res://.godot/imported/drawers.obj-d245a0f94906d47da8a3bda0d581f3cc.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Furniture/drawers.obj"
-dest_files=["res://.godot/imported/drawers.obj-37b154350477eb7fd6cf4fab2b602da0.mesh", "res://.godot/imported/drawers.obj-37b154350477eb7fd6cf4fab2b602da0.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Furniture/drawers.obj"
+dest_files=["res://.godot/imported/drawers.obj-d245a0f94906d47da8a3bda0d581f3cc.mesh", "res://.godot/imported/drawers.obj-d245a0f94906d47da8a3bda0d581f3cc.mesh"]
 
 [params]
 

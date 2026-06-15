@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b81lp14rxfmox"
-path="res://.godot/imported/rug2.dae-62408835871951d6803814d29892ab26.scn"
+path="res://.godot/imported/rug2.dae-0912e4ca2e6314092224036f10277f17.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Decor/rug2.dae"
-dest_files=["res://.godot/imported/rug2.dae-62408835871951d6803814d29892ab26.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Decor/rug2.dae"
+dest_files=["res://.godot/imported/rug2.dae-0912e4ca2e6314092224036f10277f17.scn"]
 
 [params]
 

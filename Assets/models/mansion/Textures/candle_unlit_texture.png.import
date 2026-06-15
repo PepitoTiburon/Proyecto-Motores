@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6i1e4vmj87xf"
-path.s3tc="res://.godot/imported/candle_unlit_texture.png-ddbaa158466360f69dfd9e6558ccae83.s3tc.ctex"
+path.s3tc="res://.godot/imported/candle_unlit_texture.png-c03b502cb1b41295b004a7c85c6397c2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/candle_unlit_texture.png"
-dest_files=["res://.godot/imported/candle_unlit_texture.png-ddbaa158466360f69dfd9e6558ccae83.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/candle_unlit_texture.png"
+dest_files=["res://.godot/imported/candle_unlit_texture.png-c03b502cb1b41295b004a7c85c6397c2.s3tc.ctex"]
 
 [params]
 

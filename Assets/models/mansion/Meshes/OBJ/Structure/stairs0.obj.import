@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d24qswlifa32d"
-path="res://.godot/imported/stairs0.obj-73524bed4e8b0ea7e1d4a8a1ceb8247c.mesh"
+path="res://.godot/imported/stairs0.obj-93c168a1af6fe0f29f7a483273ab29ca.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stairs0.obj-73524bed4e8b0ea7e1d4a8a1ceb8247c.mesh"]
+files=["res://.godot/imported/stairs0.obj-93c168a1af6fe0f29f7a483273ab29ca.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/stairs0.obj"
-dest_files=["res://.godot/imported/stairs0.obj-73524bed4e8b0ea7e1d4a8a1ceb8247c.mesh", "res://.godot/imported/stairs0.obj-73524bed4e8b0ea7e1d4a8a1ceb8247c.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/stairs0.obj"
+dest_files=["res://.godot/imported/stairs0.obj-93c168a1af6fe0f29f7a483273ab29ca.mesh", "res://.godot/imported/stairs0.obj-93c168a1af6fe0f29f7a483273ab29ca.mesh"]
 
 [params]
 

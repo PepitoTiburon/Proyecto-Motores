@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ckkfe8tbatu7a"
-path="res://.godot/imported/candle_holder.obj-76a660084183bb0c092c599ce80d2dfd.mesh"
+path="res://.godot/imported/candle_holder.obj-86ef4122ac7b9051e84eb072e98affb1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/candle_holder.obj-76a660084183bb0c092c599ce80d2dfd.mesh"]
+files=["res://.godot/imported/candle_holder.obj-86ef4122ac7b9051e84eb072e98affb1.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Decor/candle_holder.obj"
-dest_files=["res://.godot/imported/candle_holder.obj-76a660084183bb0c092c599ce80d2dfd.mesh", "res://.godot/imported/candle_holder.obj-76a660084183bb0c092c599ce80d2dfd.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Decor/candle_holder.obj"
+dest_files=["res://.godot/imported/candle_holder.obj-86ef4122ac7b9051e84eb072e98affb1.mesh", "res://.godot/imported/candle_holder.obj-86ef4122ac7b9051e84eb072e98affb1.mesh"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgppeqjt08n7r"
-path.s3tc="res://.godot/imported/rubbish_texture.png-69dcd8850f08216672cca719d83caf5f.s3tc.ctex"
+path.s3tc="res://.godot/imported/rubbish_texture.png-0f6dab7f155c042ff2c47aefecea941f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/rubbish_texture.png"
-dest_files=["res://.godot/imported/rubbish_texture.png-69dcd8850f08216672cca719d83caf5f.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/rubbish_texture.png"
+dest_files=["res://.godot/imported/rubbish_texture.png-0f6dab7f155c042ff2c47aefecea941f.s3tc.ctex"]
 
 [params]
 

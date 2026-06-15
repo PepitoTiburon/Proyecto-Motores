@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b4aw7xmayipgl"
-path="res://.godot/imported/banister.obj-b606e5d7d9b40868e4a45d3c365de45c.mesh"
+path="res://.godot/imported/banister.obj-1ccf86d7742376f2f00baedbd2ec7a1b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banister.obj-b606e5d7d9b40868e4a45d3c365de45c.mesh"]
+files=["res://.godot/imported/banister.obj-1ccf86d7742376f2f00baedbd2ec7a1b.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/banister.obj"
-dest_files=["res://.godot/imported/banister.obj-b606e5d7d9b40868e4a45d3c365de45c.mesh", "res://.godot/imported/banister.obj-b606e5d7d9b40868e4a45d3c365de45c.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/banister.obj"
+dest_files=["res://.godot/imported/banister.obj-1ccf86d7742376f2f00baedbd2ec7a1b.mesh", "res://.godot/imported/banister.obj-1ccf86d7742376f2f00baedbd2ec7a1b.mesh"]
 
 [params]
 

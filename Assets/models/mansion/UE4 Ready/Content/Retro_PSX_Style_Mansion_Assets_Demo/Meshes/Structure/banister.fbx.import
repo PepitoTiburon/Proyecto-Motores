@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://5xfavjmttp13"
-path="res://.godot/imported/banister.fbx-a034648efb6ea7ff1a3b279d50b7bd21.scn"
+path="res://.godot/imported/banister.fbx-99f857e55687dd067d42b4b250ce4826.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/banister.fbx"
-dest_files=["res://.godot/imported/banister.fbx-a034648efb6ea7ff1a3b279d50b7bd21.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/banister.fbx"
+dest_files=["res://.godot/imported/banister.fbx-99f857e55687dd067d42b4b250ce4826.scn"]
 
 [params]
 

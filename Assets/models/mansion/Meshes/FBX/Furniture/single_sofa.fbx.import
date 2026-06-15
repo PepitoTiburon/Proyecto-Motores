@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xno6emfoxj2e"
-path="res://.godot/imported/single_sofa.fbx-efe5266c031a748a28df8fa4babc4890.scn"
+path="res://.godot/imported/single_sofa.fbx-ba6dbd77f2f86f33e9728a735311ea27.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Furniture/single_sofa.fbx"
-dest_files=["res://.godot/imported/single_sofa.fbx-efe5266c031a748a28df8fa4babc4890.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Furniture/single_sofa.fbx"
+dest_files=["res://.godot/imported/single_sofa.fbx-ba6dbd77f2f86f33e9728a735311ea27.scn"]
 
 [params]
 

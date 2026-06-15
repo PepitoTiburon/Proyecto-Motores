@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dwgc0lvejuw22"
-path="res://.godot/imported/candle_holder.fbx-49aba89d684267c3ae5c279b9f748e9f.scn"
+path="res://.godot/imported/candle_holder.fbx-c5c5dca95aa18e66b9064927fdd53aac.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Decor/candle_holder.fbx"
-dest_files=["res://.godot/imported/candle_holder.fbx-49aba89d684267c3ae5c279b9f748e9f.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Decor/candle_holder.fbx"
+dest_files=["res://.godot/imported/candle_holder.fbx-c5c5dca95aa18e66b9064927fdd53aac.scn"]
 
 [params]
 

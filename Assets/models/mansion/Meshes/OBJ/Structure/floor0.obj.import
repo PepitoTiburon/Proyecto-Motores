@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cm4el1eynxuon"
-path="res://.godot/imported/floor0.obj-d67648eaccde42126fedba8007a5272d.mesh"
+path="res://.godot/imported/floor0.obj-3a4d6fd507eec6459feb42bb40335c9f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor0.obj-d67648eaccde42126fedba8007a5272d.mesh"]
+files=["res://.godot/imported/floor0.obj-3a4d6fd507eec6459feb42bb40335c9f.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/floor0.obj"
-dest_files=["res://.godot/imported/floor0.obj-d67648eaccde42126fedba8007a5272d.mesh", "res://.godot/imported/floor0.obj-d67648eaccde42126fedba8007a5272d.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/floor0.obj"
+dest_files=["res://.godot/imported/floor0.obj-3a4d6fd507eec6459feb42bb40335c9f.mesh", "res://.godot/imported/floor0.obj-3a4d6fd507eec6459feb42bb40335c9f.mesh"]
 
 [params]
 

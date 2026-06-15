@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhe3ldtvwgmey"
-path="res://.godot/imported/candle0.dae-6dccaae6240dea5c1c956f4b7114ff69.scn"
+path="res://.godot/imported/candle0.dae-a8d96bd3a0df8ebd3e9aea2a6b45fa05.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Items/candle0.dae"
-dest_files=["res://.godot/imported/candle0.dae-6dccaae6240dea5c1c956f4b7114ff69.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Items/candle0.dae"
+dest_files=["res://.godot/imported/candle0.dae-a8d96bd3a0df8ebd3e9aea2a6b45fa05.scn"]
 
 [params]
 

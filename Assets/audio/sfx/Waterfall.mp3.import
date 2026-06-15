@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://0hf7b3ihylvw"
-path="res://.godot/imported/Waterfall.mp3-a393fcfd518b1122ce47a33b1c8e6e5e.mp3str"
+path="res://.godot/imported/Waterfall.mp3-117a2cc3ae425a44fdaaf9e295af17ce.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/Waterfall.mp3"
-dest_files=["res://.godot/imported/Waterfall.mp3-a393fcfd518b1122ce47a33b1c8e6e5e.mp3str"]
+source_file="res://Assets/audio/sfx/Waterfall.mp3"
+dest_files=["res://.godot/imported/Waterfall.mp3-117a2cc3ae425a44fdaaf9e295af17ce.mp3str"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://delyufk51aw7e"
-path="res://.godot/imported/ceiling0.dae-1867a1c06022c237401d3bde603ceb2d.scn"
+path="res://.godot/imported/ceiling0.dae-467938f65c46a31f00e9535549ffe5da.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/ceiling0.dae"
-dest_files=["res://.godot/imported/ceiling0.dae-1867a1c06022c237401d3bde603ceb2d.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/ceiling0.dae"
+dest_files=["res://.godot/imported/ceiling0.dae-467938f65c46a31f00e9535549ffe5da.scn"]
 
 [params]
 

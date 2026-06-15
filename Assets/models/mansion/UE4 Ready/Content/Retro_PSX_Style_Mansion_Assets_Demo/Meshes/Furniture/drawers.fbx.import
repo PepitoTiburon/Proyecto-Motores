@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dkb2osjr0arwy"
-path="res://.godot/imported/drawers.fbx-d4ed4de10f6ae289107f60ab1dff46a5.scn"
+path="res://.godot/imported/drawers.fbx-a219197ef56f65aea881cc5981179aa3.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Furniture/drawers.fbx"
-dest_files=["res://.godot/imported/drawers.fbx-d4ed4de10f6ae289107f60ab1dff46a5.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Furniture/drawers.fbx"
+dest_files=["res://.godot/imported/drawers.fbx-a219197ef56f65aea881cc5981179aa3.scn"]
 
 [params]
 

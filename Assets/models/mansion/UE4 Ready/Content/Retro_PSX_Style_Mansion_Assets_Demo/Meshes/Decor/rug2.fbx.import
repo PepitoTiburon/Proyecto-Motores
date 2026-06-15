@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dhguewuc1dd8l"
-path="res://.godot/imported/rug2.fbx-dc065e80aeebb5e1bee948cfa340de8e.scn"
+path="res://.godot/imported/rug2.fbx-3f687c785ba54d3af80ea6a0f83d22b7.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/rug2.fbx"
-dest_files=["res://.godot/imported/rug2.fbx-dc065e80aeebb5e1bee948cfa340de8e.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/rug2.fbx"
+dest_files=["res://.godot/imported/rug2.fbx-3f687c785ba54d3af80ea6a0f83d22b7.scn"]
 
 [params]
 

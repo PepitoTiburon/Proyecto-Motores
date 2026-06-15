@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cabiq4ytnybqq"
-path="res://.godot/imported/pillar0.fbx-1c51aec44a5f6ce03cb7420aa9460614.scn"
+path="res://.godot/imported/pillar0.fbx-f3cde3f98d71dbdd7696c847b346746b.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/pillar0.fbx"
-dest_files=["res://.godot/imported/pillar0.fbx-1c51aec44a5f6ce03cb7420aa9460614.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/pillar0.fbx"
+dest_files=["res://.godot/imported/pillar0.fbx-f3cde3f98d71dbdd7696c847b346746b.scn"]
 
 [params]
 

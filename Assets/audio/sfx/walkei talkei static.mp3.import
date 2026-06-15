@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://c3h6viryukdjl"
-path="res://.godot/imported/walkei talkei static.mp3-e9e90a9fb2ebcbd73192ac913a1b6a35.mp3str"
+path="res://.godot/imported/walkei talkei static.mp3-d868680f18c50d5e0d0318e0c4ff94b3.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/walkei talkei static.mp3"
-dest_files=["res://.godot/imported/walkei talkei static.mp3-e9e90a9fb2ebcbd73192ac913a1b6a35.mp3str"]
+source_file="res://Assets/audio/sfx/walkei talkei static.mp3"
+dest_files=["res://.godot/imported/walkei talkei static.mp3-d868680f18c50d5e0d0318e0c4ff94b3.mp3str"]
 
 [params]
 

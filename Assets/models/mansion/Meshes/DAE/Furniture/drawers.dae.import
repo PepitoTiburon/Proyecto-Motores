@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cef1edar14l5o"
-path="res://.godot/imported/drawers.dae-46589e530e85d7e6fd64f3eedecd43fc.scn"
+path="res://.godot/imported/drawers.dae-bef5116b9024ece4ecd54dfeed720611.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Furniture/drawers.dae"
-dest_files=["res://.godot/imported/drawers.dae-46589e530e85d7e6fd64f3eedecd43fc.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Furniture/drawers.dae"
+dest_files=["res://.godot/imported/drawers.dae-bef5116b9024ece4ecd54dfeed720611.scn"]
 
 [params]
 

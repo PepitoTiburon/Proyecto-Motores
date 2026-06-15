@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2m21psm1gopi"
-path="res://.godot/imported/candle_unlit0.fbx-eda8b01ed4b3ab735fcb44b60ccb37b7.scn"
+path="res://.godot/imported/candle_unlit0.fbx-80726f08243d6ba0427db1a20f1fafbc.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Items/candle_unlit0.fbx"
-dest_files=["res://.godot/imported/candle_unlit0.fbx-eda8b01ed4b3ab735fcb44b60ccb37b7.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Items/candle_unlit0.fbx"
+dest_files=["res://.godot/imported/candle_unlit0.fbx-80726f08243d6ba0427db1a20f1fafbc.scn"]
 
 [params]
 

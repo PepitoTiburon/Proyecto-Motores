@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://foidvrqc651k"
-path="res://.godot/imported/drawers.fbx-80ec24d76eceddb512ea5545531e03c0.scn"
+path="res://.godot/imported/drawers.fbx-991d9c4bc0eb7d934ffd244ea8195e13.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Furniture/drawers.fbx"
-dest_files=["res://.godot/imported/drawers.fbx-80ec24d76eceddb512ea5545531e03c0.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Furniture/drawers.fbx"
+dest_files=["res://.godot/imported/drawers.fbx-991d9c4bc0eb7d934ffd244ea8195e13.scn"]
 
 [params]
 

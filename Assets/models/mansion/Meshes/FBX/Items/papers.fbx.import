@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0gh8053linrl"
-path="res://.godot/imported/papers.fbx-065e11cf6ddde9239c96bbda5613562f.scn"
+path="res://.godot/imported/papers.fbx-8f063ea069817dc0580a4a9c96e0294f.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Items/papers.fbx"
-dest_files=["res://.godot/imported/papers.fbx-065e11cf6ddde9239c96bbda5613562f.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Items/papers.fbx"
+dest_files=["res://.godot/imported/papers.fbx-8f063ea069817dc0580a4a9c96e0294f.scn"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo52yy4b6idyj"
-path.s3tc="res://.godot/imported/banisterbase_texture.png-4d54bff4197016ad0a8fd792f962801d.s3tc.ctex"
+path.s3tc="res://.godot/imported/banisterbase_texture.png-06a6c193598b8ada574d095221d334ce.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/banisterbase_texture.png"
-dest_files=["res://.godot/imported/banisterbase_texture.png-4d54bff4197016ad0a8fd792f962801d.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/banisterbase_texture.png"
+dest_files=["res://.godot/imported/banisterbase_texture.png-06a6c193598b8ada574d095221d334ce.s3tc.ctex"]
 
 [params]
 

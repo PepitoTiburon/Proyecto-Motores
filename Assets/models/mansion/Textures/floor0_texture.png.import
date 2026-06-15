@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlv5rfw422375"
-path.s3tc="res://.godot/imported/floor0_texture.png-4e32a550ec4c34287b4b0cb760e822c9.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor0_texture.png-70ca3eb3fc4b87a4c610d4c895498e8c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/floor0_texture.png"
-dest_files=["res://.godot/imported/floor0_texture.png-4e32a550ec4c34287b4b0cb760e822c9.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/floor0_texture.png"
+dest_files=["res://.godot/imported/floor0_texture.png-70ca3eb3fc4b87a4c610d4c895498e8c.s3tc.ctex"]
 
 [params]
 

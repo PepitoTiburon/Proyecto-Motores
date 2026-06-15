@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dc4xdx5khpyn0"
-path="res://.godot/imported/window_ray.dae-aca200321e153c946a01e5b7aa2b6fa9.scn"
+path="res://.godot/imported/window_ray.dae-fd3b6b590cb4a98e9bb08ee3254a22a0.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/window_ray.dae"
-dest_files=["res://.godot/imported/window_ray.dae-aca200321e153c946a01e5b7aa2b6fa9.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/window_ray.dae"
+dest_files=["res://.godot/imported/window_ray.dae-fd3b6b590cb4a98e9bb08ee3254a22a0.scn"]
 
 [params]
 

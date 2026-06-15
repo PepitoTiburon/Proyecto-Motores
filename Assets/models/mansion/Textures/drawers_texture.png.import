@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnwvay3xc7f70"
-path.s3tc="res://.godot/imported/drawers_texture.png-c73fea0ae503490fbdf0863fd44c279d.s3tc.ctex"
+path.s3tc="res://.godot/imported/drawers_texture.png-2cc5545e192e153cb6bd040ec758cdae.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/drawers_texture.png"
-dest_files=["res://.godot/imported/drawers_texture.png-c73fea0ae503490fbdf0863fd44c279d.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/drawers_texture.png"
+dest_files=["res://.godot/imported/drawers_texture.png-2cc5545e192e153cb6bd040ec758cdae.s3tc.ctex"]
 
 [params]
 

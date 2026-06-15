@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceidhqiyacrm"
-path.s3tc="res://.godot/imported/stairbanister_texture.png-1db9db802a5442b2e8b85fbfb3996bae.s3tc.ctex"
+path.s3tc="res://.godot/imported/stairbanister_texture.png-c7910b5425847fbd2d3db2da3731b549.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/stairbanister_texture.png"
-dest_files=["res://.godot/imported/stairbanister_texture.png-1db9db802a5442b2e8b85fbfb3996bae.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/stairbanister_texture.png"
+dest_files=["res://.godot/imported/stairbanister_texture.png-c7910b5425847fbd2d3db2da3731b549.s3tc.ctex"]
 
 [params]
 

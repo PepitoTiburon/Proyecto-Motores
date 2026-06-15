@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://g4rpivwkrucp"
-path="res://.godot/imported/candle0.obj-13fe552c49d64ac60fe911d507d06167.mesh"
+path="res://.godot/imported/candle0.obj-f697e929bdbfb09546b5bfa976cf58dc.mesh"
 
 [deps]
 
-files=["res://.godot/imported/candle0.obj-13fe552c49d64ac60fe911d507d06167.mesh"]
+files=["res://.godot/imported/candle0.obj-f697e929bdbfb09546b5bfa976cf58dc.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Items/candle0.obj"
-dest_files=["res://.godot/imported/candle0.obj-13fe552c49d64ac60fe911d507d06167.mesh", "res://.godot/imported/candle0.obj-13fe552c49d64ac60fe911d507d06167.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Items/candle0.obj"
+dest_files=["res://.godot/imported/candle0.obj-f697e929bdbfb09546b5bfa976cf58dc.mesh", "res://.godot/imported/candle0.obj-f697e929bdbfb09546b5bfa976cf58dc.mesh"]
 
 [params]
 

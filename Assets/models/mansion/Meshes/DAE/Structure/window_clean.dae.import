@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cq82hjpdt3kjb"
-path="res://.godot/imported/window_clean.dae-cc0cb4e0747b556b70b7b2e49745106e.scn"
+path="res://.godot/imported/window_clean.dae-7d16cd1eb42f8e2b931300396372d806.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/window_clean.dae"
-dest_files=["res://.godot/imported/window_clean.dae-cc0cb4e0747b556b70b7b2e49745106e.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/window_clean.dae"
+dest_files=["res://.godot/imported/window_clean.dae-7d16cd1eb42f8e2b931300396372d806.scn"]
 
 [params]
 

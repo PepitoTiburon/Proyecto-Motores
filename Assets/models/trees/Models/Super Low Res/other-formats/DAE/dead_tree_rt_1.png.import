@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bje3ba484kv4f"
-path.s3tc="res://.godot/imported/dead_tree_rt_1.png-b72778fbb095907bf8c1cf043a423bd7.s3tc.ctex"
+path.s3tc="res://.godot/imported/dead_tree_rt_1.png-de20c1c903217f9442425284ea5ee5a9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/trees/Models/Super Low Res/other-formats/DAE/dead_tree_rt_1.png"
-dest_files=["res://.godot/imported/dead_tree_rt_1.png-b72778fbb095907bf8c1cf043a423bd7.s3tc.ctex"]
+source_file="res://Assets/models/trees/Models/Super Low Res/other-formats/DAE/dead_tree_rt_1.png"
+dest_files=["res://.godot/imported/dead_tree_rt_1.png-de20c1c903217f9442425284ea5ee5a9.s3tc.ctex"]
 
 [params]
 

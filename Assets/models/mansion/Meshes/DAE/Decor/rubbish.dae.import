@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1ue6bio6bebr"
-path="res://.godot/imported/rubbish.dae-2fa4838c7e838b92bf033e6b4977d59c.scn"
+path="res://.godot/imported/rubbish.dae-316f4b50468df01530e978b9c9b56771.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Decor/rubbish.dae"
-dest_files=["res://.godot/imported/rubbish.dae-2fa4838c7e838b92bf033e6b4977d59c.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Decor/rubbish.dae"
+dest_files=["res://.godot/imported/rubbish.dae-316f4b50468df01530e978b9c9b56771.scn"]
 
 [params]
 

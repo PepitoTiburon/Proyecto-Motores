@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dh3tt1e0txg54"
-path="res://.godot/imported/window_clean.obj-23181a2cea38c07c2c59db863b973df4.mesh"
+path="res://.godot/imported/window_clean.obj-d185b2eff1c572b5e650df6719f161f0.mesh"
 
 [deps]
 
-files=["res://.godot/imported/window_clean.obj-23181a2cea38c07c2c59db863b973df4.mesh"]
+files=["res://.godot/imported/window_clean.obj-d185b2eff1c572b5e650df6719f161f0.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/window_clean.obj"
-dest_files=["res://.godot/imported/window_clean.obj-23181a2cea38c07c2c59db863b973df4.mesh", "res://.godot/imported/window_clean.obj-23181a2cea38c07c2c59db863b973df4.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/window_clean.obj"
+dest_files=["res://.godot/imported/window_clean.obj-d185b2eff1c572b5e650df6719f161f0.mesh", "res://.godot/imported/window_clean.obj-d185b2eff1c572b5e650df6719f161f0.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c2pns7hkeluou"
-path="res://.godot/imported/rubbish.fbx-3e5b84fcbb3cf6bbb879b1bc865d6315.scn"
+path="res://.godot/imported/rubbish.fbx-ce293847bf79ccfe8ff02a4bfbb9671f.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Decor/rubbish.fbx"
-dest_files=["res://.godot/imported/rubbish.fbx-3e5b84fcbb3cf6bbb879b1bc865d6315.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Decor/rubbish.fbx"
+dest_files=["res://.godot/imported/rubbish.fbx-ce293847bf79ccfe8ff02a4bfbb9671f.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btqtcdo8xuy6q"
-path="res://.godot/imported/banister.dae-d079f8e4da4c53917336aff4fde64c1f.scn"
+path="res://.godot/imported/banister.dae-d202e3eb785da753eaf6e828182a2912.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/banister.dae"
-dest_files=["res://.godot/imported/banister.dae-d079f8e4da4c53917336aff4fde64c1f.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/banister.dae"
+dest_files=["res://.godot/imported/banister.dae-d202e3eb785da753eaf6e828182a2912.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bkuy26swh86gn"
-path="res://.godot/imported/ceiling0.obj-043e3fc06621cd2b3af2a96eeb52cfb4.mesh"
+path="res://.godot/imported/ceiling0.obj-a4e039e2b8191273350f2c2dfb0c4546.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ceiling0.obj-043e3fc06621cd2b3af2a96eeb52cfb4.mesh"]
+files=["res://.godot/imported/ceiling0.obj-a4e039e2b8191273350f2c2dfb0c4546.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/ceiling0.obj"
-dest_files=["res://.godot/imported/ceiling0.obj-043e3fc06621cd2b3af2a96eeb52cfb4.mesh", "res://.godot/imported/ceiling0.obj-043e3fc06621cd2b3af2a96eeb52cfb4.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/ceiling0.obj"
+dest_files=["res://.godot/imported/ceiling0.obj-a4e039e2b8191273350f2c2dfb0c4546.mesh", "res://.godot/imported/ceiling0.obj-a4e039e2b8191273350f2c2dfb0c4546.mesh"]
 
 [params]
 

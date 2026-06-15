@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b42asnau02ek8"
-path="res://.godot/imported/modular_house_pack.fbx-1a57e77c54143593bcdd1df61af9c7a7.scn"
+path="res://.godot/imported/modular_house_pack.fbx-16334ec7572eee470efebb5bf976a565.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/modular_house_pack.fbx"
-dest_files=["res://.godot/imported/modular_house_pack.fbx-1a57e77c54143593bcdd1df61af9c7a7.scn"]
+source_file="res://Assets/models/mansion/modular_house_pack.fbx"
+dest_files=["res://.godot/imported/modular_house_pack.fbx-16334ec7572eee470efebb5bf976a565.scn"]
 
 [params]
 

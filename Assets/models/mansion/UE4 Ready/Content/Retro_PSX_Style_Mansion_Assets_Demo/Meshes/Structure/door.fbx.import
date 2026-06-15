@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yr4ch23cmyxj"
-path="res://.godot/imported/door.fbx-1e72ff2c5b202dd4a22a241e5f54654b.scn"
+path="res://.godot/imported/door.fbx-96484abf5e9f1eca38174ce16512b71c.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/door.fbx"
-dest_files=["res://.godot/imported/door.fbx-1e72ff2c5b202dd4a22a241e5f54654b.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/door.fbx"
+dest_files=["res://.godot/imported/door.fbx-96484abf5e9f1eca38174ce16512b71c.scn"]
 
 [params]
 

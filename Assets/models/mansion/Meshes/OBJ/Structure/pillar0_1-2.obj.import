@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dt3yam83whfex"
-path="res://.godot/imported/pillar0_1-2.obj-f89121709aea4a1046c3d8874b9db97c.mesh"
+path="res://.godot/imported/pillar0_1-2.obj-32ef78de984d2b9fc7420abe6bcb59f2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/pillar0_1-2.obj-f89121709aea4a1046c3d8874b9db97c.mesh"]
+files=["res://.godot/imported/pillar0_1-2.obj-32ef78de984d2b9fc7420abe6bcb59f2.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Structure/pillar0_1-2.obj"
-dest_files=["res://.godot/imported/pillar0_1-2.obj-f89121709aea4a1046c3d8874b9db97c.mesh", "res://.godot/imported/pillar0_1-2.obj-f89121709aea4a1046c3d8874b9db97c.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Structure/pillar0_1-2.obj"
+dest_files=["res://.godot/imported/pillar0_1-2.obj-32ef78de984d2b9fc7420abe6bcb59f2.mesh", "res://.godot/imported/pillar0_1-2.obj-32ef78de984d2b9fc7420abe6bcb59f2.mesh"]
 
 [params]
 

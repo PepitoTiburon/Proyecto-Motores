@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2aithynvmfx8"
-path="res://.godot/imported/glass.jpg-b82bc76131b9ad7404b0c7caeed3ce25.ctex"
+path="res://.godot/imported/glass.jpg-d8c31e40a1511e55ee06f0d5628f16c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/textures/glass.jpg"
-dest_files=["res://.godot/imported/glass.jpg-b82bc76131b9ad7404b0c7caeed3ce25.ctex"]
+source_file="res://Assets/models/mansion/Meshes/textures/glass.jpg"
+dest_files=["res://.godot/imported/glass.jpg-d8c31e40a1511e55ee06f0d5628f16c1.ctex"]
 
 [params]
 

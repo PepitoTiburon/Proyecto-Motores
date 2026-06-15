@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://c8bmqyi3eqlsk"
-path="res://.godot/imported/murcielago.MP3-cffed1a208ab7fac6f40c0152f45b5c1.mp3str"
+path="res://.godot/imported/murcielago.MP3-f58e723e59863ff11effa2a47c789b16.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/murcielago.MP3"
-dest_files=["res://.godot/imported/murcielago.MP3-cffed1a208ab7fac6f40c0152f45b5c1.mp3str"]
+source_file="res://Assets/audio/sfx/murcielago.MP3"
+dest_files=["res://.godot/imported/murcielago.MP3-f58e723e59863ff11effa2a47c789b16.mp3str"]
 
 [params]
 

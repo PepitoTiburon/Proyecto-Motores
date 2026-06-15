@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dqd4ngjqfh71u"
-path="res://.godot/imported/TP motores map.glb-79dce40d58acf0415afad66a5079481b.scn"
+path="res://.godot/imported/TP motores map.glb-85ae107729133ac1b5c44b47ed326edc.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/TP motores map.glb"
-dest_files=["res://.godot/imported/TP motores map.glb-79dce40d58acf0415afad66a5079481b.scn"]
+source_file="res://Assets/models/mansion/TP motores map.glb"
+dest_files=["res://.godot/imported/TP motores map.glb-85ae107729133ac1b5c44b47ed326edc.scn"]
 
 [params]
 

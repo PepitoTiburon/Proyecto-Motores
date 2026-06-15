@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpfpvcji2x57m"
-path="res://.godot/imported/tree_bark_rt_a.png-95c3b597626d7b435afcc0841616c0ae.ctex"
+path="res://.godot/imported/tree_bark_rt_a.png-4761204f4eb2df4849953550a8f6778e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/models/trees/Textures/Super Low Res/tree_bark_rt_a.png"
-dest_files=["res://.godot/imported/tree_bark_rt_a.png-95c3b597626d7b435afcc0841616c0ae.ctex"]
+source_file="res://Assets/models/trees/Textures/Super Low Res/tree_bark_rt_a.png"
+dest_files=["res://.godot/imported/tree_bark_rt_a.png-4761204f4eb2df4849953550a8f6778e.ctex"]
 
 [params]
 

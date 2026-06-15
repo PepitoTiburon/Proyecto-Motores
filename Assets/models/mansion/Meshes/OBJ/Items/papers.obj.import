@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bwiluqwo6krub"
-path="res://.godot/imported/papers.obj-92f2501a2c6ba4691f9f578a0b81a5be.mesh"
+path="res://.godot/imported/papers.obj-78d30656871d12f3fe27d6d6daf69a6c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/papers.obj-92f2501a2c6ba4691f9f578a0b81a5be.mesh"]
+files=["res://.godot/imported/papers.obj-78d30656871d12f3fe27d6d6daf69a6c.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Items/papers.obj"
-dest_files=["res://.godot/imported/papers.obj-92f2501a2c6ba4691f9f578a0b81a5be.mesh", "res://.godot/imported/papers.obj-92f2501a2c6ba4691f9f578a0b81a5be.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Items/papers.obj"
+dest_files=["res://.godot/imported/papers.obj-78d30656871d12f3fe27d6d6daf69a6c.mesh", "res://.godot/imported/papers.obj-78d30656871d12f3fe27d6d6daf69a6c.mesh"]
 
 [params]
 

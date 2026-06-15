@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://dcm2xypw5i1b"
-path="res://.godot/imported/BIG monster groul.mp3-a64a3ebdd627ad3b156c64580229918a.mp3str"
+path="res://.godot/imported/BIG monster groul.mp3-58e1901df0b29f770d8743954619f360.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/BIG monster groul.mp3"
-dest_files=["res://.godot/imported/BIG monster groul.mp3-a64a3ebdd627ad3b156c64580229918a.mp3str"]
+source_file="res://Assets/audio/sfx/BIG monster groul.mp3"
+dest_files=["res://.godot/imported/BIG monster groul.mp3-58e1901df0b29f770d8743954619f360.mp3str"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bnaxujtohvaol"
-path="res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"
+path="res://.godot/imported/dead_tree_rt_2.obj-f1625986fb4ad73348d4c160e9302ece.mesh"
 
 [deps]
 
-files=["res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"]
+files=["res://.godot/imported/dead_tree_rt_2.obj-f1625986fb4ad73348d4c160e9302ece.mesh"]
 
-source_file="res://assets/models/trees/Models/Low Res/other-formats/OBJ/dead_tree_rt_2.obj"
-dest_files=["res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh", "res://.godot/imported/dead_tree_rt_2.obj-b362bfc7fce7802ce872cd4d0f42e135.mesh"]
+source_file="res://Assets/models/trees/Models/Low Res/other-formats/OBJ/dead_tree_rt_2.obj"
+dest_files=["res://.godot/imported/dead_tree_rt_2.obj-f1625986fb4ad73348d4c160e9302ece.mesh", "res://.godot/imported/dead_tree_rt_2.obj-f1625986fb4ad73348d4c160e9302ece.mesh"]
 
 [params]
 

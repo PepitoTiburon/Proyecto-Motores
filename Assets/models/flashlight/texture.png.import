@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxuqqekuof1ib"
-path.s3tc="res://.godot/imported/texture.png-ffa361efeed1c92093243bfd681d393e.s3tc.ctex"
+path.s3tc="res://.godot/imported/texture.png-c790ace11fbd6cff2c4800049dc4eb8f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/flashlight/texture.png"
-dest_files=["res://.godot/imported/texture.png-ffa361efeed1c92093243bfd681d393e.s3tc.ctex"]
+source_file="res://Assets/models/flashlight/texture.png"
+dest_files=["res://.godot/imported/texture.png-c790ace11fbd6cff2c4800049dc4eb8f.s3tc.ctex"]
 
 [params]
 

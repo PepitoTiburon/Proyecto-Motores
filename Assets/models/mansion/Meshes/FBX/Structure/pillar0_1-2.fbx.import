@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d3pmh17rci0ux"
-path="res://.godot/imported/pillar0_1-2.fbx-eb34ed7ba16658926533a41ff3d86d1d.scn"
+path="res://.godot/imported/pillar0_1-2.fbx-1a56102ac4af8c138014ebf90d36386a.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Structure/pillar0_1-2.fbx"
-dest_files=["res://.godot/imported/pillar0_1-2.fbx-eb34ed7ba16658926533a41ff3d86d1d.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Structure/pillar0_1-2.fbx"
+dest_files=["res://.godot/imported/pillar0_1-2.fbx-1a56102ac4af8c138014ebf90d36386a.scn"]
 
 [params]
 

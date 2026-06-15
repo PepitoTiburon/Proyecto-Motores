@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dovaufsf2v1x0"
-path.s3tc="res://.godot/imported/tree_rt_1_tree_bark_rt_b.png-2548d8b27b5fd3ab681ce973b77eedbe.s3tc.ctex"
+path.s3tc="res://.godot/imported/tree_rt_1_tree_bark_rt_b.png-ebab4c38ba725cd226c29c995d7f41ac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/trees/Models/Super Low Res/GLB/tree_rt_1_tree_bark_rt_b.png"
-dest_files=["res://.godot/imported/tree_rt_1_tree_bark_rt_b.png-2548d8b27b5fd3ab681ce973b77eedbe.s3tc.ctex"]
+source_file="res://Assets/models/trees/Models/Super Low Res/GLB/tree_rt_1_tree_bark_rt_b.png"
+dest_files=["res://.godot/imported/tree_rt_1_tree_bark_rt_b.png-ebab4c38ba725cd226c29c995d7f41ac.s3tc.ctex"]
 
 [params]
 

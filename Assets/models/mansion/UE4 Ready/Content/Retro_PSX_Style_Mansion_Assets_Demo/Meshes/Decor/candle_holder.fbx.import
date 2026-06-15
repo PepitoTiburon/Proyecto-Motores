@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5up34ycyfff3"
-path="res://.godot/imported/candle_holder.fbx-6192f624b7674118b14f4545321c7fd2.scn"
+path="res://.godot/imported/candle_holder.fbx-f3b61db57f8b1fa601340e1dc2beaffe.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/candle_holder.fbx"
-dest_files=["res://.godot/imported/candle_holder.fbx-6192f624b7674118b14f4545321c7fd2.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/candle_holder.fbx"
+dest_files=["res://.godot/imported/candle_holder.fbx-f3b61db57f8b1fa601340e1dc2beaffe.scn"]
 
 [params]
 

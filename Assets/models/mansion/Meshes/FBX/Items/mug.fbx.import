@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxiaecftv1d52"
-path="res://.godot/imported/mug.fbx-d15f9cdac32dbf2a0482240090c8962b.scn"
+path="res://.godot/imported/mug.fbx-4c2963248c0e0fa641ce8c19e95d13fc.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Items/mug.fbx"
-dest_files=["res://.godot/imported/mug.fbx-d15f9cdac32dbf2a0482240090c8962b.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Items/mug.fbx"
+dest_files=["res://.godot/imported/mug.fbx-4c2963248c0e0fa641ce8c19e95d13fc.scn"]
 
 [params]
 

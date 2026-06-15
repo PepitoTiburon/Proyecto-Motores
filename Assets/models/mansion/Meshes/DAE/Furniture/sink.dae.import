@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://du56a2s77l3ux"
-path="res://.godot/imported/sink.dae-8e8325da843de35e76b7b15c900f725e.scn"
+path="res://.godot/imported/sink.dae-aaca4645f58c2e0740b8811b991f6f4a.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Furniture/sink.dae"
-dest_files=["res://.godot/imported/sink.dae-8e8325da843de35e76b7b15c900f725e.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Furniture/sink.dae"
+dest_files=["res://.godot/imported/sink.dae-aaca4645f58c2e0740b8811b991f6f4a.scn"]
 
 [params]
 

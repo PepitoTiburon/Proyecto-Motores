@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://do012avhnuaoa"
-path="res://.godot/imported/stairbanister.fbx-c109a59b5e5e92001aa22df19c32ae9e.scn"
+path="res://.godot/imported/stairbanister.fbx-92ecad6302b2e7157de11fc3901dfb27.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Structure/stairbanister.fbx"
-dest_files=["res://.godot/imported/stairbanister.fbx-c109a59b5e5e92001aa22df19c32ae9e.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Structure/stairbanister.fbx"
+dest_files=["res://.godot/imported/stairbanister.fbx-92ecad6302b2e7157de11fc3901dfb27.scn"]
 
 [params]
 

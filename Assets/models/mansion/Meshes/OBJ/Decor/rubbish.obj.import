@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bjewse6to0ckk"
-path="res://.godot/imported/rubbish.obj-21cc5733ec8473700c47f63c87cc2c19.mesh"
+path="res://.godot/imported/rubbish.obj-7622212634992cbee2267d9d30610964.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rubbish.obj-21cc5733ec8473700c47f63c87cc2c19.mesh"]
+files=["res://.godot/imported/rubbish.obj-7622212634992cbee2267d9d30610964.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Decor/rubbish.obj"
-dest_files=["res://.godot/imported/rubbish.obj-21cc5733ec8473700c47f63c87cc2c19.mesh", "res://.godot/imported/rubbish.obj-21cc5733ec8473700c47f63c87cc2c19.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Decor/rubbish.obj"
+dest_files=["res://.godot/imported/rubbish.obj-7622212634992cbee2267d9d30610964.mesh", "res://.godot/imported/rubbish.obj-7622212634992cbee2267d9d30610964.mesh"]
 
 [params]
 

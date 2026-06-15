@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dnbe0yif7yivo"
-path="res://.godot/imported/candle_holder.dae-31b5cb2afc00dd822f50ea462964ea00.scn"
+path="res://.godot/imported/candle_holder.dae-aa15f22227f255da967e130895360ebc.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Decor/candle_holder.dae"
-dest_files=["res://.godot/imported/candle_holder.dae-31b5cb2afc00dd822f50ea462964ea00.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Decor/candle_holder.dae"
+dest_files=["res://.godot/imported/candle_holder.dae-aa15f22227f255da967e130895360ebc.scn"]
 
 [params]
 

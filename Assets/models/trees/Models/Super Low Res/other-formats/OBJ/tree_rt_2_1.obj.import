@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://doqlug71mh217"
-path="res://.godot/imported/tree_rt_2_1.obj-577d0c743fd0f5c2936d0399d5c8a682.mesh"
+path="res://.godot/imported/tree_rt_2_1.obj-d8e08d00a98cb81c227bff8aa9e87432.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tree_rt_2_1.obj-577d0c743fd0f5c2936d0399d5c8a682.mesh"]
+files=["res://.godot/imported/tree_rt_2_1.obj-d8e08d00a98cb81c227bff8aa9e87432.mesh"]
 
-source_file="res://assets/models/trees/Models/Super Low Res/other-formats/OBJ/tree_rt_2_1.obj"
-dest_files=["res://.godot/imported/tree_rt_2_1.obj-577d0c743fd0f5c2936d0399d5c8a682.mesh", "res://.godot/imported/tree_rt_2_1.obj-577d0c743fd0f5c2936d0399d5c8a682.mesh"]
+source_file="res://Assets/models/trees/Models/Super Low Res/other-formats/OBJ/tree_rt_2_1.obj"
+dest_files=["res://.godot/imported/tree_rt_2_1.obj-d8e08d00a98cb81c227bff8aa9e87432.mesh", "res://.godot/imported/tree_rt_2_1.obj-d8e08d00a98cb81c227bff8aa9e87432.mesh"]
 
 [params]
 

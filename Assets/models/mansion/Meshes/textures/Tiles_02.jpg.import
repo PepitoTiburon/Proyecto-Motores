@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctjykw3jp252j"
-path.s3tc="res://.godot/imported/Tiles_02.jpg-d53452fc07989174780772d5b8051ac8.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tiles_02.jpg-d63edcd017f2e2647fc2cd1aa3131f79.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/textures/Tiles_02.jpg"
-dest_files=["res://.godot/imported/Tiles_02.jpg-d53452fc07989174780772d5b8051ac8.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Meshes/textures/Tiles_02.jpg"
+dest_files=["res://.godot/imported/Tiles_02.jpg-d63edcd017f2e2647fc2cd1aa3131f79.s3tc.ctex"]
 
 [params]
 

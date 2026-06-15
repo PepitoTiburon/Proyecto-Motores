@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ca5nofgvicg5o"
-path="res://.godot/imported/candle0.fbx-dea9dabf345d7bdbac78db9c3ae648e6.scn"
+path="res://.godot/imported/candle0.fbx-53f168075b43ad56aab8e92edae6f346.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/candle0.fbx"
-dest_files=["res://.godot/imported/candle0.fbx-dea9dabf345d7bdbac78db9c3ae648e6.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/candle0.fbx"
+dest_files=["res://.godot/imported/candle0.fbx-53f168075b43ad56aab8e92edae6f346.scn"]
 
 [params]
 

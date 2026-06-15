@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnt0qqnnq8twm"
-path="res://.godot/imported/floor0.dae-813bcba32c7ada8341017d56e0dcab22.scn"
+path="res://.godot/imported/floor0.dae-bf4de47e2841ce625b3c399486678f00.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/floor0.dae"
-dest_files=["res://.godot/imported/floor0.dae-813bcba32c7ada8341017d56e0dcab22.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/floor0.dae"
+dest_files=["res://.godot/imported/floor0.dae-bf4de47e2841ce625b3c399486678f00.scn"]
 
 [params]
 

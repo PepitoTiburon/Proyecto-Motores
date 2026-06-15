@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://d2i7cspxrgdgn"
-path="res://.godot/imported/IT KNOWS WHERE YOU ARE.mp3-2bbe01dc73766fe2813316d8d7a1340c.mp3str"
+path="res://.godot/imported/IT KNOWS WHERE YOU ARE.mp3-74acdbf5c9523c89e49508c754ea11fc.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/IT KNOWS WHERE YOU ARE.mp3"
-dest_files=["res://.godot/imported/IT KNOWS WHERE YOU ARE.mp3-2bbe01dc73766fe2813316d8d7a1340c.mp3str"]
+source_file="res://Assets/audio/sfx/IT KNOWS WHERE YOU ARE.mp3"
+dest_files=["res://.godot/imported/IT KNOWS WHERE YOU ARE.mp3-74acdbf5c9523c89e49508c754ea11fc.mp3str"]
 
 [params]
 

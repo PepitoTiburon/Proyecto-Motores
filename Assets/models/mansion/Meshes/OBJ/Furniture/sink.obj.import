@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://doumm2wju604u"
-path="res://.godot/imported/sink.obj-cc029ea8af6f9b208d6b595574dbe62b.mesh"
+path="res://.godot/imported/sink.obj-b245463a84f43c6df5463e84c9b7d2e2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/sink.obj-cc029ea8af6f9b208d6b595574dbe62b.mesh"]
+files=["res://.godot/imported/sink.obj-b245463a84f43c6df5463e84c9b7d2e2.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Furniture/sink.obj"
-dest_files=["res://.godot/imported/sink.obj-cc029ea8af6f9b208d6b595574dbe62b.mesh", "res://.godot/imported/sink.obj-cc029ea8af6f9b208d6b595574dbe62b.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Furniture/sink.obj"
+dest_files=["res://.godot/imported/sink.obj-b245463a84f43c6df5463e84c9b7d2e2.mesh", "res://.godot/imported/sink.obj-b245463a84f43c6df5463e84c9b7d2e2.mesh"]
 
 [params]
 

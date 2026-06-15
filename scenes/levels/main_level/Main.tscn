@@ -1,34 +1,37 @@
-[gd_scene load_steps=59 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=65 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
-[ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://assets/models/flashlight/flashlight.fbx" id="2_xobht"]
+[ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/models/flashlight/flashlight.fbx" id="2_xobht"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://scripts/core/ray_cast_3d.gd" id="4_ixyld"]
 [ext_resource type="Script" uid="uid://wmxu2hotr2bk" path="res://scripts/core/mesh_instance_3d.gd" id="5_j1a8x"]
 [ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="6_ek8fi"]
-[ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://assets/audio/sfx/BIG monster groul.mp3" id="7_ngi3l"]
+[ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://Assets/audio/sfx/BIG monster groul.mp3" id="7_ngi3l"]
 [ext_resource type="PackedScene" uid="uid://dn4m34tk1ldmn" path="res://scenes/objects/interactuable/TestObjetoInteractuable.tscn" id="8_ljibm"]
 [ext_resource type="Script" uid="uid://b42j7ggb7g2em" path="res://scripts/utils/dot.gd" id="9_wjrwe"]
 [ext_resource type="Script" uid="uid://dvd1ow4aausmq" path="res://scenes/objects/interactuable/test_objeto_interactuable_2.gd" id="10_w12qk"]
-[ext_resource type="PackedScene" uid="uid://dqd4ngjqfh71u" path="res://assets/models/mansion/TP motores map.glb" id="11_k1ftq"]
-[ext_resource type="ArrayMesh" uid="uid://d0rvoqpq1udfe" path="res://assets/models/mansion/Meshes/OBJ/Structure/wall0.obj" id="12_vcaau"]
-[ext_resource type="Texture2D" uid="uid://chhdlfw700nnq" path="res://assets/models/mansion/Meshes/textures/wood (4).jpg" id="13_rmlwx"]
-[ext_resource type="ArrayMesh" uid="uid://cp2jk5vrn2bom" path="res://assets/models/mansion/Meshes/OBJ/Structure/banisterbase.obj" id="14_n2vwp"]
-[ext_resource type="Texture2D" uid="uid://bo52yy4b6idyj" path="res://assets/models/mansion/Textures/banisterbase_texture.png" id="15_oak68"]
-[ext_resource type="ArrayMesh" uid="uid://cm4el1eynxuon" path="res://assets/models/mansion/Meshes/OBJ/Structure/floor0.obj" id="16_rdnm8"]
-[ext_resource type="Texture2D" uid="uid://dlv5rfw422375" path="res://assets/models/mansion/Textures/floor0_texture.png" id="17_8c5tv"]
-[ext_resource type="ArrayMesh" uid="uid://7yd0gdqbtrgm" path="res://assets/models/mansion/Meshes/OBJ/Structure/door.obj" id="18_irhpj"]
-[ext_resource type="Texture2D" uid="uid://beggnofssgqqv" path="res://assets/models/mansion/Textures/door_texture.png" id="19_qyddy"]
-[ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
-[ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://assets/models/mansion/Textures/picture8_texture.png" id="21_xumxu"]
-[ext_resource type="ArrayMesh" uid="uid://bh5ss0em2t0ga" path="res://assets/models/mansion/Meshes/OBJ/Furniture/single_sofa.obj" id="22_hygsy"]
-[ext_resource type="Texture2D" uid="uid://qpbg7c4w41r5" path="res://assets/models/mansion/Textures/sofa_texture.png" id="23_m6yfk"]
+[ext_resource type="PackedScene" uid="uid://dqd4ngjqfh71u" path="res://Assets/models/mansion/TP motores map.glb" id="11_k1ftq"]
+[ext_resource type="ArrayMesh" uid="uid://d0rvoqpq1udfe" path="res://Assets/models/mansion/Meshes/OBJ/Structure/wall0.obj" id="12_vcaau"]
+[ext_resource type="Texture2D" uid="uid://chhdlfw700nnq" path="res://Assets/models/mansion/Meshes/textures/wood (4).jpg" id="13_rmlwx"]
+[ext_resource type="ArrayMesh" uid="uid://cp2jk5vrn2bom" path="res://Assets/models/mansion/Meshes/OBJ/Structure/banisterbase.obj" id="14_n2vwp"]
+[ext_resource type="Texture2D" uid="uid://bo52yy4b6idyj" path="res://Assets/models/mansion/Textures/banisterbase_texture.png" id="15_oak68"]
+[ext_resource type="ArrayMesh" uid="uid://cm4el1eynxuon" path="res://Assets/models/mansion/Meshes/OBJ/Structure/floor0.obj" id="16_rdnm8"]
+[ext_resource type="Texture2D" uid="uid://dlv5rfw422375" path="res://Assets/models/mansion/Textures/floor0_texture.png" id="17_8c5tv"]
+[ext_resource type="ArrayMesh" uid="uid://7yd0gdqbtrgm" path="res://Assets/models/mansion/Meshes/OBJ/Structure/door.obj" id="18_irhpj"]
+[ext_resource type="Texture2D" uid="uid://beggnofssgqqv" path="res://Assets/models/mansion/Textures/door_texture.png" id="19_qyddy"]
+[ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
+[ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://Assets/models/mansion/Textures/picture8_texture.png" id="21_xumxu"]
+[ext_resource type="ArrayMesh" uid="uid://bh5ss0em2t0ga" path="res://Assets/models/mansion/Meshes/OBJ/Furniture/single_sofa.obj" id="22_hygsy"]
+[ext_resource type="Texture2D" uid="uid://qpbg7c4w41r5" path="res://Assets/models/mansion/Textures/sofa_texture.png" id="23_m6yfk"]
 [ext_resource type="PackedScene" uid="uid://cduc1hukreon" path="res://scenes/objects/door/puerta.tscn" id="24_7pr1r"]
-[ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://assets/models/mansion/Meshes/textures/wood (15).jpg" id="25_b5dc6"]
-[ext_resource type="Texture2D" uid="uid://cx60yo4gy88hj" path="res://assets/models/mansion/Meshes/textures/marble (1).png" id="26_7vxxn"]
-[ext_resource type="Texture2D" uid="uid://boi5sp5fglran" path="res://assets/models/mansion/Meshes/textures/wood (18).jpg" id="27_1io2n"]
+[ext_resource type="Texture2D" uid="uid://b1n5beiglkxn3" path="res://Assets/models/mansion/Meshes/textures/worn_planks_diff_1k.jpg" id="24_xobht"]
+[ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://Assets/models/mansion/Meshes/textures/wood (15).jpg" id="25_b5dc6"]
+[ext_resource type="Texture2D" uid="uid://cx60yo4gy88hj" path="res://Assets/models/mansion/Meshes/textures/marble (1).png" id="26_7vxxn"]
+[ext_resource type="Texture2D" uid="uid://boi5sp5fglran" path="res://Assets/models/mansion/Meshes/textures/wood (18).jpg" id="27_1io2n"]
+[ext_resource type="Texture2D" uid="uid://cb1dorn0cfen2" path="res://Assets/models/mansion/Meshes/textures/cobblestone_01_diff_4k.jpg" id="28_ixyld"]
 [ext_resource type="Script" uid="uid://v576jl8280q1" path="res://scripts/utils/static_body_3d.gd" id="28_y0h5s"]
 [ext_resource type="Script" uid="uid://di82yngr38roc" path="res://scripts/utils/puerta_del_sotano.gd" id="29_aj38d"]
+[ext_resource type="Texture2D" uid="uid://dm35lt6vxwavo" path="res://Assets/models/mansion/Meshes/textures/wall (2).jpg" id="29_j1a8x"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -99,6 +102,9 @@ albedo_texture = ExtResource("27_1io2n")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u7mjy"]
 albedo_texture = ExtResource("19_qyddy")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iv302"]
+albedo_texture = ExtResource("24_xobht")
+
 [sub_resource type="BoxMesh" id="BoxMesh_5jffn"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_kpo4j"]
@@ -112,12 +118,18 @@ data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c4ay3"]
 albedo_texture = ExtResource("25_b5dc6")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ek8fi"]
+albedo_texture = ExtResource("28_ixyld")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ngi3l"]
+albedo_texture = ExtResource("29_j1a8x")
+
 [sub_resource type="SphereMesh" id="SphereMesh_i5arm"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.992208, -0.121681, -0.0267878, -0.0302367, 0.0265857, 0.999189, 0.12087, -0.992213, 0.0300578, -0.662941, 7.7026, -34.7013)
+transform = Transform3D(0.294403, -0.955669, 0.0048886, 0.206618, 0.0686434, 0.976011, 0.933078, 0.286331, -0.217667, -15.1153, 7.7026, -20.3664)
 light_color = Color(0.176419, 0.176419, 0.176419, 1)
 shadow_enabled = true
 
@@ -125,7 +137,7 @@ shadow_enabled = true
 environment = SubResource("Environment_jsk3o")
 
 [node name="Player" parent="." groups=["jugador"] instance=ExtResource("1_xsc8h")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.76531, 1.16837, -31.7896)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.76531, 1.16837, -55.7896)
 speed = 4.0
 sprint_speed_multiplier = 1.8
 step_lengthen = 0.3
@@ -195,7 +207,7 @@ transform = Transform3D(1.3, 0, 0, 0, 1.3, 0, 0, 0, 1.3, 0, 0, 25.7512)
 
 [node name="mapa" type="StaticBody3D" parent="mapa"]
 
-[node name="TP motores map" parent="mapa/mapa" instance=ExtResource("11_k1ftq")]
+[node name="muros" parent="mapa/mapa" instance=ExtResource("11_k1ftq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.30967, 0, -35.4619)
 
 [node name="techoMesh" type="MeshInstance3D" parent="mapa/mapa"]
@@ -394,7 +406,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06374, 1.81352, 2.7011)
 [node name="estructura" type="Node3D" parent="mansion/salas/hub"]
 
 [node name="PuertaDelHub" parent="mansion/salas/hub/estructura" instance=ExtResource("24_7pr1r")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1.35976, -0.452153, 9.73809)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.731196, -0.452153, 7.96686)
 
 [node name="paredes" type="Node3D" parent="mansion/salas/hub"]
 
@@ -423,18 +435,33 @@ transform = Transform3D(3.33992, 0, 0, 0, 1.329, 0, 0, 0, 1, -6.01134, -0.502565
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
 
+[node name="Wall14" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
+transform = Transform3D(-1.45993e-07, 0, 1, 0, 1.329, 0, -3.33992, 0, -4.37114e-08, -2.65767, -0.487874, -10.7127)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
+
+[node name="Wall15" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
+transform = Transform3D(-1.37936e-07, 0, 1, 0, 1.329, 0, -3.1556, 0, -4.37114e-08, -1.10745, -0.487874, -12.2203)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
+
+[node name="Wall16" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
+transform = Transform3D(4.13647e-08, 0, -1, 0, 1.329, 0, 3.46877, 0, 1.19249e-08, 1.8986, -0.487874, -11.871)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
+
 [node name="Wall7" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
 transform = Transform3D(-1.45993e-07, 0, 1, 0, 1.329, 0, -3.33992, 0, -4.37114e-08, -14.3576, -0.502566, -0.251167)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
 
 [node name="Wall5" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
-transform = Transform3D(1.69352, 0, 0, 0, 1.329, 0, 0, 0, 1, -2.82452, -0.502565, -8.99274)
+transform = Transform3D(1.69352, 0, 0, 0, 1.329, 0, 0, 0, 1, -2.8049, -0.502565, -8.99274)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
 
 [node name="Wall6" type="MeshInstance3D" parent="mansion/salas/hub/paredes"]
-transform = Transform3D(1.69352, 0, 0, 0, 1.329, 0, 0, 0, 1, 3.61237, -0.502565, -8.99274)
+transform = Transform3D(1.69352, 0, 0, 0, 1.329, 0, 0, 0, 1, 3.61237, -0.502565, -8.4149)
 mesh = ExtResource("12_vcaau")
 surface_material_override/0 = SubResource("StandardMaterial3D_4n42c")
 
@@ -549,7 +576,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_4yxf6")
 [node name="estructura" type="Node3D" parent="mansion/salas/biblioteca"]
 
 [node name="PuertaDeBibleoteca" parent="mansion/salas/biblioteca/estructura" instance=ExtResource("24_7pr1r")]
-transform = Transform3D(-1.75592, 0, 0.000662103, 0, 1.21527, 0, -0.00447433, 0, -0.259838, 27.6934, -3.47853, -107.106)
+transform = Transform3D(-1.75592, 0, 0.000662103, 0, 1.21527, 0, -0.00447433, 0, -0.259838, 27.6934, -3.47853, -101.161)
 
 [node name="Door" type="MeshInstance3D" parent="mansion/salas/biblioteca/estructura/PuertaDeBibleoteca"]
 transform = Transform3D(1.00681, 0, 0, 0, 1.10077, 0, 0, 0, 5.39354, 0.0012641, -0.070977, -0.0122299)
@@ -559,7 +586,58 @@ surface_material_override/0 = SubResource("StandardMaterial3D_u7mjy")
 
 [node name="paredes" type="Node3D" parent="mansion/salas/biblioteca"]
 
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="mansion/salas/biblioteca/paredes"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="mansion/salas/biblioteca/paredes"]
+transform = Transform3D(1, 0, 0, 0, 3.38397, 0, 0, 0, 13.8993, 12.9012, -2.07049, -94.2372)
+use_collision = true
+
 [node name="piso" type="Node3D" parent="mansion/salas/biblioteca"]
+
+[node name="Floor0" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 28.1148, -3.41021, -98.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor1" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 28.1148, -3.41021, -92.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor2" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 28.1148, -3.41021, -86.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor3" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 22.1148, -3.41021, -86.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor4" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 16.1148, -3.41021, -86.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor5" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 16.1148, -3.41021, -92.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor6" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 22.1148, -3.41021, -92.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor7" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 22.1148, -3.41021, -98.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
+
+[node name="Floor8" type="MeshInstance3D" parent="mansion/salas/biblioteca"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 16.1148, -3.41021, -98.133)
+mesh = ExtResource("16_rdnm8")
+surface_material_override/0 = SubResource("StandardMaterial3D_iv302")
 
 [node name="sotano" type="Node3D" parent="mansion/salas"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.4156, 1.84418, -126.728)
@@ -607,16 +685,202 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9778, -3.61391, -39.6663)
 [node name="piso" type="Node3D" parent="mansion/pasillos/pasillo1"]
 
 [node name="Floor0" type="MeshInstance3D" parent="mansion/pasillos/pasillo1/piso"]
-transform = Transform3D(1.14824, 0, 0, 0, 1, 0, 0, 0, 2.85774, -1.10039, 0.0641489, 7.42162)
+transform = Transform3D(10.0366, 0, 0, 0, 1, 0, 0, 0, 10.0145, 2.98531, 0.0641489, 0.0463867)
 mesh = ExtResource("16_rdnm8")
 skeleton = NodePath("../../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
 
 [node name="Floor1" type="MeshInstance3D" parent="mansion/pasillos/pasillo1/piso"]
-transform = Transform3D(-4.37114e-08, 0, 5.92498, 0, 1, 0, -1, 0, -2.58989e-07, 3.68877, 0.0641489, 3.59216)
+transform = Transform3D(-4.37114e-08, 0, 5.20177, 0, 1, 0, -1, 0, -2.27377e-07, 2.60639, 0.0641489, 3.59216)
 mesh = ExtResource("16_rdnm8")
 skeleton = NodePath("../../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
+
+[node name="Floor2" type="MeshInstance3D" parent="mansion/pasillos/pasillo1/piso"]
+transform = Transform3D(-5.07456e-08, 0, 5.50282, 0, 1, 0, -1.16092, 0, -2.40536e-07, 2.5573, 0.0923615, -3.5997)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
+
+[node name="Hub-Biblioteca" type="Node3D" parent="mansion/pasillos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.35532, -2.15319, -50.6066)
+
+[node name="Floor3" type="MeshInstance3D" parent="mansion/pasillos/Hub-Biblioteca"]
+transform = Transform3D(10.0366, 0, 0, 0, 1, 0, 0, 0, 3.01524, -5.73265, -1.39657, -0.779387)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_c4ay3")
+
+[node name="pasilloSecreto" type="Node3D" parent="mansion/pasillos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, -59)
+
+[node name="Floor3" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -6.7259, -3.55937, -19.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor4" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, -19.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor5" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, -19.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor6" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, -15.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor7" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, -15.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor8" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, -11.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor9" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, -11.275)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor10" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, -7.27503)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor11" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, -7.27503)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor12" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, -3.27503)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor13" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, -3.27503)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor14" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 0.724968)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor15" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 0.724968)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor16" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 4.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor17" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 4.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor18" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 8.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor19" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 8.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor20" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 8.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor21" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 8.72497)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor22" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 12.725)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor23" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 12.725)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor24" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.7259, -3.55937, 16.725)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Floor25" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.2741, -3.55937, 16.725)
+mesh = ExtResource("16_rdnm8")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_ek8fi")
+
+[node name="Wall0" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 15.6765)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
+
+[node name="Wall1" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 9.67652)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
+
+[node name="Wall2" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, 3.67653)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
+
+[node name="Wall3" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -2.32347)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
+
+[node name="Wall4" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -8.32347)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
+
+[node name="Wall5" type="MeshInstance3D" parent="mansion/pasillos/pasilloSecreto"]
+transform = Transform3D(-1.33235e-07, 0, 1, 0, 1.50983, 0, -3.04807, 0, -4.37114e-08, -2.19851, -3.53957, -14.3235)
+mesh = ExtResource("12_vcaau")
+surface_material_override/0 = SubResource("StandardMaterial3D_ngi3l")
 
 [node name="elementos de test" type="Node3D" parent="."]
 
@@ -659,4 +923,4 @@ spot_angle_attenuation = 0.895248
 [connection signal="desbloquearSotano" from="mansion/salas/sotano/elementos/Llave del Sotano" to="mansion/salas/sotano/estructura/Puerta del sotano" method="_on_llave_del_sotano_desbloquear_sotano"]
 
 [editable path="Player"]
-[editable path="mapa/mapa/TP motores map"]
+[editable path="mapa/mapa/muros"]

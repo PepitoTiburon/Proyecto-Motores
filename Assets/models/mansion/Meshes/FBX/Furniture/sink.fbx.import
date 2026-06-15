@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c7rf5k375ldto"
-path="res://.godot/imported/sink.fbx-a87dde8b4ee418c6d7ef8ee75703dc98.scn"
+path="res://.godot/imported/sink.fbx-82a2b746abcbceb36a72a15142e2e7ed.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Furniture/sink.fbx"
-dest_files=["res://.godot/imported/sink.fbx-a87dde8b4ee418c6d7ef8ee75703dc98.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Furniture/sink.fbx"
+dest_files=["res://.godot/imported/sink.fbx-82a2b746abcbceb36a72a15142e2e7ed.scn"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://okgfws67720o"
-path="res://.godot/imported/Monster Footsteps.mp3-bf99ee9dc0db4e9754c17befc26ba82c.mp3str"
+path="res://.godot/imported/Monster Footsteps.mp3-77293d2b06ec7f6e058a8dfc2d687c40.mp3str"
 
 [deps]
 
-source_file="res://assets/audio/sfx/Monster Footsteps.mp3"
-dest_files=["res://.godot/imported/Monster Footsteps.mp3-bf99ee9dc0db4e9754c17befc26ba82c.mp3str"]
+source_file="res://Assets/audio/sfx/Monster Footsteps.mp3"
+dest_files=["res://.godot/imported/Monster Footsteps.mp3-77293d2b06ec7f6e058a8dfc2d687c40.mp3str"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ce3l8uyb7u1aa"
-path="res://.godot/imported/ceiling0.fbx-f09c30f12ea6067cabd6e68fd7159208.scn"
+path="res://.godot/imported/ceiling0.fbx-0a934698c8c6c270f02a1342698b36ef.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/ceiling0.fbx"
-dest_files=["res://.godot/imported/ceiling0.fbx-f09c30f12ea6067cabd6e68fd7159208.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/ceiling0.fbx"
+dest_files=["res://.godot/imported/ceiling0.fbx-0a934698c8c6c270f02a1342698b36ef.scn"]
 
 [params]
 

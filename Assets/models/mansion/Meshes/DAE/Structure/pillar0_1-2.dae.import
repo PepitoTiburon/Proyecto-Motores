@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5n1e6552c2hi"
-path="res://.godot/imported/pillar0_1-2.dae-c675bd93e58c9020aab6038853e23116.scn"
+path="res://.godot/imported/pillar0_1-2.dae-eee21fb0cda54b3c3bc3322045f7f4b6.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/pillar0_1-2.dae"
-dest_files=["res://.godot/imported/pillar0_1-2.dae-c675bd93e58c9020aab6038853e23116.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/pillar0_1-2.dae"
+dest_files=["res://.godot/imported/pillar0_1-2.dae-eee21fb0cda54b3c3bc3322045f7f4b6.scn"]
 
 [params]
 

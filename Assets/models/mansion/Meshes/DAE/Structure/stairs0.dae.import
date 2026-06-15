@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ss4s82sb8xnt"
-path="res://.godot/imported/stairs0.dae-c284972804349f29c77f1adce95ae27c.scn"
+path="res://.godot/imported/stairs0.dae-af2e687162972255f099295867bb498e.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Structure/stairs0.dae"
-dest_files=["res://.godot/imported/stairs0.dae-c284972804349f29c77f1adce95ae27c.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Structure/stairs0.dae"
+dest_files=["res://.godot/imported/stairs0.dae-af2e687162972255f099295867bb498e.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmmgw5rd7lnnc"
-path="res://.godot/imported/plate.fbx-3623985b25011b27bb3a2375e928b8bc.scn"
+path="res://.godot/imported/plate.fbx-ebde0b63dc87a2a14bd6907fdd87fba2.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Items/plate.fbx"
-dest_files=["res://.godot/imported/plate.fbx-3623985b25011b27bb3a2375e928b8bc.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Items/plate.fbx"
+dest_files=["res://.godot/imported/plate.fbx-ebde0b63dc87a2a14bd6907fdd87fba2.scn"]
 
 [params]
 

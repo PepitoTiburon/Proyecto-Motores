@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1y8hdgxv7p03"
-path="res://.godot/imported/stairbanister.fbx-8d6fe976db186f9c9d75ffd6a59872dd.scn"
+path="res://.godot/imported/stairbanister.fbx-19385dcd08f21905280bddbacc668a96.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/stairbanister.fbx"
-dest_files=["res://.godot/imported/stairbanister.fbx-8d6fe976db186f9c9d75ffd6a59872dd.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/stairbanister.fbx"
+dest_files=["res://.godot/imported/stairbanister.fbx-19385dcd08f21905280bddbacc668a96.scn"]
 
 [params]
 

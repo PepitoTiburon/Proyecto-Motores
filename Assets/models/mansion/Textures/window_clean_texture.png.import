@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bge2ebo0hyjqr"
-path.s3tc="res://.godot/imported/window_clean_texture.png-f0561b3eb2d28c091fa468f3655ef848.s3tc.ctex"
+path.s3tc="res://.godot/imported/window_clean_texture.png-74de4122dd8f39a52612fb1d0d3e2485.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/window_clean_texture.png"
-dest_files=["res://.godot/imported/window_clean_texture.png-f0561b3eb2d28c091fa468f3655ef848.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/window_clean_texture.png"
+dest_files=["res://.godot/imported/window_clean_texture.png-74de4122dd8f39a52612fb1d0d3e2485.s3tc.ctex"]
 
 [params]
 

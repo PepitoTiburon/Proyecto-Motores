@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dn7334qqooiuw"
-path="res://.godot/imported/picture8.obj-6f4e2e80f6797d5b4aa591181f1fa5e3.mesh"
+path="res://.godot/imported/picture8.obj-58092739037b8e1a260bfb7e1c55c6db.mesh"
 
 [deps]
 
-files=["res://.godot/imported/picture8.obj-6f4e2e80f6797d5b4aa591181f1fa5e3.mesh"]
+files=["res://.godot/imported/picture8.obj-58092739037b8e1a260bfb7e1c55c6db.mesh"]
 
-source_file="res://assets/models/mansion/Meshes/OBJ/Decor/picture8.obj"
-dest_files=["res://.godot/imported/picture8.obj-6f4e2e80f6797d5b4aa591181f1fa5e3.mesh", "res://.godot/imported/picture8.obj-6f4e2e80f6797d5b4aa591181f1fa5e3.mesh"]
+source_file="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj"
+dest_files=["res://.godot/imported/picture8.obj-58092739037b8e1a260bfb7e1c55c6db.mesh", "res://.godot/imported/picture8.obj-58092739037b8e1a260bfb7e1c55c6db.mesh"]
 
 [params]
 

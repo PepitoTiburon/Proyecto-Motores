@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3gmo1dk0l2mj"
-path="res://.godot/imported/bed.fbx-0f97fbcde982f2131d2da5fb0ad573d7.scn"
+path="res://.godot/imported/bed.fbx-969dd871eb067b45f532eb4a7f75197b.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/FBX/Furniture/bed.fbx"
-dest_files=["res://.godot/imported/bed.fbx-0f97fbcde982f2131d2da5fb0ad573d7.scn"]
+source_file="res://Assets/models/mansion/Meshes/FBX/Furniture/bed.fbx"
+dest_files=["res://.godot/imported/bed.fbx-969dd871eb067b45f532eb4a7f75197b.scn"]
 
 [params]
 

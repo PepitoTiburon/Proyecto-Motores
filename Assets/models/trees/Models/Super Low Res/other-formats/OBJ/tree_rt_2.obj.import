@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c8chleeyob8no"
-path="res://.godot/imported/tree_rt_2.obj-8784b5fef4c1228654c5d4fbd577b729.mesh"
+path="res://.godot/imported/tree_rt_2.obj-3bd3228abc316c67ee327f4ef74b4a9c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tree_rt_2.obj-8784b5fef4c1228654c5d4fbd577b729.mesh"]
+files=["res://.godot/imported/tree_rt_2.obj-3bd3228abc316c67ee327f4ef74b4a9c.mesh"]
 
-source_file="res://assets/models/trees/Models/Super Low Res/other-formats/OBJ/tree_rt_2.obj"
-dest_files=["res://.godot/imported/tree_rt_2.obj-8784b5fef4c1228654c5d4fbd577b729.mesh", "res://.godot/imported/tree_rt_2.obj-8784b5fef4c1228654c5d4fbd577b729.mesh"]
+source_file="res://Assets/models/trees/Models/Super Low Res/other-formats/OBJ/tree_rt_2.obj"
+dest_files=["res://.godot/imported/tree_rt_2.obj-3bd3228abc316c67ee327f4ef74b4a9c.mesh", "res://.godot/imported/tree_rt_2.obj-3bd3228abc316c67ee327f4ef74b4a9c.mesh"]
 
 [params]
 

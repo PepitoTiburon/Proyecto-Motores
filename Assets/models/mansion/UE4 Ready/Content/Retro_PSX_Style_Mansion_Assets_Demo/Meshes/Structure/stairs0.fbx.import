@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0h4g7qflgj6f"
-path="res://.godot/imported/stairs0.fbx-8aeda684f436cde82934038d5045e0ed.scn"
+path="res://.godot/imported/stairs0.fbx-96cbbf23996b87730b40ed93548c3886.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/stairs0.fbx"
-dest_files=["res://.godot/imported/stairs0.fbx-8aeda684f436cde82934038d5045e0ed.scn"]
+source_file="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Structure/stairs0.fbx"
+dest_files=["res://.godot/imported/stairs0.fbx-96cbbf23996b87730b40ed93548c3886.scn"]
 
 [params]
 

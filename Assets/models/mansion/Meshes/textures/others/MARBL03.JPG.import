@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1rwbd7xdi2hl"
-path.s3tc="res://.godot/imported/MARBL03.JPG-ad20304c52cafd1d8a580b183fdc7e96.s3tc.ctex"
+path.s3tc="res://.godot/imported/MARBL03.JPG-3f6abf6c51af108bf134c8345e774b54.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/textures/others/MARBL03.JPG"
-dest_files=["res://.godot/imported/MARBL03.JPG-ad20304c52cafd1d8a580b183fdc7e96.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Meshes/textures/others/MARBL03.JPG"
+dest_files=["res://.godot/imported/MARBL03.JPG-3f6abf6c51af108bf134c8345e774b54.s3tc.ctex"]
 
 [params]
 

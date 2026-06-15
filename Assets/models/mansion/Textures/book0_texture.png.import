@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btbsvj8tuvuid"
-path.s3tc="res://.godot/imported/book0_texture.png-7ab32490581e831ce7e0a2aa0974252e.s3tc.ctex"
+path.s3tc="res://.godot/imported/book0_texture.png-d9a47160a22bbf839ade268bf0fafbcb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/mansion/Textures/book0_texture.png"
-dest_files=["res://.godot/imported/book0_texture.png-7ab32490581e831ce7e0a2aa0974252e.s3tc.ctex"]
+source_file="res://Assets/models/mansion/Textures/book0_texture.png"
+dest_files=["res://.godot/imported/book0_texture.png-d9a47160a22bbf839ade268bf0fafbcb.s3tc.ctex"]
 
 [params]
 

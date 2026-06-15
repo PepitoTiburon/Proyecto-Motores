@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ccnhfdt64axuj"
-path="res://.godot/imported/single_sofa.dae-e939f7282a34e3cff36ee534d2948d07.scn"
+path="res://.godot/imported/single_sofa.dae-446ca0dbb718a1610607c754b3fc1a43.scn"
 
 [deps]
 
-source_file="res://assets/models/mansion/Meshes/DAE/Furniture/single_sofa.dae"
-dest_files=["res://.godot/imported/single_sofa.dae-e939f7282a34e3cff36ee534d2948d07.scn"]
+source_file="res://Assets/models/mansion/Meshes/DAE/Furniture/single_sofa.dae"
+dest_files=["res://.godot/imported/single_sofa.dae-446ca0dbb718a1610607c754b3fc1a43.scn"]
 
 [params]
 
