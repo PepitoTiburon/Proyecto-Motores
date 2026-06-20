@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=49 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
 [ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/models/flashlight/flashlight.fbx" id="2_xobht"]
@@ -8,11 +8,18 @@
 [ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="6_ek8fi"]
 [ext_resource type="PackedScene" uid="uid://cnrducomi21xp" path="res://Assets/models/mansion/Meshes/CSG/Mansion_CSG.tscn" id="6_svj5t"]
 [ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://Assets/audio/sfx/BIG monster groul.mp3" id="7_ngi3l"]
+[ext_resource type="ArrayMesh" uid="uid://djpo0666v8hkk" path="res://Assets/models/mansion/Meshes/OBJ/Items/book0.obj" id="7_qakcj"]
+[ext_resource type="Texture2D" uid="uid://btbsvj8tuvuid" path="res://Assets/models/mansion/Textures/book0_texture.png" id="8_v0jj0"]
 [ext_resource type="Script" uid="uid://b42j7ggb7g2em" path="res://scripts/utils/dot.gd" id="9_wjrwe"]
 [ext_resource type="ArrayMesh" uid="uid://djv5uf6nl13ds" path="res://Assets/models/mansion/Meshes/OBJ/Structure/pillar0.obj" id="9_ybuav"]
 [ext_resource type="Texture2D" uid="uid://dnpky57a2yljv" path="res://Assets/models/mansion/Textures/pillar0_texture.png" id="10_vxhfj"]
+[ext_resource type="ArrayMesh" uid="uid://u2l8ev3ar3xu" path="res://Assets/models/mansion/Meshes/OBJ/Furniture/bed.obj" id="13_rswj6"]
+[ext_resource type="Texture2D" uid="uid://sn4d380bporw" path="res://Assets/models/mansion/Textures/bed_texture.png" id="14_tpa5x"]
+[ext_resource type="Texture2D" uid="uid://nu01gksqbsh0" path="res://Assets/models/mansion/Meshes/textures/metal (2).jpg" id="15_ffpnx"]
 [ext_resource type="ArrayMesh" uid="uid://byav5hgn1vkid" path="res://Assets/models/mansion/Meshes/OBJ/Furniture/drawers.obj" id="16_gd3cl"]
+[ext_resource type="AudioStream" uid="uid://ckawcs8munph1" path="res://Assets/audio/sfx/DoorClose.mp3" id="16_v0jj0"]
 [ext_resource type="Texture2D" uid="uid://bnwvay3xc7f70" path="res://Assets/models/mansion/Textures/drawers_texture.png" id="17_fkr8t"]
+[ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://Assets/models/mansion/Meshes/textures/wood (15).jpg" id="17_tpa5x"]
 [ext_resource type="Script" uid="uid://bmftiyy2nwc6y" path="res://scenes/objects/door/class_puerta.gd" id="18_1rtps"]
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
 [ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://Assets/models/mansion/Textures/picture8_texture.png" id="21_xumxu"]
@@ -27,8 +34,7 @@ ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
 sky_material = SubResource("ProceduralSkyMaterial_i5arm")
 
 [sub_resource type="Environment" id="Environment_jsk3o"]
-background_mode = 1
-background_energy_multiplier = 1.98
+background_energy_multiplier = 2.0
 sky = SubResource("Sky_wc5p8")
 tonemap_mode = 2
 glow_enabled = true
@@ -39,6 +45,39 @@ glow_enabled = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i5arm"]
 albedo_color = Color(0.356333, 0.467906, 0.332077, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uka0a"]
+albedo_texture = ExtResource("8_v0jj0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qakcj"]
+albedo_texture = ExtResource("14_tpa5x")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v0jj0"]
+size = Vector3(1, 0.6, 2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_uka0a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jyj5a"]
+albedo_texture = ExtResource("15_ffpnx")
+metallic = 0.3
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tpa5x"]
+albedo_texture = ExtResource("21_xumxu")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ffpnx"]
+points = PackedVector3Array(0.787438, 3.10788, -0.0380627, -0.849363, 0.633187, 0.0417881, 0.867429, 0.633187, 0.0417881, -0.849363, 3.18816, 0.0417881, 0.867429, 3.18816, 0.0417881, -0.769371, 0.713218, -0.0380627, -0.769371, 3.10788, -0.0380627, 0.787438, 0.713218, -0.0380627, 0.867429, 3.18816, 0.0018627, 0.867429, 0.633187, 0.0018627)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ffpnx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v0jj0"]
+albedo_texture = ExtResource("17_tpa5x")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rswj6"]
+albedo_texture = ExtResource("17_fkr8t")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tpa5x"]
+points = PackedVector3Array(-0.50458, 0.00540028, -0.1368, 0.499983, 0.915785, 0.287, 0.499983, 0.00956695, 0.287, 0.50458, 0.919952, -0.1368, -0.499983, 0.915785, 0.287, 0.50458, 0.00540028, -0.1368, -0.50458, 0.919952, -0.1368, -0.499983, 0.00956695, 0.287)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mb6jt"]
 albedo_texture = ExtResource("21_xumxu")
@@ -56,12 +95,6 @@ albedo_texture = ExtResource("23_m6yfk")
 data = PackedVector3Array(-0.4492, 0.8115, 0.2514, -0.4492, 0.8115, -0.3617, -0.3094, 0.7308, 0.2514, -0.3094, 0.7308, 0.2514, -0.4492, 0.8115, -0.3617, -0.3094, 0.7308, -0.3617, -0.3094, 0.7308, 0.2514, -0.3094, 0.7308, -0.3617, -0.3094, 0.5694, 0.2514, -0.3094, 0.5694, 0.2514, -0.3094, 0.7308, -0.3617, -0.3094, 0.5694, -0.3617, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, -0.3617, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.4713, 0.4161, -0.3617, -0.5889, 0.5694, -0.3617, -0.4492, 0.8115, 0.2514, -0.3094, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.3094, 0.7308, 0.2514, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.3094, 0.7308, 0.2514, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, 0.2514, -0.3094, 0.7308, 0.2514, -0.3094, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, -0.3617, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.5889, 0.5694, -0.3617, -0.5889, 0.7308, -0.3617, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, -0.3617, -0.4492, 0.8115, 0.2514, -0.4492, 0.8115, 0.2514, -0.5889, 0.7308, -0.3617, -0.4492, 0.8115, -0.3617, 0.4713, 0.4161, -0.3605, 0.5889, 0.5694, -0.3605, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, 0.5889, 0.5694, -0.3605, 0.5889, 0.7308, -0.3605, -0.3094, 0.5694, 0.2514, -0.3094, 0.5694, -0.3617, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, 0.2514, -0.3094, 0.5694, -0.3617, -0.2259, 0.4162, -0.3617, -0.4713, 0.4161, -0.3617, -0.4713, 0.4161, 0.2514, -0.3843, 0.1057, -0.3617, -0.3843, 0.1057, -0.3617, -0.4713, 0.4161, 0.2514, -0.3843, 0.1057, 0.2514, -0.3843, 0.1057, -0.3617, -0.3843, 0.1057, 0.2514, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, -0.3843, 0.1057, 0.2514, -0.3984, 0.0012, 0.2494, 0.3843, 0.1057, -0.3605, 0.3984, 0.0012, -0.5121, 0.3843, 0.1057, 0.2526, 0.3843, 0.1057, 0.2526, 0.3984, 0.0012, -0.5121, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, 0.2494, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, 0.2494, 0.2259, 0.4162, 0.2526, -0.2259, 0.4162, 0.2514, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, -0.3617, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, -0.3605, 0.3094, 0.7308, -0.3605, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, 0.2526, 0.3094, 0.7308, -0.3605, 0.3094, 0.7308, 0.2526, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, -0.3605, 0.3094, 0.7308, 0.2526, 0.3094, 0.5694, 0.2526, 0.4713, 0.4161, -0.3605, 0.4713, 0.4161, 0.2526, 0.5889, 0.5694, -0.3605, 0.5889, 0.5694, -0.3605, 0.4713, 0.4161, 0.2526, 0.5889, 0.5694, 0.2526, -0.5889, 0.5694, -0.3617, -0.4713, 0.4161, -0.3617, -0.5889, 0.7308, -0.3617, -0.5889, 0.7308, -0.3617, -0.4713, 0.4161, -0.3617, -0.4492, 0.8115, -0.3617, 0.5889, 0.5694, -0.3605, 0.5889, 0.5694, 0.2526, 0.5889, 0.7308, -0.3605, 0.5889, 0.7308, -0.3605, 0.5889, 0.5694, 0.2526, 0.5889, 0.7308, 0.2526, 0.5889, 0.7308, -0.3605, 0.5889, 0.7308, 0.2526, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, 0.5889, 0.7308, 0.2526, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, 0.2526, 0.4492, 0.8115, 0.2526, 0.3094, 0.5694, 0.2526, 0.3094, 0.5694, 0.2526, 0.4492, 0.8115, 0.2526, 0.4713, 0.4161, 0.2526, 0.4713, 0.4161, 0.2526, 0.4492, 0.8115, 0.2526, 0.5889, 0.5694, 0.2526, 0.5889, 0.5694, 0.2526, 0.4492, 0.8115, 0.2526, 0.5889, 0.7308, 0.2526, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, 0.2526, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, 0.3094, 0.5694, 0.2526, 0.2259, 0.4162, 0.2526, 0.4713, 0.4161, 0.2526, 0.4713, 0.4161, -0.3605, 0.3843, 0.1057, 0.2526, 0.3843, 0.1057, 0.2526, 0.4713, 0.4161, -0.3605, 0.3843, 0.1057, -0.3605, -0.4713, 0.4161, 0.2514, -0.3094, 0.5694, 0.2514, -0.2259, 0.4162, 0.2514, 0.2259, 0.4162, 0.2526, 0.3094, 0.5694, 0.2526, 0.4713, 0.4161, 0.2526, -0.3984, 0.0012, 0.2494, -0.3843, 0.1057, 0.2514, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, 0.2494, -0.3843, 0.1057, 0.2514, 0.3843, 0.1057, 0.2526, 0.4713, 0.4161, 0.2526, 0.3843, 0.1057, 0.2526, 0.2259, 0.4162, 0.2526, 0.2259, 0.4162, 0.2526, 0.3843, 0.1057, 0.2526, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, 0.2514, 0.3843, 0.1057, 0.2526, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, 0.2514, 0.3843, 0.1057, 0.2526, -0.3843, 0.1057, 0.2514, -0.4723, 1.2266, -0.6154, 0.4723, 1.2266, -0.6154, -0.4723, 1.2267, -0.434, -0.4723, 1.2267, -0.434, 0.4723, 1.2266, -0.6154, 0.4723, 1.2267, -0.434, -0.4492, 0.8115, -0.3617, -0.4723, 1.2267, -0.434, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, -0.4723, 1.2267, -0.434, 0.4723, 1.2267, -0.434, 0.4243, 0.4299, -0.5482, 0.3984, 0.0012, -0.5121, 0.4713, 0.4161, -0.3605, -0.4713, 0.4161, -0.3617, -0.3843, 0.1057, -0.3617, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, 0.3984, 0.0012, -0.5121, -0.4243, 0.4298, -0.5482, -0.4243, 0.4298, -0.5482, 0.3984, 0.0012, -0.5121, 0.4243, 0.4299, -0.5482, -0.4243, 0.4298, -0.5482, 0.4243, 0.4299, -0.5482, -0.4483, 0.8281, -0.5818, -0.4483, 0.8281, -0.5818, 0.4243, 0.4299, -0.5482, 0.4498, 0.8529, -0.5839, -0.4483, 0.8281, -0.5818, 0.4498, 0.8529, -0.5839, -0.4723, 1.2266, -0.6154, -0.4723, 1.2266, -0.6154, 0.4498, 0.8529, -0.5839, 0.4723, 1.2266, -0.6154, -0.4713, 0.4161, -0.3617, -0.4243, 0.4298, -0.5482, -0.4492, 0.8115, -0.3617, -0.4492, 0.8115, -0.3617, -0.4243, 0.4298, -0.5482, -0.4483, 0.8281, -0.5818, 0.4243, 0.4299, -0.5482, 0.4713, 0.4161, -0.3605, 0.4498, 0.8529, -0.5839, 0.4498, 0.8529, -0.5839, 0.4713, 0.4161, -0.3605, 0.4492, 0.8115, -0.3605, 0.3843, 0.1057, -0.3605, 0.4713, 0.4161, -0.3605, 0.3984, 0.0012, -0.5121, -0.4713, 0.4161, -0.3617, -0.3984, 0.0012, -0.5121, -0.4243, 0.4298, -0.5482, -0.4492, 0.8115, -0.3617, 0.4492, 0.8115, -0.3605, -0.3094, 0.7308, -0.3617, -0.3094, 0.7308, -0.3617, 0.4492, 0.8115, -0.3605, -0.3094, 0.5694, -0.3617, -0.3094, 0.5694, -0.3617, 0.4492, 0.8115, -0.3605, -0.2259, 0.4162, -0.3617, -0.2259, 0.4162, -0.3617, 0.4492, 0.8115, -0.3605, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, 0.4492, 0.8115, -0.3605, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, -0.3605, 0.4492, 0.8115, -0.3605, 0.3094, 0.7308, -0.3605, -0.4492, 0.8115, -0.3617, -0.4483, 0.8281, -0.5818, -0.4723, 1.2267, -0.434, -0.4723, 1.2267, -0.434, -0.4483, 0.8281, -0.5818, -0.4723, 1.2266, -0.6154, 0.4498, 0.8529, -0.5839, 0.4492, 0.8115, -0.3605, 0.4723, 1.2266, -0.6154, 0.4723, 1.2266, -0.6154, 0.4492, 0.8115, -0.3605, 0.4723, 1.2267, -0.434)
 
 [sub_resource type="SphereMesh" id="SphereMesh_i5arm"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rswj6"]
-albedo_texture = ExtResource("17_fkr8t")
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tpa5x"]
-points = PackedVector3Array(-0.50458, 0.00540028, -0.1368, 0.499983, 0.915785, 0.287, 0.499983, 0.00956695, 0.287, 0.50458, 0.919952, -0.1368, -0.499983, 0.915785, 0.287, 0.50458, 0.00540028, -0.1368, -0.50458, 0.919952, -0.1368, -0.499983, 0.00956695, 0.287)
 
 [node name="Node3D" type="Node3D"]
 
@@ -161,34 +194,232 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.047, 0.2, -34.94)
 [node name="Decoracion" type="Node3D" parent="mapa"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -46.7097)
 
-[node name="Picture8" type="MeshInstance3D" parent="mapa/Decoracion"]
-transform = Transform3D(-3.34962e-08, -4.01185e-08, 0.769231, 2.93054e-09, 0.769231, 4.01185e-08, -0.769231, 2.93054e-09, -3.34962e-08, -3.83795, 0.0444984, 26.006)
+[node name="Bibleoteca" type="Node3D" parent="mapa/Decoracion"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0223, 0, 13.9709)
+
+[node name="Book0" type="MeshInstance3D" parent="mapa/Decoracion/Bibleoteca"]
+transform = Transform3D(0.441213, 0, -0.630117, 0, 0.769231, 0, 0.630117, 0, 0.441213, 5.81935, 0.199155, 2.87345)
+mesh = ExtResource("7_qakcj")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_uka0a")
+
+[node name="Enfermeria" type="Node3D" parent="mapa/Decoracion"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.4314, 0, 18.4794)
+
+[node name="Bed" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.48717, 0.611597, 2.76331)
+
+[node name="Bed" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
+mesh = ExtResource("13_rswj6")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qakcj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, -0.0769229)
+shape = SubResource("BoxShape3D_v0jj0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, 0.692308)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, 0.692307)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="Bed2" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.94871, 0.611597, 2.76331)
+
+[node name="Bed" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
+mesh = ExtResource("13_rswj6")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qakcj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, -0.0769229)
+shape = SubResource("BoxShape3D_v0jj0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, 0.692308)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed2"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, 0.692307)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="Bed3" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.41025, 0.611597, 2.76331)
+
+[node name="Bed" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
+mesh = ExtResource("13_rswj6")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qakcj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, -0.0769229)
+shape = SubResource("BoxShape3D_v0jj0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, 0.692308)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed3"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, 0.692307)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="Bed4" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0256, 0.611597, 2.76331)
+
+[node name="Bed" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
+mesh = ExtResource("13_rswj6")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qakcj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, -0.0769229)
+shape = SubResource("BoxShape3D_v0jj0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, 0.692308)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, 0.46154, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, -1)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Bed4"]
+transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, 0.692307)
+mesh = SubResource("BoxMesh_uka0a")
+surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
+
+[node name="Cuadro" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria" node_paths=PackedStringArray("CloseSound")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -4.06054, 0, -4.2884)
+script = ExtResource("18_1rtps")
+CloseSound = NodePath("RaytracedAudioPlayer3D")
+
+[node name="Picture9" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+transform = Transform3D(-0.769231, 0, -6.72483e-08, 0, 0.769231, 0, 6.72483e-08, 0, -0.769231, 0.64603, 0, 0)
 mesh = ExtResource("20_f7qpw")
 skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_tpa5x")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+transform = Transform3D(-0.769231, 0, -6.72483e-08, 0, 0.769231, 0, 6.72483e-08, 0, -0.769231, 0.64603, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_ffpnx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+transform = Transform3D(1.3, 0, 4.44089e-16, 0, 1.4, 0, 0, 0, 0.05, 0.629463, 1.62212, 0.0554829)
+mesh = SubResource("BoxMesh_ffpnx")
+surface_material_override/0 = SubResource("StandardMaterial3D_v0jj0")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+stream = ExtResource("16_v0jj0")
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="Sotano" type="Node3D" parent="mapa/Decoracion"]
+
+[node name="Drawer" type="StaticBody3D" parent="mapa/Decoracion/Sotano" node_paths=PackedStringArray("CloseSound")]
+transform = Transform3D(-1.53846, 0, -2.32302e-07, 0, 1.53846, 0, 2.32302e-07, 0, -1.53846, 7.84615, 0.230769, -14.2483)
+script = ExtResource("18_1rtps")
+CloseSound = NodePath("RaytracedAudioPlayer3D")
+
+[node name="Drawers" type="MeshInstance3D" parent="mapa/Decoracion/Sotano/Drawer"]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
+mesh = ExtResource("16_gd3cl")
+skeleton = NodePath("../../../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_rswj6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/Drawer"]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
+shape = SubResource("ConvexPolygonShape3D_tpa5x")
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Sotano/Drawer"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -9.53674e-07, 0.449319, 0.562889)
+stream = ExtResource("16_v0jj0")
+volume_db = 12.361
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="Salida" type="Node3D" parent="mapa/Decoracion"]
+
+[node name="Picture8" type="MeshInstance3D" parent="mapa/Decoracion/Salida"]
+transform = Transform3D(-3.34962e-08, -4.01185e-08, 0.769231, 2.93054e-09, 0.769231, 4.01185e-08, -0.769231, 2.93054e-09, -3.34962e-08, -3.83795, 0.0444984, 26.006)
+mesh = ExtResource("20_f7qpw")
+skeleton = NodePath("../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_mb6jt")
 
-[node name="Pillar0" type="MeshInstance3D" parent="mapa/Decoracion"]
+[node name="Pillar0" type="MeshInstance3D" parent="mapa/Decoracion/Salida"]
 transform = Transform3D(3.30769, 0, 0, 0, 1.15385, 0, 0, 0, 3.07692, -1.45899, -0.124776, 29.7234)
 mesh = ExtResource("9_ybuav")
-skeleton = NodePath("../../..")
+skeleton = NodePath("../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_gd3cl")
 
-[node name="Pillar1" type="MeshInstance3D" parent="mapa/Decoracion"]
+[node name="Pillar1" type="MeshInstance3D" parent="mapa/Decoracion/Salida"]
 transform = Transform3D(3.30769, 0, 0, 0, 1.15385, 0, 0, 0, 3.07692, 1.34524, -0.124776, 29.7234)
 mesh = ExtResource("9_ybuav")
-skeleton = NodePath("../../..")
+skeleton = NodePath("../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_fkr8t")
 
-[node name="Sofa" type="StaticBody3D" parent="mapa/Decoracion"]
+[node name="Sofa" type="StaticBody3D" parent="mapa/Decoracion/Salida"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.34333, 0.179893, 22.8133)
 
-[node name="SingleSofa" type="MeshInstance3D" parent="mapa/Decoracion/Sofa"]
-transform = Transform3D(0.589265, 0, -0.494452, 0, 0.769231, 0, 0.494452, 0, 0.589265, 2.92445, 0.199, 23.1623)
+[node name="SingleSofa" type="MeshInstance3D" parent="mapa/Decoracion/Salida/Sofa"]
+transform = Transform3D(0.589265, 0, -0.494452, 0, 0.769231, 0, 0.494452, 0, 0.589265, 0, 0, 0)
 mesh = ExtResource("22_hygsy")
-skeleton = NodePath("../../..")
+skeleton = NodePath("../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_1rtps")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sofa"]
-transform = Transform3D(0.589265, 0, -0.494452, 0, 0.769231, 0, 0.494452, 0, 0.589265, 2.92445, 0.199, 23.1623)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Salida/Sofa"]
+transform = Transform3D(0.589265, 0, -0.494452, 0, 0.769231, 0, 0.494452, 0, 0.589265, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_rswj6")
 
 [node name="elementos de test" type="Node3D" parent="."]
@@ -228,20 +459,6 @@ spot_range = 11.0621
 spot_attenuation = 0.24
 spot_angle = 50.625
 spot_angle_attenuation = 0.895248
-
-[node name="Drawer" type="StaticBody3D" parent="."]
-transform = Transform3D(-2, 0, -3.01992e-07, 0, 2, 0, 3.01992e-07, 0, -2, 10.2, 0.3, -53.4942)
-script = ExtResource("18_1rtps")
-
-[node name="Drawers" type="MeshInstance3D" parent="Drawer"]
-transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
-mesh = ExtResource("16_gd3cl")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_rswj6")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Drawer"]
-transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
-shape = SubResource("ConvexPolygonShape3D_tpa5x")
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(0.984808, -7.5904e-09, 0.173648, -0.173648, -4.30473e-08, 0.984808, 0, -1, -4.37114e-08, 12.0521, 2.26598, -54.5455)
