@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://dt4jk5joy5rlo"]
+
+[node name="thin_Wall" type="CSGBox3D"]
+size = Vector3(1, 2.4, 0.2)

@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://b27ui2ro1wkyx"]
+
+[node name="Regular_Wall" type="CSGBox3D"]
+size = Vector3(1, 2.4, 0.4)
