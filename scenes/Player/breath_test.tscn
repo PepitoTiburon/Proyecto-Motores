@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://bp5guq7l36e20"]
+
+[ext_resource type="Script" uid="uid://c67cmi0qrec34" path="res://scripts/utils/breath_test.gd" id="1_wctmb"]
+[ext_resource type="AudioStream" uid="uid://brig040uu0aru" path="res://Assets/audio/sfx/Accelerating heartbeat.mp3" id="2_0dw7p"]
+[ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="3_dba4t"]
+[ext_resource type="AudioStream" uid="uid://b5r2v682neuyt" path="res://Assets/audio/sfx/breath in.mp3" id="4_x26mq"]
+[ext_resource type="AudioStream" uid="uid://cwcskkmno0o1e" path="res://Assets/audio/sfx/breath out.mp3" id="5_re4md"]
+[ext_resource type="AudioStream" uid="uid://bjskabk6xa3bo" path="res://Assets/audio/sfx/Death.mp3" id="6_0dw7p"]
+
+[node name="BreathTest" type="Node3D" node_paths=PackedStringArray("BrethIn", "Brethout", "Heartbeat", "Death")]
+script = ExtResource("1_wctmb")
+BrethIn = NodePath("BreathIn")
+Brethout = NodePath("BreathOut")
+Heartbeat = NodePath("Heartbeat")
+Death = NodePath("Death")
+
+[node name="Heartbeat" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("2_0dw7p")
+script = ExtResource("3_dba4t")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="BreathIn" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("4_x26mq")
+volume_db = 25.562
+script = ExtResource("3_dba4t")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="BreathOut" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("5_re4md")
+volume_db = 53.018
+unit_size = 32.47
+max_db = 4.243
+script = ExtResource("3_dba4t")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="Death" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("6_0dw7p")
+script = ExtResource("3_dba4t")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"

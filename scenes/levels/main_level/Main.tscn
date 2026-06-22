@@ -1,15 +1,15 @@
-[gd_scene load_steps=49 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=60 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
-[ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/models/flashlight/flashlight.fbx" id="2_xobht"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
+[ext_resource type="PackedScene" uid="uid://brr6oflxgv3pv" path="res://scenes/objects/Flashlight/flashlight.tscn" id="4_ffpnx"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://scripts/core/ray_cast_3d.gd" id="4_ixyld"]
-[ext_resource type="Script" uid="uid://wmxu2hotr2bk" path="res://scripts/core/mesh_instance_3d.gd" id="5_j1a8x"]
+[ext_resource type="PackedScene" uid="uid://bp5guq7l36e20" path="res://scenes/Player/breath_test.tscn" id="5_v0jj0"]
 [ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="6_ek8fi"]
 [ext_resource type="PackedScene" uid="uid://cnrducomi21xp" path="res://Assets/models/mansion/Meshes/CSG/Mansion_CSG.tscn" id="6_svj5t"]
-[ext_resource type="AudioStream" uid="uid://dcm2xypw5i1b" path="res://Assets/audio/sfx/BIG monster groul.mp3" id="7_ngi3l"]
 [ext_resource type="ArrayMesh" uid="uid://djpo0666v8hkk" path="res://Assets/models/mansion/Meshes/OBJ/Items/book0.obj" id="7_qakcj"]
 [ext_resource type="Texture2D" uid="uid://btbsvj8tuvuid" path="res://Assets/models/mansion/Textures/book0_texture.png" id="8_v0jj0"]
+[ext_resource type="Script" uid="uid://b27l7whr65s2b" path="res://scenes/levels/main_level/LlaveBibleoteca.gd" id="8_xobht"]
 [ext_resource type="Script" uid="uid://b42j7ggb7g2em" path="res://scripts/utils/dot.gd" id="9_wjrwe"]
 [ext_resource type="ArrayMesh" uid="uid://djv5uf6nl13ds" path="res://Assets/models/mansion/Meshes/OBJ/Structure/pillar0.obj" id="9_ybuav"]
 [ext_resource type="Texture2D" uid="uid://dnpky57a2yljv" path="res://Assets/models/mansion/Textures/pillar0_texture.png" id="10_vxhfj"]
@@ -22,9 +22,15 @@
 [ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://Assets/models/mansion/Meshes/textures/wood (15).jpg" id="17_tpa5x"]
 [ext_resource type="Script" uid="uid://bmftiyy2nwc6y" path="res://scenes/objects/door/class_puerta.gd" id="18_1rtps"]
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
+[ext_resource type="AudioStream" uid="uid://c0mbh50hp63vk" path="res://Assets/audio/sfx/door creek.mp3" id="20_w1rq5"]
+[ext_resource type="AudioStream" uid="uid://dqecwf72v8kij" path="res://Assets/audio/sfx/Door is locked.mp3" id="21_jyj5a"]
 [ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://Assets/models/mansion/Textures/picture8_texture.png" id="21_xumxu"]
 [ext_resource type="ArrayMesh" uid="uid://bh5ss0em2t0ga" path="res://Assets/models/mansion/Meshes/OBJ/Furniture/single_sofa.obj" id="22_hygsy"]
 [ext_resource type="Texture2D" uid="uid://qpbg7c4w41r5" path="res://Assets/models/mansion/Textures/sofa_texture.png" id="23_m6yfk"]
+[ext_resource type="AudioStream" uid="uid://dgix17mbbobyc" path="res://Assets/audio/sfx/Outside Ambient.mp3" id="24_qakcj"]
+[ext_resource type="PackedScene" uid="uid://b5fa5m0vnwc5l" path="res://scenes/objects/interactuable/fusible.tscn" id="26_uka0a"]
+[ext_resource type="Script" uid="uid://bsvb2we40dsdb" path="res://scenes/levels/main_level/objeto_interactuable.gd" id="29_xsc8h"]
+[ext_resource type="Script" uid="uid://ct6ueybwm53wg" path="res://scenes/levels/main_level/LlaveDeSalida.gd" id="31_iv302"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -49,6 +55,9 @@ albedo_color = Color(0.356333, 0.467906, 0.332077, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uka0a"]
 albedo_texture = ExtResource("8_v0jj0")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_iv302"]
+points = PackedVector3Array(0.194211, 0.0838547, 0.147485, -0.190427, -0.0002, -0.147005, -0.190427, -0.0002, 0.138621, -0.186784, 0.0882, -0.144216, 0.190425, -0.0002, -0.147005, -0.194213, 0.0838547, 0.147485, 0.186782, 0.0882, -0.144216, 0.19508, 0.00480473, 0.14815, 0.186782, 0.0882, 0.135945, 0.190425, -0.0002, 0.138621, -0.186784, 0.0882, 0.135945, -0.195082, 0.00480473, 0.14815)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qakcj"]
 albedo_texture = ExtResource("14_tpa5x")
@@ -95,15 +104,21 @@ albedo_texture = ExtResource("23_m6yfk")
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_rswj6"]
 data = PackedVector3Array(-0.4492, 0.8115, 0.2514, -0.4492, 0.8115, -0.3617, -0.3094, 0.7308, 0.2514, -0.3094, 0.7308, 0.2514, -0.4492, 0.8115, -0.3617, -0.3094, 0.7308, -0.3617, -0.3094, 0.7308, 0.2514, -0.3094, 0.7308, -0.3617, -0.3094, 0.5694, 0.2514, -0.3094, 0.5694, 0.2514, -0.3094, 0.7308, -0.3617, -0.3094, 0.5694, -0.3617, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, -0.3617, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.4713, 0.4161, -0.3617, -0.5889, 0.5694, -0.3617, -0.4492, 0.8115, 0.2514, -0.3094, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.3094, 0.7308, 0.2514, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.3094, 0.7308, 0.2514, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, 0.2514, -0.3094, 0.7308, 0.2514, -0.3094, 0.5694, 0.2514, -0.5889, 0.5694, 0.2514, -0.5889, 0.5694, -0.3617, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, 0.2514, -0.5889, 0.5694, -0.3617, -0.5889, 0.7308, -0.3617, -0.5889, 0.7308, 0.2514, -0.5889, 0.7308, -0.3617, -0.4492, 0.8115, 0.2514, -0.4492, 0.8115, 0.2514, -0.5889, 0.7308, -0.3617, -0.4492, 0.8115, -0.3617, 0.4713, 0.4161, -0.3605, 0.5889, 0.5694, -0.3605, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, 0.5889, 0.5694, -0.3605, 0.5889, 0.7308, -0.3605, -0.3094, 0.5694, 0.2514, -0.3094, 0.5694, -0.3617, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, 0.2514, -0.3094, 0.5694, -0.3617, -0.2259, 0.4162, -0.3617, -0.4713, 0.4161, -0.3617, -0.4713, 0.4161, 0.2514, -0.3843, 0.1057, -0.3617, -0.3843, 0.1057, -0.3617, -0.4713, 0.4161, 0.2514, -0.3843, 0.1057, 0.2514, -0.3843, 0.1057, -0.3617, -0.3843, 0.1057, 0.2514, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, -0.3843, 0.1057, 0.2514, -0.3984, 0.0012, 0.2494, 0.3843, 0.1057, -0.3605, 0.3984, 0.0012, -0.5121, 0.3843, 0.1057, 0.2526, 0.3843, 0.1057, 0.2526, 0.3984, 0.0012, -0.5121, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, 0.2494, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, 0.2494, 0.2259, 0.4162, 0.2526, -0.2259, 0.4162, 0.2514, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, -0.3617, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, -0.3605, 0.3094, 0.7308, -0.3605, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, 0.2526, 0.3094, 0.7308, -0.3605, 0.3094, 0.7308, 0.2526, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, -0.3605, 0.3094, 0.7308, 0.2526, 0.3094, 0.5694, 0.2526, 0.4713, 0.4161, -0.3605, 0.4713, 0.4161, 0.2526, 0.5889, 0.5694, -0.3605, 0.5889, 0.5694, -0.3605, 0.4713, 0.4161, 0.2526, 0.5889, 0.5694, 0.2526, -0.5889, 0.5694, -0.3617, -0.4713, 0.4161, -0.3617, -0.5889, 0.7308, -0.3617, -0.5889, 0.7308, -0.3617, -0.4713, 0.4161, -0.3617, -0.4492, 0.8115, -0.3617, 0.5889, 0.5694, -0.3605, 0.5889, 0.5694, 0.2526, 0.5889, 0.7308, -0.3605, 0.5889, 0.7308, -0.3605, 0.5889, 0.5694, 0.2526, 0.5889, 0.7308, 0.2526, 0.5889, 0.7308, -0.3605, 0.5889, 0.7308, 0.2526, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, 0.5889, 0.7308, 0.2526, 0.4492, 0.8115, 0.2526, 0.3094, 0.7308, 0.2526, 0.4492, 0.8115, 0.2526, 0.3094, 0.5694, 0.2526, 0.3094, 0.5694, 0.2526, 0.4492, 0.8115, 0.2526, 0.4713, 0.4161, 0.2526, 0.4713, 0.4161, 0.2526, 0.4492, 0.8115, 0.2526, 0.5889, 0.5694, 0.2526, 0.5889, 0.5694, 0.2526, 0.4492, 0.8115, 0.2526, 0.5889, 0.7308, 0.2526, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, 0.2526, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, 0.3094, 0.5694, 0.2526, 0.2259, 0.4162, 0.2526, 0.4713, 0.4161, 0.2526, 0.4713, 0.4161, -0.3605, 0.3843, 0.1057, 0.2526, 0.3843, 0.1057, 0.2526, 0.4713, 0.4161, -0.3605, 0.3843, 0.1057, -0.3605, -0.4713, 0.4161, 0.2514, -0.3094, 0.5694, 0.2514, -0.2259, 0.4162, 0.2514, 0.2259, 0.4162, 0.2526, 0.3094, 0.5694, 0.2526, 0.4713, 0.4161, 0.2526, -0.3984, 0.0012, 0.2494, -0.3843, 0.1057, 0.2514, 0.3984, 0.0012, 0.2494, 0.3984, 0.0012, 0.2494, -0.3843, 0.1057, 0.2514, 0.3843, 0.1057, 0.2526, 0.4713, 0.4161, 0.2526, 0.3843, 0.1057, 0.2526, 0.2259, 0.4162, 0.2526, 0.2259, 0.4162, 0.2526, 0.3843, 0.1057, 0.2526, -0.2259, 0.4162, 0.2514, -0.2259, 0.4162, 0.2514, 0.3843, 0.1057, 0.2526, -0.4713, 0.4161, 0.2514, -0.4713, 0.4161, 0.2514, 0.3843, 0.1057, 0.2526, -0.3843, 0.1057, 0.2514, -0.4723, 1.2266, -0.6154, 0.4723, 1.2266, -0.6154, -0.4723, 1.2267, -0.434, -0.4723, 1.2267, -0.434, 0.4723, 1.2266, -0.6154, 0.4723, 1.2267, -0.434, -0.4492, 0.8115, -0.3617, -0.4723, 1.2267, -0.434, 0.4492, 0.8115, -0.3605, 0.4492, 0.8115, -0.3605, -0.4723, 1.2267, -0.434, 0.4723, 1.2267, -0.434, 0.4243, 0.4299, -0.5482, 0.3984, 0.0012, -0.5121, 0.4713, 0.4161, -0.3605, -0.4713, 0.4161, -0.3617, -0.3843, 0.1057, -0.3617, -0.3984, 0.0012, -0.5121, -0.3984, 0.0012, -0.5121, 0.3984, 0.0012, -0.5121, -0.4243, 0.4298, -0.5482, -0.4243, 0.4298, -0.5482, 0.3984, 0.0012, -0.5121, 0.4243, 0.4299, -0.5482, -0.4243, 0.4298, -0.5482, 0.4243, 0.4299, -0.5482, -0.4483, 0.8281, -0.5818, -0.4483, 0.8281, -0.5818, 0.4243, 0.4299, -0.5482, 0.4498, 0.8529, -0.5839, -0.4483, 0.8281, -0.5818, 0.4498, 0.8529, -0.5839, -0.4723, 1.2266, -0.6154, -0.4723, 1.2266, -0.6154, 0.4498, 0.8529, -0.5839, 0.4723, 1.2266, -0.6154, -0.4713, 0.4161, -0.3617, -0.4243, 0.4298, -0.5482, -0.4492, 0.8115, -0.3617, -0.4492, 0.8115, -0.3617, -0.4243, 0.4298, -0.5482, -0.4483, 0.8281, -0.5818, 0.4243, 0.4299, -0.5482, 0.4713, 0.4161, -0.3605, 0.4498, 0.8529, -0.5839, 0.4498, 0.8529, -0.5839, 0.4713, 0.4161, -0.3605, 0.4492, 0.8115, -0.3605, 0.3843, 0.1057, -0.3605, 0.4713, 0.4161, -0.3605, 0.3984, 0.0012, -0.5121, -0.4713, 0.4161, -0.3617, -0.3984, 0.0012, -0.5121, -0.4243, 0.4298, -0.5482, -0.4492, 0.8115, -0.3617, 0.4492, 0.8115, -0.3605, -0.3094, 0.7308, -0.3617, -0.3094, 0.7308, -0.3617, 0.4492, 0.8115, -0.3605, -0.3094, 0.5694, -0.3617, -0.3094, 0.5694, -0.3617, 0.4492, 0.8115, -0.3605, -0.2259, 0.4162, -0.3617, -0.2259, 0.4162, -0.3617, 0.4492, 0.8115, -0.3605, 0.2259, 0.4162, -0.3605, 0.2259, 0.4162, -0.3605, 0.4492, 0.8115, -0.3605, 0.3094, 0.5694, -0.3605, 0.3094, 0.5694, -0.3605, 0.4492, 0.8115, -0.3605, 0.3094, 0.7308, -0.3605, -0.4492, 0.8115, -0.3617, -0.4483, 0.8281, -0.5818, -0.4723, 1.2267, -0.434, -0.4723, 1.2267, -0.434, -0.4483, 0.8281, -0.5818, -0.4723, 1.2266, -0.6154, 0.4498, 0.8529, -0.5839, 0.4492, 0.8115, -0.3605, 0.4723, 1.2266, -0.6154, 0.4723, 1.2266, -0.6154, 0.4492, 0.8115, -0.3605, 0.4723, 1.2267, -0.434)
 
-[sub_resource type="SphereMesh" id="SphereMesh_i5arm"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_xsc8h"]
+size = Vector3(1.51471, 2.69812, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ixyld"]
+data = PackedVector3Array(-0.994141, -1.2984, 0.265137, -0.994141, -1.2984, -0.265137, -0.994141, 1.2984, -0.265137, 0.994141, -1.2984, -0.265137, -0.994141, -1.2984, -0.265137, -0.994141, -1.2984, 0.265137, -0.994141, 1.2984, -0.265137, -0.994141, -1.2984, -0.265137, 0.994141, -1.2984, -0.265137, -0.994141, 1.2984, -0.265137, -0.994141, 1.2984, 0.265137, -0.994141, -1.2984, 0.265137, -0.994141, -1.2984, 0.265137, -0.994141, 1.2984, 0.265137, 0.994141, 1.2984, 0.265137, 0.994141, 1.2984, 0.265137, -0.994141, 1.2984, 0.265137, -0.994141, 1.2984, -0.265137, -0.994141, -1.2984, 0.265137, 0.994141, -1.2984, 0.265137, 0.994141, -1.2984, -0.265137, 0.994141, 1.2984, 0.265137, 0.994141, -1.2984, 0.265137, -0.994141, -1.2984, 0.265137, 0.994141, -1.2984, -0.265137, 0.994141, -1.2984, 0.265137, 0.994141, 1.2984, 0.265137, 0.994141, -1.2984, -0.265137, 0.994141, 1.2984, -0.265137, -0.994141, 1.2984, -0.265137, -0.994141, 1.2984, -0.265137, 0.994141, 1.2984, -0.265137, 0.994141, 1.2984, 0.265137, 0.994141, 1.2984, 0.265137, 0.994141, 1.2984, -0.265137, 0.994141, -1.2984, -0.265137)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_j1a8x"]
+data = PackedVector3Array(-1.04199, -1.29938, 0.263672, -1.04199, -1.29938, -0.263672, -1.04199, 1.29938, -0.263672, 1.04199, -1.29938, -0.263672, -1.04199, -1.29938, -0.263672, -1.04199, -1.29938, 0.263672, -1.04199, 1.29938, -0.263672, -1.04199, -1.29938, -0.263672, 1.04199, -1.29938, -0.263672, -1.04199, 1.29938, -0.263672, -1.04199, 1.29938, 0.263672, -1.04199, -1.29938, 0.263672, -1.04199, -1.29938, 0.263672, -1.04199, 1.29938, 0.263672, 1.04199, 1.29938, 0.263672, 1.04199, 1.29938, 0.263672, -1.04199, 1.29938, 0.263672, -1.04199, 1.29938, -0.263672, -1.04199, -1.29938, 0.263672, 1.04199, -1.29938, 0.263672, 1.04199, -1.29938, -0.263672, 1.04199, 1.29938, 0.263672, 1.04199, -1.29938, 0.263672, -1.04199, -1.29938, 0.263672, 1.04199, -1.29938, -0.263672, 1.04199, -1.29938, 0.263672, 1.04199, 1.29938, 0.263672, 1.04199, -1.29938, -0.263672, 1.04199, 1.29938, -0.263672, -1.04199, 1.29938, -0.263672, -1.04199, 1.29938, -0.263672, 1.04199, 1.29938, -0.263672, 1.04199, 1.29938, 0.263672, 1.04199, 1.29938, 0.263672, 1.04199, 1.29938, -0.263672, 1.04199, -1.29938, -0.263672)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ek8fi"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ngi3l"]
+points = PackedVector3Array(0.457871, 0.198079, 0.0157824, -0.48874, -0.0916874, -0.0451868, -0.471509, -0.137027, -0.0907015, 0.0763591, -0.333275, 0.364179, 0.136569, -0.332425, -0.346906, -0.151617, 0.471982, -0.0602459, -0.105347, 0.211936, 0.43966, -0.0450169, 0.198098, -0.456416, 0.409077, -0.151168, 0.242516, -0.271376, -0.377761, 0.181871, 0.41148, -0.075981, -0.27324, 0.198197, -0.456161, -0.044931, -0.240641, -0.331674, -0.285768, 0.227137, 0.25672, 0.363041, 0.227522, 0.423604, -0.135488, -0.37899, 0.0607022, 0.319462, -0.406747, 0.181049, -0.225691, -0.0146313, -0.0917695, 0.490229, -0.377855, 0.302793, 0.121712, 0.0462323, 0.456011, 0.198185, -0.227464, -0.0607863, -0.440348, 0.228455, 0.0607228, -0.439887, -0.0911376, -0.489246, -0.045174, 0.441865, -0.228216, -0.0449581, 0.317179, 0.241214, -0.300812, -0.0448487, 0.394737, -0.302955, -0.316348, -0.196222, 0.332551, 0.198442, -0.0304293, 0.457237, 0.0614714, -0.152246, -0.471307, 0.363089, 0.256708, 0.227079, 0.152134, -0.439489, 0.182379, -0.210725, 0.362276, 0.27223)
 
 [node name="Node3D" type="Node3D"]
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.259119, -0.954854, -0.145293, 0.249443, -0.0791683, 0.965148, 0.933079, 0.28633, -0.217668, -15.1153, 7.7026, -20.3664)
-visible = false
-light_color = Color(0.779291, 0.779291, 0.779291, 1)
-shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_jsk3o")
@@ -122,34 +137,21 @@ deceleration = 9
 [node name="Sprint Ability 3D" parent="Player" index="3"]
 speed_multiplier = 1.5
 
-[node name="flashlight" parent="Player/Head" index="0" instance=ExtResource("2_xobht")]
-transform = Transform3D(0.00890364, 0, -0.079503, 0, 0.08, 0, 0.079503, 0, 0.00890364, 0.497974, -0.366915, -0.358368)
-
-[node name="Camera3D" type="Camera3D" parent="Player/Head" index="4"]
+[node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
 
 [node name="RaytracedAudioListener" type="AudioListener3D" parent="Player/Head/Camera3D"]
 script = ExtResource("3_iv302")
 metadata/_custom_type_script = "uid://bjpmu5sklv5h8"
 
-[node name="SpotLight3D" type="SpotLight3D" parent="Player/Head/Camera3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.610867, -0.36557, -0.179581)
-spot_range = 17.7528
-spot_attenuation = -0.59
-spot_angle = 24.2819
-spot_angle_attenuation = 4.72512
-
-[node name="SpotLight3D2" type="SpotLight3D" parent="Player/Head/Camera3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.610867, -0.36557, -0.179581)
-light_energy = 0.187
-light_indirect_energy = 16.0
-spot_range = 12.6128
-spot_attenuation = -1.49
-spot_angle = 50.1367
-spot_angle_attenuation = 93.0773
-
 [node name="RayCast3D" type="RayCast3D" parent="Player/Head/Camera3D"]
 target_position = Vector3(0, 0, -3)
 script = ExtResource("4_ixyld")
+
+[node name="flashlight" parent="Player/Head" index="4" instance=ExtResource("4_ffpnx")]
+transform = Transform3D(0.185615, -9.89368e-09, -0.982623, -0.0856412, 0.996195, -0.0161774, 0.978883, 0.0871558, 0.184909, 0.438103, -0.544039, -0.612059)
+
+[node name="BreathTest" parent="Player/Head" index="5" instance=ExtResource("5_v0jj0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.695223, -0.837465)
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -198,11 +200,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -46.7097)
 [node name="Bibleoteca" type="Node3D" parent="mapa/Decoracion"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0223, 0, 13.9709)
 
-[node name="Book0" type="MeshInstance3D" parent="mapa/Decoracion/Bibleoteca"]
-transform = Transform3D(0.441213, 0, -0.630117, 0, 0.769231, 0, 0.630117, 0, 0.441213, 5.81935, 0.199155, 2.87345)
+[node name="ObjetoInteractuable" type="StaticBody3D" parent="mapa/Decoracion/Bibleoteca"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.90781, 0.214644, 3.11026)
+script = ExtResource("8_xobht")
+metadata/_custom_type_script = "uid://csnm3bcvtwp8j"
+
+[node name="Book0" type="MeshInstance3D" parent="mapa/Decoracion/Bibleoteca/ObjetoInteractuable"]
+transform = Transform3D(0.441213, 0, -0.630117, 0, 0.769231, 0, 0.630117, 0, 0.441213, 0, 0, 0)
 mesh = ExtResource("7_qakcj")
-skeleton = NodePath("../..")
+skeleton = NodePath("../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_uka0a")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Bibleoteca/ObjetoInteractuable"]
+transform = Transform3D(0.441213, 0, -0.630117, 0, 0.769231, 0, 0.630117, 0, 0.441213, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_iv302")
 
 [node name="Enfermeria" type="Node3D" parent="mapa/Decoracion"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.4314, 0, 18.4794)
@@ -339,10 +350,13 @@ transform = Transform3D(0.1, 0, 0, 0, 0.5, 0, 0, 0, 0.1, -0.461535, -0.230769, 0
 mesh = SubResource("BoxMesh_uka0a")
 surface_material_override/0 = SubResource("StandardMaterial3D_jyj5a")
 
-[node name="Cuadro" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria" node_paths=PackedStringArray("CloseSound")]
+[node name="Cuadro" type="StaticBody3D" parent="mapa/Decoracion/Enfermeria" node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -4.06054, 0, -4.2884)
 script = ExtResource("18_1rtps")
-CloseSound = NodePath("RaytracedAudioPlayer3D")
+bloqueada = true
+lockedSound = NodePath("RaytracedAudioPlayer3D")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
 
 [node name="Picture9" type="MeshInstance3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
 transform = Transform3D(-0.769231, 0, -6.72483e-08, 0, 0.769231, 0, 6.72483e-08, 0, -0.769231, 0.64603, 0, 0)
@@ -359,18 +373,32 @@ transform = Transform3D(1.3, 0, 4.44089e-16, 0, 1.4, 0, 0, 0, 0.05, 0.629463, 1.
 mesh = SubResource("BoxMesh_ffpnx")
 surface_material_override/0 = SubResource("StandardMaterial3D_v0jj0")
 
-[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
 stream = ExtResource("16_v0jj0")
 panning_strength = 3.0
 script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, 0.710828, 1.49198, 0)
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Enfermeria/Cuadro"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
 [node name="Sotano" type="Node3D" parent="mapa/Decoracion"]
 
-[node name="Drawer" type="StaticBody3D" parent="mapa/Decoracion/Sotano" node_paths=PackedStringArray("CloseSound")]
+[node name="Drawer" type="StaticBody3D" parent="mapa/Decoracion/Sotano" node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
 transform = Transform3D(-1.53846, 0, -2.32302e-07, 0, 1.53846, 0, 2.32302e-07, 0, -1.53846, 7.84615, 0.230769, -14.2483)
 script = ExtResource("18_1rtps")
-CloseSound = NodePath("RaytracedAudioPlayer3D")
+bloqueada = true
+lockedSound = NodePath("DoorLocked")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
 
 [node name="Drawers" type="MeshInstance3D" parent="mapa/Decoracion/Sotano/Drawer"]
 transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
@@ -382,11 +410,21 @@ surface_material_override/0 = SubResource("StandardMaterial3D_rswj6")
 transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0, 0, 0.518517)
 shape = SubResource("ConvexPolygonShape3D_tpa5x")
 
-[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Sotano/Drawer"]
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Sotano/Drawer"]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -9.53674e-07, 0.449319, 0.562889)
 stream = ExtResource("16_v0jj0")
 volume_db = 12.361
 panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="DoorLocked" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Sotano/Drawer"]
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="mapa/Decoracion/Sotano/Drawer"]
+stream = ExtResource("20_w1rq5")
 script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
@@ -423,46 +461,113 @@ surface_material_override/0 = SubResource("StandardMaterial3D_1rtps")
 transform = Transform3D(0.589265, 0, -0.494452, 0, 0.769231, 0, 0.494452, 0, 0.589265, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_rswj6")
 
-[node name="elementos de test" type="Node3D" parent="."]
-
-[node name="ObjetoTester" type="MeshInstance3D" parent="elementos de test"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1632, 18.7069)
-mesh = SubResource("SphereMesh_i5arm")
-skeleton = NodePath("../..")
-script = ExtResource("5_j1a8x")
-
-[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="elementos de test/ObjetoTester"]
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="mapa"]
+transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, 0, 4.8702, -40.9129)
+stream = ExtResource("24_qakcj")
+volume_db = 68.166
 autoplay = true
+panning_strength = 0.0
 bus = &"RaytracedAmbient"
 script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
-
-[node name="ObjetoTester2" type="MeshInstance3D" parent="elementos de test"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1632, -76.6942)
-mesh = SubResource("SphereMesh_i5arm")
-skeleton = NodePath("../..")
-script = ExtResource("5_j1a8x")
-
-[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="elementos de test/ObjetoTester2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.1946)
-stream = ExtResource("7_ngi3l")
-volume_db = 5.995
-unit_size = 16.66
-autoplay = true
-bus = &"RaytracedAmbient"
-script = ExtResource("6_ek8fi")
-metadata/_custom_type_script = "uid://dkb8ltjc6067n"
-
-[node name="SpotLight3D" type="SpotLight3D" parent="elementos de test/ObjetoTester2"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 4.87414, 0)
-light_color = Color(1, 0, 0, 1)
-spot_range = 11.0621
-spot_attenuation = 0.24
-spot_angle = 50.625
-spot_angle_attenuation = 0.895248
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(0.984808, -7.5904e-09, 0.173648, -0.173648, -4.30473e-08, 0.984808, 0, -1, -4.37114e-08, 12.0521, 2.26598, -54.5455)
 light_color = Color(0.694118, 0.654902, 0, 1)
+spot_range = 4.76462
+spot_angle = 50.7878
+
+[node name="Fusible" parent="." instance=ExtResource("26_uka0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.237, 0, -14.8166)
+
+[node name="ObjetoInteractuable" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.792454, 9.92202)
+script = ExtResource("29_xsc8h")
+metadata/_custom_type_script = "uid://csnm3bcvtwp8j"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ObjetoInteractuable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0201111, 0.84906, 0)
+shape = SubResource("BoxShape3D_xsc8h")
+
+[node name="Puerta" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.987514, 0, -49.323)
+script = ExtResource("18_1rtps")
+bloqueada = true
+lockedSound = NodePath("DoorLocked")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
+metadata/_custom_type_script = "uid://bmftiyy2nwc6y"
+
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="Puerta"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -9.53674e-07, 0.449319, 0.562889)
+stream = ExtResource("16_v0jj0")
+volume_db = 12.361
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="DoorLocked" type="AudioStreamPlayer3D" parent="Puerta"]
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="Puerta"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Puerta"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.854353, 1.55557, 0)
+size = Vector3(1.98828, 2.5968, 0.530273)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="Puerta"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.854353, 1.55557, 0)
+shape = SubResource("ConcavePolygonShape3D_ixyld")
+
+[node name="PuertaDeSalida" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.41467, 0, -6.63801)
+script = ExtResource("18_1rtps")
+bloqueada = true
+lockedSound = NodePath("DoorLocked")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
+metadata/_custom_type_script = "uid://bmftiyy2nwc6y"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="PuertaDeSalida"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.23035, 1.56045, 0.236328)
+size = Vector3(2.08398, 2.59875, 0.527344)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="PuertaDeSalida"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.23035, 1.56045, 0.236328)
+shape = SubResource("ConcavePolygonShape3D_j1a8x")
+
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="PuertaDeSalida"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -9.53674e-07, 0.449319, 0.562889)
+stream = ExtResource("16_v0jj0")
+volume_db = 12.361
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="DoorLocked" type="AudioStreamPlayer3D" parent="PuertaDeSalida"]
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="PuertaDeSalida"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="ObjetoInteractuable2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.709062, -59.171)
+script = ExtResource("31_iv302")
+metadata/_custom_type_script = "uid://csnm3bcvtwp8j"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ObjetoInteractuable2"]
+mesh = SubResource("SphereMesh_ek8fi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ObjetoInteractuable2"]
+shape = SubResource("ConvexPolygonShape3D_ngi3l")
 
 [editable path="Player"]

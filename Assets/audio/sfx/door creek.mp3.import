@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0mbh50hp63vk"
+path="res://.godot/imported/door creek.mp3-4ad5d07e7ec919a236f16bb1215e076b.mp3str"
+
+[deps]
+
+source_file="res://Assets/audio/sfx/door creek.mp3"
+dest_files=["res://.godot/imported/door creek.mp3-4ad5d07e7ec919a236f16bb1215e076b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

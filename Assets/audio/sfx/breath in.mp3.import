@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5r2v682neuyt"
+path="res://.godot/imported/breath in.mp3-8687e5ee65d1f1caee4d8e20bbfe259c.mp3str"
+
+[deps]
+
+source_file="res://Assets/audio/sfx/breath in.mp3"
+dest_files=["res://.godot/imported/breath in.mp3-8687e5ee65d1f1caee4d8e20bbfe259c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgix17mbbobyc"
+path="res://.godot/imported/Outside Ambient.mp3-e489cc93e37689d4adcf83a9989937c6.mp3str"
+
+[deps]
+
+source_file="res://Assets/audio/sfx/Outside Ambient.mp3"
+dest_files=["res://.godot/imported/Outside Ambient.mp3-e489cc93e37689d4adcf83a9989937c6.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

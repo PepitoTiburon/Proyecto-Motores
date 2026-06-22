@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://brr6oflxgv3pv"]
+
+[ext_resource type="PackedScene" uid="uid://csname0jxuwxh" path="res://Assets/models/flashlight/flashlight.fbx" id="1_faoji"]
+[ext_resource type="Script" uid="uid://cw5nc8a2fpw71" path="res://scripts/utils/flashlight_on_off.gd" id="2_0ywdg"]
+[ext_resource type="AudioStream" uid="uid://cnjy7xbly4yog" path="res://Assets/audio/sfx/Flashlight click.mp3" id="3_3xuq8"]
+[ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="4_wgpsq"]
+
+[node name="flashlight" node_paths=PackedStringArray("sound") instance=ExtResource("1_faoji")]
+script = ExtResource("2_0ywdg")
+sound = NodePath("RaytracedAudioPlayer3D")
+
+[node name="flashlight" parent="." index="0"]
+transform = Transform3D(7.54979e-07, 4.37114e-07, 10, 1.77636e-14, 10, -4.37114e-07, -10, 5.07648e-14, 7.54979e-07, 0, 0, 0)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." index="1"]
+transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, -0.0617567, 0.0168114, 0.0109901)
+visible = false
+spot_range = 17.7528
+spot_attenuation = -0.59
+spot_angle = 24.2819
+spot_angle_attenuation = 4.72512
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="." index="2"]
+transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, -0.0617567, 0.0168114, 0.0109901)
+visible = false
+light_energy = 0.187
+light_indirect_energy = 16.0
+spot_range = 12.6128
+spot_attenuation = -1.49
+spot_angle = 50.1367
+spot_angle_attenuation = 93.0773
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="." index="3"]
+stream = ExtResource("3_3xuq8")
+script = ExtResource("4_wgpsq")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
