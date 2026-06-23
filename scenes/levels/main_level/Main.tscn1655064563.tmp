@@ -153,17 +153,10 @@ script = ExtResource("4_j1a8x")
 
 [node name="Label" type="Label" parent="Player/Head/Camera3D/CanvasLayer"]
 offset_left = 420.0
-offset_top = 394.0
+offset_top = 350.0
 offset_right = 714.0
-offset_bottom = 417.0
-text = "presiona \"F\" para alternar la linterna"
-
-[node name="Label2" type="Label" parent="Player/Head/Camera3D/CanvasLayer"]
-offset_left = 369.0
-offset_top = 368.0
-offset_right = 773.0
-offset_bottom = 391.0
-text = "Manten \"click Derecho\" para aguantar la respiracion"
+offset_bottom = 373.0
+text = "presiona \"F\" para encender la linterna"
 
 [node name="flashlight" parent="Player/Head" index="4" instance=ExtResource("4_ffpnx")]
 transform = Transform3D(0.185615, -9.89368e-09, -0.982623, -0.0856412, 0.996195, -0.0161774, 0.978883, 0.0871558, 0.184909, 0.438103, -0.544039, -0.612059)
