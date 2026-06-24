@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cilnyq8wpe7o6"
+path="res://.godot/imported/Ghost is Atacking.mp3-acf92ae02bdb1dd5e32488141eef4465.mp3str"
+
+[deps]
+
+source_file="res://Assets/audio/sfx/Ghost is Atacking.mp3"
+dest_files=["res://.godot/imported/Ghost is Atacking.mp3-acf92ae02bdb1dd5e32488141eef4465.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

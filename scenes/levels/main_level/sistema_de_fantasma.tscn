@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://daq0jq3q1wloc"]
+
+[ext_resource type="Script" uid="uid://t1xfsmvwdsji" path="res://SistemaDeFantasma.gd" id="1_207nu"]
+
+[node name="Sistema De Fantasma" type="Node3D" node_paths=PackedStringArray("timer")]
+script = ExtResource("1_207nu")
+timer = NodePath("")
