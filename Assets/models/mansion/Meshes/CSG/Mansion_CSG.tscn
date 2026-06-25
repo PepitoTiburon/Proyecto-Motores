@@ -446,57 +446,57 @@ size = Vector3(4.3, 0.4, 4)
 material = SubResource("StandardMaterial3D_xrjsp")
 
 [node name="Techo_Bibleoteca" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4, 2.63, 0.95)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4, 2.6, 0.95)
 size = Vector3(14.2, 0.4, 10.7)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_HUB" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 2.63, -11.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 2.6, -11.4)
 size = Vector3(15, 0.4, 13.6)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Sotano" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7, 2.63, -27.6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7, 2.6, -27.6)
 size = Vector3(16, 0.4, 10)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_HUB_a_Sotano" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 2.63, -20.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.15, 2.6, -20.4)
 size = Vector3(3.1, 0.4, 4.4)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Pasadizo_secreto" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 2.63, -27)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 2.6, -27)
 size = Vector3(6.4, 0.4, 1.2)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Pasadizo_secreto2" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.75, 2.63, -12.2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.75, 2.6, -12.2)
 size = Vector3(1.9, 0.4, 28.4)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Pasillo" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1.11, 0, 0, 0, 1.11, 0, 0, 0, 1.11, 1.45, 2.63, 2.7)
+transform = Transform3D(1.11, 0, 0, 0, 1.11, 0, 0, 0, 1.11, 1.45, 2.6, 2.7)
 size = Vector3(11.5, 0.4, 14.6)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Salida" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 2.63, 16.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 2.6, 16.5)
 size = Vector3(8.6, 0.4, 13)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_Enfermeria" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.8, 2.63, 6.35)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.8, 2.6, 6.35)
 size = Vector3(19.2, 0.4, 8.7)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_HUB2" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.95, 2.63, -11.05)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.95, 2.6, -11.05)
 size = Vector3(3.9, 0.4, 5.3)
 material = SubResource("StandardMaterial3D_5lf7l")
 
 [node name="Techo_HUB3" parent="CSGCombiner3D" instance=ExtResource("1_h5250")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.05, 2.63, -6.4)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.05, 2.6, -6.4)
 size = Vector3(3.7, 0.4, 4)
 material = SubResource("StandardMaterial3D_5lf7l")
 

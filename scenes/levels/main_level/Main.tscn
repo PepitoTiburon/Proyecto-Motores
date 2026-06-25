@@ -1,6 +1,7 @@
-[gd_scene load_steps=75 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=78 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
+[ext_resource type="Shader" uid="uid://de3oyi5wmlkem" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
 [ext_resource type="PackedScene" uid="uid://brr6oflxgv3pv" path="res://scenes/objects/Flashlight/flashlight.tscn" id="4_ffpnx"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://scripts/core/ray_cast_3d.gd" id="4_ixyld"]
@@ -51,6 +52,18 @@ background_energy_multiplier = 2.0
 sky = SubResource("Sky_wc5p8")
 tonemap_mode = 2
 glow_enabled = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k1ftq"]
+render_priority = 0
+shader = ExtResource("2_w12qk")
+shader_parameter/pixel_size = 2.0
+shader_parameter/levels = 13.0
+shader_parameter/gamma = Vector2(0.125, 11.815)
+
+[sub_resource type="QuadMesh" id="QuadMesh_vcaau"]
+material = SubResource("ShaderMaterial_k1ftq")
+flip_faces = true
+size = Vector2(2, 2)
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_r3fl7"]
 
@@ -171,6 +184,10 @@ deceleration = 9
 speed_multiplier = 1.5
 
 [node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player/Head/Camera3D"]
+extra_cull_margin = 16384.0
+mesh = SubResource("QuadMesh_vcaau")
 
 [node name="RaytracedAudioListener" type="AudioListener3D" parent="Player/Head/Camera3D"]
 script = ExtResource("3_iv302")
@@ -639,7 +656,7 @@ habitaciones = [NodePath("Salida"), NodePath("Enfermeria"), NodePath("Hub"), Nod
 metadata/_custom_type_script = "uid://t1xfsmvwdsji"
 
 [node name="Timer" type="Timer" parent="GhostSystem"]
-wait_time = 35.0
+wait_time = 25.0
 autostart = true
 
 [node name="Idle" type="AudioStreamPlayer3D" parent="GhostSystem"]
