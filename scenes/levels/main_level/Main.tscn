@@ -1,4 +1,4 @@
-[gd_scene load_steps=71 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=75 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
@@ -36,6 +36,7 @@
 [ext_resource type="AudioStream" uid="uid://dhj8telpvbp1k" path="res://Assets/audio/sfx/GhostFootsteps.mp3" id="34_ljibm"]
 [ext_resource type="AudioStream" uid="uid://cilnyq8wpe7o6" path="res://Assets/audio/sfx/Ghost is Atacking.mp3" id="35_ngi3l"]
 [ext_resource type="AudioStream" uid="uid://dp6t3frw1km2r" path="res://Assets/audio/sfx/GhostLeaves.mp3" id="36_wjrwe"]
+[ext_resource type="AudioStream" uid="uid://b5f6sknarg8e4" path="res://Assets/audio/sfx/GhostSeesYou.mp3" id="37_wjrwe"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i5arm"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -140,6 +141,15 @@ size = Vector3(19.4751, 2.9436, 11.5768)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vcaau"]
 size = Vector3(15.258, 2.86322, 18.0277)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_wjrwe"]
+data = PackedVector3Array(-0.976563, -1.30713, 0.262421, -0.976563, -1.30713, -0.262421, -0.976563, 1.30713, -0.262421, 0.976563, -1.30713, -0.262421, -0.976563, -1.30713, -0.262421, -0.976563, -1.30713, 0.262421, -0.976563, 1.30713, -0.262421, -0.976563, -1.30713, -0.262421, 0.976563, -1.30713, -0.262421, -0.976563, 1.30713, -0.262421, -0.976563, 1.30713, 0.262421, -0.976563, -1.30713, 0.262421, -0.976563, -1.30713, 0.262421, -0.976563, 1.30713, 0.262421, 0.976563, 1.30713, 0.262421, 0.976563, 1.30713, 0.262421, -0.976563, 1.30713, 0.262421, -0.976563, 1.30713, -0.262421, -0.976563, -1.30713, 0.262421, 0.976563, -1.30713, 0.262421, 0.976563, -1.30713, -0.262421, 0.976563, 1.30713, 0.262421, 0.976563, -1.30713, 0.262421, -0.976563, -1.30713, 0.262421, 0.976563, -1.30713, -0.262421, 0.976563, -1.30713, 0.262421, 0.976563, 1.30713, 0.262421, 0.976563, -1.30713, -0.262421, 0.976563, 1.30713, -0.262421, -0.976563, 1.30713, -0.262421, -0.976563, 1.30713, -0.262421, 0.976563, 1.30713, -0.262421, 0.976563, 1.30713, 0.262421, 0.976563, 1.30713, 0.262421, 0.976563, 1.30713, -0.262421, 0.976563, -1.30713, -0.262421)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_w12qk"]
+data = PackedVector3Array(-1.16687, -1.52504, 0.311951, -1.16687, -1.52504, -0.311951, -1.16687, 1.52504, -0.311951, 1.16687, -1.52504, -0.311951, -1.16687, -1.52504, -0.311951, -1.16687, -1.52504, 0.311951, -1.16687, 1.52504, -0.311951, -1.16687, -1.52504, -0.311951, 1.16687, -1.52504, -0.311951, -1.16687, 1.52504, -0.311951, -1.16687, 1.52504, 0.311951, -1.16687, -1.52504, 0.311951, -1.16687, -1.52504, 0.311951, -1.16687, 1.52504, 0.311951, 1.16687, 1.52504, 0.311951, 1.16687, 1.52504, 0.311951, -1.16687, 1.52504, 0.311951, -1.16687, 1.52504, -0.311951, -1.16687, -1.52504, 0.311951, 1.16687, -1.52504, 0.311951, 1.16687, -1.52504, -0.311951, 1.16687, 1.52504, 0.311951, 1.16687, -1.52504, 0.311951, -1.16687, -1.52504, 0.311951, 1.16687, -1.52504, -0.311951, 1.16687, -1.52504, 0.311951, 1.16687, 1.52504, 0.311951, 1.16687, -1.52504, -0.311951, 1.16687, 1.52504, -0.311951, -1.16687, 1.52504, -0.311951, -1.16687, 1.52504, -0.311951, 1.16687, 1.52504, -0.311951, 1.16687, 1.52504, 0.311951, 1.16687, 1.52504, 0.311951, 1.16687, 1.52504, -0.311951, 1.16687, -1.52504, -0.311951)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_k1ftq"]
+data = PackedVector3Array(-0.254639, -1.30005, 1.04321, -0.254639, -1.30005, -1.04321, -0.254639, 1.30005, -1.04321, 0.254639, -1.30005, -1.04321, -0.254639, -1.30005, -1.04321, -0.254639, -1.30005, 1.04321, -0.254639, 1.30005, -1.04321, -0.254639, -1.30005, -1.04321, 0.254639, -1.30005, -1.04321, -0.254639, 1.30005, -1.04321, -0.254639, 1.30005, 1.04321, -0.254639, -1.30005, 1.04321, -0.254639, -1.30005, 1.04321, -0.254639, 1.30005, 1.04321, 0.254639, 1.30005, 1.04321, 0.254639, 1.30005, 1.04321, -0.254639, 1.30005, 1.04321, -0.254639, 1.30005, -1.04321, -0.254639, -1.30005, 1.04321, 0.254639, -1.30005, 1.04321, 0.254639, -1.30005, -1.04321, 0.254639, 1.30005, 1.04321, 0.254639, -1.30005, 1.04321, -0.254639, -1.30005, 1.04321, 0.254639, -1.30005, -1.04321, 0.254639, -1.30005, 1.04321, 0.254639, 1.30005, 1.04321, 0.254639, -1.30005, -1.04321, 0.254639, 1.30005, -1.04321, -0.254639, 1.30005, -1.04321, -0.254639, 1.30005, -1.04321, 0.254639, 1.30005, -1.04321, 0.254639, 1.30005, 1.04321, 0.254639, 1.30005, 1.04321, 0.254639, 1.30005, -1.04321, 0.254639, -1.30005, -1.04321)
 
 [node name="Node3D" type="Node3D"]
 
@@ -617,30 +627,32 @@ mesh = SubResource("SphereMesh_ek8fi")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ObjetoInteractuable2"]
 shape = SubResource("ConvexPolygonShape3D_ngi3l")
 
-[node name="GhostSystem" type="Node3D" parent="." node_paths=PackedStringArray("player", "timer", "GhostSoundIdle", "GhostSoundAgressive", "GhostLeaves", "habitaciones")]
+[node name="GhostSystem" type="Node3D" parent="." node_paths=PackedStringArray("player", "timer", "GhostSoundIdle", "GhostSoundAgressive", "GhostLeaves", "GhostSeesYou", "habitaciones")]
 script = ExtResource("33_j1a8x")
 player = NodePath("../Player")
 timer = NodePath("Timer")
 GhostSoundIdle = NodePath("Idle")
 GhostSoundAgressive = NodePath("Agressive")
 GhostLeaves = NodePath("Leaves")
+GhostSeesYou = NodePath("itSeesYou")
 habitaciones = [NodePath("Salida"), NodePath("Enfermeria"), NodePath("Hub"), NodePath("Bibleoteca"), NodePath("Sotano"), NodePath("Pasillo")]
 metadata/_custom_type_script = "uid://t1xfsmvwdsji"
 
 [node name="Timer" type="Timer" parent="GhostSystem"]
-wait_time = 20.0
+wait_time = 35.0
 autostart = true
 
 [node name="Idle" type="AudioStreamPlayer3D" parent="GhostSystem"]
 stream = ExtResource("34_ljibm")
 volume_db = 80.0
 unit_size = 36.51
+bus = &"RaytracedReverb"
 script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="Agressive" type="AudioStreamPlayer3D" parent="GhostSystem"]
 stream = ExtResource("35_ngi3l")
-volume_db = 80.0
+attenuation_model = 3
 unit_size = 100.0
 bus = &"RaytracedReverb"
 script = ExtResource("6_ek8fi")
@@ -648,6 +660,16 @@ metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="Leaves" type="AudioStreamPlayer3D" parent="GhostSystem"]
 stream = ExtResource("36_wjrwe")
+bus = &"RaytracedReverb"
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="itSeesYou" type="AudioStreamPlayer3D" parent="GhostSystem"]
+stream = ExtResource("37_wjrwe")
+attenuation_model = 3
+max_polyphony = 2
+panning_strength = 0.0
+bus = &"RaytracedReverb"
 script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
@@ -691,5 +713,104 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.28031, -19.5762)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="GhostSystem/Pasillo"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3216, -0.446381, 3.04347)
 shape = SubResource("BoxShape3D_vcaau")
+
+[node name="Puerta A Bibleoteca" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.6753, 0, -24.9459)
+script = ExtResource("18_1rtps")
+lockedSound = NodePath("RaytracedAudioPlayer3D")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
+metadata/_custom_type_script = "uid://bmftiyy2nwc6y"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Puerta A Bibleoteca"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.20126, 1.55411, -0.177582)
+size = Vector3(1.95313, 2.61426, 0.524841)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="Puerta A Bibleoteca"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.20126, 1.55411, -0.177582)
+shape = SubResource("ConcavePolygonShape3D_wjrwe")
+
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="Puerta A Bibleoteca"]
+stream = ExtResource("16_v0jj0")
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="Puerta A Bibleoteca"]
+transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, 0.710828, 1.49198, 0)
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="Puerta A Bibleoteca"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="Puerta HUB a pasillo" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.961852, 0, -25.6485)
+script = ExtResource("18_1rtps")
+lockedSound = NodePath("RaytracedAudioPlayer3D")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
+metadata/_custom_type_script = "uid://bmftiyy2nwc6y"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Puerta HUB a pasillo"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15491, 1.8418, -0.188049)
+size = Vector3(2.33374, 3.17751, 0.623901)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="Puerta HUB a pasillo"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.15491, 1.77809, -0.188049)
+shape = SubResource("ConcavePolygonShape3D_w12qk")
+
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="Puerta HUB a pasillo"]
+stream = ExtResource("16_v0jj0")
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="Puerta HUB a pasillo"]
+transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, 0.710828, 1.49198, 0)
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="Puerta HUB a pasillo"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="Puerta A Enfermeria" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.7357, 0, -15.2748)
+script = ExtResource("18_1rtps")
+lockedSound = NodePath("RaytracedAudioPlayer3D")
+CloseSound = NodePath("CloseSound")
+Open = NodePath("OpenSound")
+metadata/_custom_type_script = "uid://bmftiyy2nwc6y"
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Puerta A Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.245361, 1.56494, 1.19535)
+size = Vector3(0.509277, 2.6001, 2.08643)
+
+[node name="CSGBakedCollisionShape3D" type="CollisionShape3D" parent="Puerta A Enfermeria"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.245361, 1.56494, 1.19535)
+shape = SubResource("ConcavePolygonShape3D_k1ftq")
+
+[node name="CloseSound" type="AudioStreamPlayer3D" parent="Puerta A Enfermeria"]
+stream = ExtResource("16_v0jj0")
+panning_strength = 3.0
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="RaytracedAudioPlayer3D" type="AudioStreamPlayer3D" parent="Puerta A Enfermeria"]
+transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, 0.710828, 1.49198, 0)
+stream = ExtResource("21_jyj5a")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
+
+[node name="OpenSound" type="AudioStreamPlayer3D" parent="Puerta A Enfermeria"]
+stream = ExtResource("20_w1rq5")
+script = ExtResource("6_ek8fi")
+metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [editable path="Player"]

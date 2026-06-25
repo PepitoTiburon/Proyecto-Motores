@@ -6,10 +6,11 @@ var tween:Tween
 @export var GhostSoundIdle:RaytracedAudioPlayer3D
 @export var GhostSoundAgressive:RaytracedAudioPlayer3D
 @export var GhostLeaves:RaytracedAudioPlayer3D
+@export var GhostSeesYou:RaytracedAudioPlayer3D
 @export var habitaciones:Array[Area3D] 
 var HabitacionesAtacables:int
 var HabitacionElegida:int
-var GhostDetectedYou:bool
+var GhostDetectingYou:bool
 var previouslyChosen:int
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -32,9 +33,9 @@ func _ready() -> void:
 	
 
 func timerTimeout() -> void:
-	if GhostDetectedYou:
+	if GhostDetectingYou:
 		GhostLeaves.play()
-		GhostDetectedYou = false
+		GhostDetectingYou = false
 	habitaciones[HabitacionElegida].body_entered.disconnect(bodyEnterd)
 	tween = create_tween()
 	tween.tween_property(habitaciones[HabitacionElegida], "position", Vector3(
@@ -65,7 +66,20 @@ func timerTimeout() -> void:
 func bodyEnterd(body) -> void:
 	if body != player:
 		return
+	GhostDetectingYou = true
 	print(body, " Enterd ", HabitacionElegida)
 	GhostSoundAgressive.play()
-	GhostDetectedYou = true
+	await get_tree().create_timer(2.0).timeout
+	if $"../Player/Head/flashlight".Encendida == true && GhostDetectingYou:
+		GhostSeesYou.play()
+		await GhostSeesYou.finished
+		get_tree().reload_current_scene()
+	elif $"../Player/Head/BreathTest".isHoldingBreath == false:
+		$"../Player/Head/BreathTest".hyperventilating.play()
+		await $"../Player/Head/BreathTest".hyperventilating.finished
+		if GhostDetectingYou:
+			$"../Player/Head/BreathTest".Death.play()
+			await $"../Player/Head/BreathTest".Death.finished
+			get_tree().reload_current_scene()
+		
 	
