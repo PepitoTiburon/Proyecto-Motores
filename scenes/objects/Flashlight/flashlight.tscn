@@ -13,7 +13,7 @@ sound = NodePath("RaytracedAudioPlayer3D")
 transform = Transform3D(7.54979e-07, 4.37114e-07, 10, 1.77636e-14, 10, -4.37114e-07, -10, 5.07648e-14, 7.54979e-07, 0, 0, 0)
 
 [node name="SpotLight3D" type="SpotLight3D" parent="." index="1"]
-transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, -0.0617567, 0.0168114, 0.0109901)
+transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, 0.898818, -0.0766399, 0.0109901)
 visible = false
 spot_range = 17.7528
 spot_attenuation = -0.59
@@ -21,7 +21,7 @@ spot_angle = 24.2819
 spot_angle_attenuation = 4.72512
 
 [node name="SpotLight3D2" type="SpotLight3D" parent="." index="2"]
-transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, -0.0617567, 0.0168114, 0.0109901)
+transform = Transform3D(0.111295, 0, 0.993787, 0, 1, 0, -0.993787, 0, 0.111295, 0.483824, 0.0168114, 0.0109901)
 visible = false
 light_energy = 0.187
 light_indirect_energy = 16.0

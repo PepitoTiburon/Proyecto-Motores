@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=4 uid="uid://b1k4b8uhrookn"]
+
+[ext_resource type="Texture2D" uid="uid://cfk6x57a87sdu" path="res://Assets/decoracion3/Textures/Bookcase.png" id="1_ha5i1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8yj02"]
+resource_name = "Bookcase"
+vertex_color_use_as_albedo = true
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pks3k"]
+_surfaces = [{
+"aabb": AABB(-0.0184952, -0.00445716, -0.0100631, 0.0369904, 0.00891431, 0.0200012),
+"format": 34359742465,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAwACAAEABAACAAMAAgAEAAAAAwAFAAQABgAAAAQABAAFAAYABQADAAcAAQAHAAMABwAGAAUACAABAAAABwABAAgACQAAAAYAAAAJAAgABgAHAAoACAAKAAcABgALAAkACAAJAAsACgALAAYACwAKAAgA"),
+"name": "Bookcase",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("xFiUvEFQjzvMNgc8xFiUvEFQj7vMNgc8xFiUvEFQj7uM3yS8xFiUPEFQj7uM3yS8xFiUvEFQjzuM3yS8xFiUPEFQjzuM3yS8xFiUPEFQjzvMNgc8xFiUPEFQj7vMNgc8TIOXvFUNkruj0yI8TIOXvFYNkjuj0yI8TYOXPFUNkruj0yI8TYOXPFYNkjuj0yI8")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wv7m3"]
+resource_name = "Bookcase"
+_surfaces = [{
+"aabb": AABB(-0.0184952, -0.00445716, -0.0100631, 0.0369904, 0.00891431, 0.0200012),
+"attribute_data": PackedByteArray("pnMzP+KQDD9Ki/0+4pAMP0qL/T6iOWI/p3MzP6I5Yj9MSsc+TlkBP0xKxz7/U30/kmI0P/9TfT+SYjQ/TVkBP4flKz6AhHo+EhGjPoCEej4QEaM+/qf6PoflKz7+p/o+YHMMPf9TfT9gcww9TlkBP0QJsz5NWQE/RAmzPv9TfT/Xqjg/gpR8P/45Xz+ClHw//jlfP9CZAD/Xqjg/0JkAP6AIqDuypn4/hN8LPf9TfT+E3ws9TlkBPyAIqDucBgA/LRU3P5sGAD/2YF4/mwYAP/ZgXj+ypn4/LRU3P7Kmfj+OnK871LpXP46crzvC0iU/Ji8LPYlKJj8mLws9DUNXPwD6eDspUVQ/8DANPU/QUz8AMQ09TyIfPwD7eDt1oR4/gKesO7Kmfj8Ap6w7nAYAP2BzDD1OWQE/YHMMPf9TfT8="),
+"format": 34359742487,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAGAAZABoAGgAbABgAHAAdAB4AHgAfABwAIAAhACIAIgAjACAAJAAlACYAJgAnACQA"),
+"material": SubResource("StandardMaterial3D_8yj02"),
+"name": "Bookcase",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 40,
+"vertex_data": PackedByteArray("xFiUvEFQjzvMNgc8xFiUvEFQj7vMNgc8xFiUvEFQj7uM3yS8xFiUvEFQjzuM3yS8xFiUPEFQjzvMNgc8xFiUvEFQjzvMNgc8xFiUvEFQjzuM3yS8xFiUPEFQjzuM3yS8xFiUPEFQj7vMNgc8xFiUPEFQjzvMNgc8xFiUPEFQjzuM3yS8xFiUPEFQj7uM3yS8xFiUvEFQj7vMNgc8xFiUPEFQj7vMNgc8xFiUPEFQj7uM3yS8xFiUvEFQj7uM3yS8xFiUPEFQj7uM3yS8xFiUPEFQjzuM3yS8xFiUvEFQjzuM3yS8xFiUvEFQj7uM3yS8TIOXvFYNkjuj0yI8xFiUvEFQjzvMNgc8xFiUPEFQjzvMNgc8TYOXPFYNkjuj0yI8TIOXvFUNkruj0yI8TIOXvFYNkjuj0yI8TYOXPFYNkjuj0yI8TYOXPFUNkruj0yI8TYOXPFUNkruj0yI8TYOXPFYNkjuj0yI8xFiUPEFQjzvMNgc8xFiUPEFQj7vMNgc8TIOXvFUNkruj0yI8xFiUvEFQj7vMNgc8xFiUvEFQjzvMNgc8TIOXvFYNkjuj0yI8TIOXvFUNkruj0yI8TYOXPFUNkruj0yI8xFiUPEFQj7vMNgc8xFiUvEFQj7vMNgc8AAD/f/9/AAAAAP9//38AAAAA/3//fwAAAAD/f/9/AAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP///3//f///////f/9///////9//3///////3//f////38AAP//////fwAAAAD+//9/AAD//////38AAP///////////38AAP//////fwAA//////9/AAD//////38AAAuG//8MBv5/C4b//wwG/n8Lhv//DAb+fwuG//8MBv5//3//f/9/////f/9//3////9//3//f////3//f/9//////+CXAAAO9P//4JcAAO+L///glwAA74v//+CXAAAO9AAA4Jf+//ALAADgl/7/8AsAAOCX/v8PdAAA4Jf+/w90C4YAAAwG/v8LhgAADAb+/wuGAAAMBv7/C4YAAAwG/v8=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_pks3k")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64ccv"]
+albedo_texture = ExtResource("1_ha5i1")
+
+[node name="Bookcase" type="MeshInstance3D"]
+transform = Transform3D(46.3115, 0, 0, 0, -5.52076e-06, 46.3115, 0, -46.3115, -5.52076e-06, 0, 0, 0)
+mesh = SubResource("ArrayMesh_wv7m3")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_64ccv")
