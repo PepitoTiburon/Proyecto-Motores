@@ -60,6 +60,7 @@ ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
 sky_material = SubResource("ProceduralSkyMaterial_i5arm")
 
 [sub_resource type="Environment" id="Environment_jsk3o"]
+background_mode = 1
 background_energy_multiplier = 2.0
 sky = SubResource("Sky_wc5p8")
 tonemap_mode = 2
@@ -225,7 +226,6 @@ speed_multiplier = 1.5
 [node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Player/Head/Camera3D"]
-visible = false
 extra_cull_margin = 16384.0
 mesh = SubResource("QuadMesh_vcaau")
 
