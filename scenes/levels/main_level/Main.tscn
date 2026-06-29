@@ -1,7 +1,7 @@
 [gd_scene load_steps=100 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
-[ext_resource type="Shader" uid="uid://de3oyi5wmlkem" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
+[ext_resource type="Shader" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
 [ext_resource type="PackedScene" uid="uid://brr6oflxgv3pv" path="res://scenes/objects/Flashlight/flashlight.tscn" id="4_ffpnx"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://scripts/core/ray_cast_3d.gd" id="4_ixyld"]
@@ -30,7 +30,7 @@
 [ext_resource type="Script" uid="uid://bmftiyy2nwc6y" path="res://scenes/objects/door/class_puerta.gd" id="18_1rtps"]
 [ext_resource type="PackedScene" uid="uid://341odhpkyxrp" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/book0.fbx" id="19_7pr1r"]
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
-[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.MP3" id="20_w1rq5"]
+[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.mp3" id="20_w1rq5"]
 [ext_resource type="AudioStream" uid="uid://dqecwf72v8kij" path="res://Assets/audio/sfx/Door is locked.mp3" id="21_jyj5a"]
 [ext_resource type="Texture2D" uid="uid://0c43lir7rpl2" path="res://Assets/models/mansion/Textures/picture8_texture.png" id="21_xumxu"]
 [ext_resource type="ArrayMesh" uid="uid://bh5ss0em2t0ga" path="res://Assets/models/mansion/Meshes/OBJ/Furniture/single_sofa.obj" id="22_hygsy"]
@@ -60,7 +60,6 @@ ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
 sky_material = SubResource("ProceduralSkyMaterial_i5arm")
 
 [sub_resource type="Environment" id="Environment_jsk3o"]
-background_mode = 1
 background_energy_multiplier = 2.0
 sky = SubResource("Sky_wc5p8")
 tonemap_mode = 2
@@ -69,7 +68,7 @@ glow_enabled = true
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_k1ftq"]
 render_priority = 0
 shader = ExtResource("2_w12qk")
-shader_parameter/pixel_size = 2.0
+shader_parameter/pixel_size = 1.0
 shader_parameter/levels = 13.0
 shader_parameter/gamma = Vector2(0.125, 11.815)
 
@@ -86,6 +85,7 @@ size = Vector2(2, 2)
 albedo_color = Color(0.356333, 0.467906, 0.332077, 1)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_b5dc6"]
+radius = 0.7
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_irhpj"]
 points = PackedVector3Array(-0.00465665, -0.0042, -0.008766, 0.00779, 0.0029, 0.00941, -0.00789, 0.0029, 0.00941, 0.00835, 0.00315, -0.00915, 0.0044493, -0.00254988, 0.01005, -0.00789, 0.0029, -0.00851, 0.00835, -0.00314968, -0.00915, -0.00845, -0.00134956, 0.01005, -0.00845, -0.00314968, -0.00915, 0.00835, -0.00134956, 0.01005, -0.00484859, -0.00435, -0.00284836, 0.00504953, -0.00435, -0.00284836, -0.00424836, -0.00254988, 0.01005, 0.00504953, -0.00435, -0.00915, -0.00845, -0.00314968, -0.00284836, 0.00835, -0.00314968, -0.00284836)
@@ -225,6 +225,7 @@ speed_multiplier = 1.5
 [node name="Camera3D" type="Camera3D" parent="Player/Head" index="3"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Player/Head/Camera3D"]
+visible = false
 extra_cull_margin = 16384.0
 mesh = SubResource("QuadMesh_vcaau")
 
@@ -261,7 +262,7 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="flashlight" parent="Player/Head" index="4" instance=ExtResource("4_ffpnx")]
-transform = Transform3D(0.185615, -6.13239e-09, -0.982623, 0.0386804, 0.999225, 0.00730669, 0.981861, -0.0393644, 0.185471, 0.438103, -0.479266, -0.594134)
+transform = Transform3D(0.172339, -0.0545348, -0.983527, 0.000650741, 0.998472, -0.0552494, 0.985038, 0.00888159, 0.172111, 0, 0.3472, 0.106)
 
 [node name="BreathTest" parent="Player/Head" index="5" instance=ExtResource("5_v0jj0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.695223, -0.837465)
@@ -281,10 +282,6 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("9_wjrwe")
