@@ -1,7 +1,7 @@
 [gd_scene load_steps=100 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
-[ext_resource type="Shader" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
+[ext_resource type="Shader" uid="uid://de3oyi5wmlkem" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
 [ext_resource type="Script" uid="uid://bjpmu5sklv5h8" path="res://addons/raytraced_audio/raytraced_audio_listener.gd" id="3_iv302"]
 [ext_resource type="PackedScene" uid="uid://brr6oflxgv3pv" path="res://scenes/objects/Flashlight/flashlight.tscn" id="4_ffpnx"]
 [ext_resource type="Script" uid="uid://cxvdvtvb8xtpj" path="res://scripts/core/ray_cast_3d.gd" id="4_ixyld"]
@@ -242,24 +242,32 @@ follow_viewport_scale = 2.0
 script = ExtResource("4_j1a8x")
 
 [node name="Label" type="Label" parent="Player/Head/Camera3D/CanvasLayer"]
-offset_left = 420.0
-offset_top = 394.0
-offset_right = 714.0
-offset_bottom = 417.0
-text = "presiona \"F\" para alternar la linterna"
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -326.0
+offset_top = 75.0
+offset_right = 326.0
+offset_bottom = 98.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "presiona \"F\" para alternar la linterna, apagala cuando te encuentres con el fantasma"
 
 [node name="Label2" type="Label" parent="Player/Head/Camera3D/CanvasLayer"]
-offset_left = 369.0
-offset_top = 368.0
-offset_right = 773.0
-offset_bottom = 391.0
-text = "Manten \"click Derecho\" para aguantar la respiracion"
-
-[node name="Control" type="Control" parent="Player/Head/Camera3D"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -363.0
+offset_top = 51.0
+offset_right = 363.0
+offset_bottom = 74.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Manten \"click Derecho\" para aguantar la respiracion, hazlo cuando se te acelere la respiracion"
 
 [node name="flashlight" parent="Player/Head" index="4" instance=ExtResource("4_ffpnx")]
 transform = Transform3D(0.172339, -0.0545348, -0.983527, 0.000650741, 0.998472, -0.0552494, 0.985038, 0.00888159, 0.172111, 0, 0.3472, 0.106)
