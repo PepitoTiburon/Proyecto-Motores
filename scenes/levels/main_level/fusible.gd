@@ -10,3 +10,4 @@ func react() -> void:
 		await fusible.finished
 		$"../mapa/Decoracion/Enfermeria/Cuadro".bloqueada = false
 		$"../mapa/Decoracion/Sotano/Drawer". bloqueada = false
+		$"../mapa/Decoracion/Sotano/luzPasadiso".visible = true
