@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x3g6fcpu6k0r"
-path.s3tc="res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"
+uid="uid://bcvrjgmyaaase"
+path.s3tc="res://.godot/imported/fridge_fridge256x256.png-07c7ef8abc2219fae5500a4e48ae7953.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "a9a903ce9d7ae284e81276259c614af6"
+}
 
 [deps]
 
-source_file="res://Assets/decoracion3/Textures/Alarm_clock_01_Emissor.png"
-dest_files=["res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"]
+source_file="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/glb/fridge_fridge256x256.png"
+dest_files=["res://.godot/imported/fridge_fridge256x256.png-07c7ef8abc2219fae5500a4e48ae7953.s3tc.ctex"]
 
 [params]
 

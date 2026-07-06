@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=3 uid="uid://cnrducomi21xp"]
+[gd_scene load_steps=43 format=3 uid="uid://cnrducomi21xp"]
 
 [ext_resource type="PackedScene" uid="uid://b27ui2ro1wkyx" path="res://Assets/models/mansion/Meshes/CSG/regular_wall.tscn" id="1_h5250"]
 [ext_resource type="Texture2D" uid="uid://cx60yo4gy88hj" path="res://Assets/models/mansion/Meshes/textures/marble (1).png" id="2_howl7"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://boi5sp5fglran" path="res://Assets/models/mansion/Meshes/textures/wood (18).jpg" id="5_u2uew"]
 [ext_resource type="Texture2D" uid="uid://cb1dorn0cfen2" path="res://Assets/models/mansion/Meshes/textures/cobblestone_01_diff_4k.jpg" id="6_5lf7l"]
 [ext_resource type="Texture2D" uid="uid://b680cnx7p52ma" path="res://Assets/models/mansion/Meshes/textures/wood (15).jpg" id="7_i8vfc"]
+[ext_resource type="Texture2D" uid="uid://csredtrpemi70" path="res://Assets/decoracion3/Textures/Wood_02.jpg" id="8_i8vfc"]
 [ext_resource type="Texture2D" uid="uid://dlv5rfw422375" path="res://Assets/models/mansion/Textures/floor0_texture.png" id="8_swgin"]
 [ext_resource type="Texture2D" uid="uid://chhdlfw700nnq" path="res://Assets/models/mansion/Meshes/textures/wood (4).jpg" id="10_fevwd"]
 [ext_resource type="Texture2D" uid="uid://ctjykw3jp252j" path="res://Assets/models/mansion/Meshes/textures/Tiles_02.jpg" id="11_i8vfc"]
@@ -69,9 +70,7 @@ uv1_scale = Vector3(0.5, 0.5, 0.5)
 uv1_triplanar = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d4h15"]
-albedo_texture = ExtResource("6_5lf7l")
-uv1_scale = Vector3(0.3, 0.3, 0.3)
-uv1_triplanar = true
+albedo_texture = ExtResource("8_i8vfc")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnvsq"]
 albedo_texture = ExtResource("7_i8vfc")

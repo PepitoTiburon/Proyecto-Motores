@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x3g6fcpu6k0r"
-path.s3tc="res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"
+uid="uid://nm70b535evut"
+path.s3tc="res://.godot/imported/couch_couch256x256.png-d9f8bdbfa250a1aebd23b9338d70f83e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "699cc85011ff9cf115a58e637d8ff266"
+}
 
 [deps]
 
-source_file="res://Assets/decoracion3/Textures/Alarm_clock_01_Emissor.png"
-dest_files=["res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"]
+source_file="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/glb/couch_couch256x256.png"
+dest_files=["res://.godot/imported/couch_couch256x256.png-d9f8bdbfa250a1aebd23b9338d70f83e.s3tc.ctex"]
 
 [params]
 

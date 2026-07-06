@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x3g6fcpu6k0r"
-path.s3tc="res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"
+uid="uid://b511bojdibs0y"
+path.s3tc="res://.godot/imported/shelf_shelf256x256.png-0083c9c0ee3e4dcf30a8aace8932e8a8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "ae8cf54c6288ddded45eb8a173fb80d0"
+}
 
 [deps]
 
-source_file="res://Assets/decoracion3/Textures/Alarm_clock_01_Emissor.png"
-dest_files=["res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"]
+source_file="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/glb/shelf_shelf256x256.png"
+dest_files=["res://.godot/imported/shelf_shelf256x256.png-0083c9c0ee3e4dcf30a8aace8932e8a8.s3tc.ctex"]
 
 [params]
 

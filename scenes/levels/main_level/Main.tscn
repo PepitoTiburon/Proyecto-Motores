@@ -1,4 +1,4 @@
-[gd_scene load_steps=100 format=3 uid="uid://dk6j0p886iuys"]
+[gd_scene load_steps=108 format=3 uid="uid://dk6j0p886iuys"]
 
 [ext_resource type="PackedScene" uid="uid://2oxdgu03lnbk" path="res://addons/character-controller/example/main/player.tscn" id="1_xsc8h"]
 [ext_resource type="Shader" uid="uid://de3oyi5wmlkem" path="res://scenes/levels/main_level/GameFilter.gdshader" id="2_w12qk"]
@@ -30,7 +30,7 @@
 [ext_resource type="Script" uid="uid://bmftiyy2nwc6y" path="res://scenes/objects/door/class_puerta.gd" id="18_1rtps"]
 [ext_resource type="PackedScene" uid="uid://341odhpkyxrp" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/book0.fbx" id="19_7pr1r"]
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
-[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.mp3" id="20_w1rq5"]
+[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.MP3" id="20_w1rq5"]
 [ext_resource type="PackedScene" uid="uid://cqwundfnx7whu" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/papers.fbx" id="20_y0h5s"]
 [ext_resource type="PackedScene" uid="uid://dhguewuc1dd8l" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/rug2.fbx" id="21_aj38d"]
 [ext_resource type="AudioStream" uid="uid://dqecwf72v8kij" path="res://Assets/audio/sfx/Door is locked.mp3" id="21_jyj5a"]
@@ -45,10 +45,14 @@
 [ext_resource type="PackedScene" uid="uid://cy4k63wgqitxt" path="res://Assets/decoracion1/desk.tscn" id="33_8c5tv"]
 [ext_resource type="Script" uid="uid://t1xfsmvwdsji" path="res://SistemaDeFantasma.gd" id="33_j1a8x"]
 [ext_resource type="AudioStream" uid="uid://dhj8telpvbp1k" path="res://Assets/audio/sfx/GhostFootsteps.mp3" id="34_ljibm"]
+[ext_resource type="PackedScene" uid="uid://xin48b0wdb7n" path="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/fbx/chair.fbx" id="35_0025t"]
 [ext_resource type="AudioStream" uid="uid://cilnyq8wpe7o6" path="res://Assets/audio/sfx/Ghost is Atacking.mp3" id="35_ngi3l"]
 [ext_resource type="PackedScene" uid="uid://b1rd15u0qrvk7" path="res://Assets/decoracion2/botella.tscn" id="35_rdnm8"]
 [ext_resource type="AudioStream" uid="uid://dp6t3frw1km2r" path="res://Assets/audio/sfx/GhostLeaves.mp3" id="36_wjrwe"]
+[ext_resource type="PackedScene" uid="uid://dpg0y75os7ukl" path="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/fbx/shelf.fbx" id="37_cidvl"]
 [ext_resource type="AudioStream" uid="uid://b5f6sknarg8e4" path="res://Assets/audio/sfx/GhostSeesYou.mp3" id="37_wjrwe"]
+[ext_resource type="PackedScene" uid="uid://y3y5cr06mheq" path="res://scenes/objects/bed.tscn" id="38_h2cp4"]
+[ext_resource type="PackedScene" uid="uid://c5ymimi1t78xl" path="res://scenes/objects/devider_rig.tscn" id="39_gwnet"]
 [ext_resource type="PackedScene" uid="uid://dqu6mcbbewu3f" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/plate.fbx" id="39_nm41l"]
 [ext_resource type="PackedScene" uid="uid://dev0byawve04a" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/mug.fbx" id="40_0025t"]
 [ext_resource type="PackedScene" uid="uid://bib2fabdc66gs" path="res://Assets/decoracion3/telefono.tscn" id="40_y0h5s"]
@@ -141,6 +145,18 @@ albedo_texture = ExtResource("17_fkr8t")
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tpa5x"]
 points = PackedVector3Array(-0.50458, 0.00540028, -0.1368, 0.499983, 0.915785, 0.287, 0.499983, 0.00956695, 0.287, 0.50458, 0.919952, -0.1368, -0.499983, 0.915785, 0.287, 0.50458, 0.00540028, -0.1368, -0.50458, 0.919952, -0.1368, -0.499983, 0.00956695, 0.287)
 
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_cidvl"]
+points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ye711"]
+points = PackedVector3Array(1.4972, 0.067285, -1.9866, 1.60482, 1.30586, 1.96026, -1.59099, 2.5256, -1.79597, -1.48869, -0.0039, 1.93191, 1.54648, 2.5256, -1.79597, -1.48869, -0.0039, -1.9385, -1.59099, 1.43666, 1.98153, 1.50806, -0.0039, 1.93191, -1.52844, 2.47555, -1.97223, 1.61036, 1.43666, 1.98153, 1.49964, 2.48657, -1.98986, 1.50806, -0.0039, -1.9385, -1.52602, 0.077653, -1.96914, 1.61036, 2.33329, -1.79597, 1.54785, 0.260345, -1.97229, -1.52602, 0.077653, 1.90097, 1.60482, 1.30586, -1.23001, 1.54457, 0.262447, 1.89995, 1.54743, 2.29049, -1.97174, -0.50236, 1.43691, 1.98153)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_gwnet"]
+points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_h2cp4"]
+points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mb6jt"]
 albedo_texture = ExtResource("21_xumxu")
 
@@ -204,7 +220,7 @@ data = PackedVector3Array(-0.254639, -1.30005, 1.04321, -0.254639, -1.30005, -1.
 environment = SubResource("Environment_jsk3o")
 
 [node name="Player" parent="." groups=["jugador"] instance=ExtResource("1_xsc8h")]
-transform = Transform3D(0.968839, 0, 0.247692, 0, 1, 0, -0.247692, 0, 0.968839, -0.165066, 1.16837, 2.56509)
+transform = Transform3D(0.968839, 0, 0.247692, 0, 1, 0, -0.247692, 0, 0.968839, -0.165066, 1.16837, -3.21346)
 speed = 4.0
 sprint_speed_multiplier = 1.8
 step_lengthen = 0.3
@@ -424,9 +440,6 @@ transform = Transform3D(0.655498, 0, 0.40254, 0, 0.769231, 0, -0.40254, 0, 0.655
 
 [node name="papers" parent="mapa/Decoracion/Bibleoteca" instance=ExtResource("20_y0h5s")]
 transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, -0.357003, 1.04088, -1.03491)
-
-[node name="rug2" parent="mapa/Decoracion/Bibleoteca" instance=ExtResource("21_aj38d")]
-transform = Transform3D(0.769231, 0, 0, 0, 0.769231, 0, 0, 0, 0.769231, -3.3524, 0.310023, -0.87077)
 
 [node name="Enfermeria" type="Node3D" parent="mapa/Decoracion"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.4314, 0, 18.4794)
@@ -683,13 +696,67 @@ metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="luzPasadiso" type="SpotLight3D" parent="mapa/Decoracion/Sotano"]
 transform = Transform3D(0.757544, -5.83876e-09, 0.133575, -0.133575, -3.31133e-08, 0.757544, 0, -0.769231, -3.36241e-08, 9.27085, 1.74306, -15.057)
-visible = false
 light_color = Color(0.694118, 0.654902, 0, 1)
-light_energy = 3.54
+light_energy = 7.223
+light_indirect_energy = 2.065
 light_volumetric_fog_energy = 1.508
-light_size = 0.071
+light_size = 1.0
+light_specular = 3.675
 spot_range = 4.76462
 spot_angle = 50.7878
+
+[node name="StaticBody3D" type="StaticBody3D" parent="mapa/Decoracion/Sotano"]
+transform = Transform3D(1.00527, 0, 0.382721, 0, 0.85122, 0, -0.433312, 0, 0.887901, -6.12069, -0.0869441, -13.6714)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/StaticBody3D"]
+transform = Transform3D(0.505193, 0, 0, 0, 0.558113, 0, 0, 0, 0.556408, 0, 0.871847, 0.0146446)
+shape = SubResource("ConvexPolygonShape3D_cidvl")
+
+[node name="chair" parent="mapa/Decoracion/Sotano/StaticBody3D" instance=ExtResource("35_0025t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.361914, -0.0103035)
+
+[node name="cama" type="StaticBody3D" parent="mapa/Decoracion/Sotano"]
+transform = Transform3D(0.662921, 0, 0.0525455, 0, 0.665, 0, -0.0525455, 0, 0.662921, -6.64584, 7.33596e-07, -16.5028)
+
+[node name="Bed" parent="mapa/Decoracion/Sotano/cama" instance=ExtResource("38_h2cp4")]
+transform = Transform3D(0.0592154, 0, 0.766948, 0, 0.769231, 0, -0.766948, 0, 0.0592154, 1.01779, 0.202011, 0.167309)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/cama"]
+transform = Transform3D(0.0592154, 0, 0.766948, 0, 0.769231, 0, -0.766948, 0, 0.0592154, 1.01779, 0.202011, 0.167309)
+shape = SubResource("ConvexPolygonShape3D_ye711")
+
+[node name="divisor" type="StaticBody3D" parent="mapa/Decoracion/Sotano"]
+transform = Transform3D(0.773864, 0, 0, 0, 0.709448, 0, 0, 0, 1, 5.69365, 1.1474, -18.0157)
+
+[node name="DeviderRig" parent="mapa/Decoracion/Sotano/divisor" instance=ExtResource("39_gwnet")]
+transform = Transform3D(0.70806, 0.300612, 8.14695e-09, -6.72483e-08, 1.37549e-07, 0.769231, 0.300612, -0.70806, 1.52891e-07, 0.60303, -1.2988, -0.228279)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/divisor"]
+transform = Transform3D(3.49216, 0, 0.055654, 0, 1.86575, 0, 1.49378, 0, -0.130108, 0.607332, 0, -0.332336)
+shape = SubResource("ConvexPolygonShape3D_gwnet")
+
+[node name="mueble" type="StaticBody3D" parent="mapa/Decoracion/Sotano"]
+transform = Transform3D(-0.0306918, 0, -1.72979, 0, 1.37025, 0, 1.02149, 0, -0.0519735, 1.15917, -0.0568391, -20.1414)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/mueble"]
+transform = Transform3D(0.226494, 0, 0, 0, 1.11747, 0, 0, 0, 0.754668, 0, 0.819564, 0.46529)
+shape = SubResource("ConvexPolygonShape3D_h2cp4")
+
+[node name="shelf" parent="mapa/Decoracion/Sotano/mueble" instance=ExtResource("37_cidvl")]
+transform = Transform3D(0.766993, 0, 0, 0, 0.766993, 0, 0, 0, 0.766993, -0.0071435, 0.18966, 0.468597)
+
+[node name="mesita2" type="StaticBody3D" parent="mapa/Decoracion/Sotano"]
+transform = Transform3D(0.591705, 0, -0.986092, 0, 1.15, 0, 0.986092, 0, 0.591705, -6.28587, -1.83399e-07, -18.7406)
+
+[node name="Chest_drawers_03" parent="mapa/Decoracion/Sotano/mesita2" instance=ExtResource("18_1io2n")]
+transform = Transform3D(-8.47769, -23.4206, -2.79195e-06, 0, -2.96923e-06, 24.9078, -23.4206, 8.47769, 1.01062e-06, 0.210896, 0.681878, 0.189383)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="mapa/Decoracion/Sotano/mesita2"]
+transform = Transform3D(-8.47769, -23.4206, -2.79195e-06, 0, -2.96923e-06, 24.9078, -23.4206, 8.47769, 1.01062e-06, 0.210896, 0.681878, 0.189383)
+shape = SubResource("ConvexPolygonShape3D_d6f85")
+
+[node name="rug2" parent="mapa/Decoracion/Sotano" instance=ExtResource("21_aj38d")]
+transform = Transform3D(0.000963986, 0.000224099, 1.52815, -0.000276094, 0.769231, -0.000445059, -1.74551, -0.000121549, 0.000844022, -0.0922042, 0.271906, -16.2521)
 
 [node name="Salida" type="Node3D" parent="mapa/Decoracion"]
 
@@ -826,7 +893,7 @@ script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="Fusible" parent="." instance=ExtResource("26_uka0a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.237, 0, -14.8166)
+transform = Transform3D(1, 0, 6.98809e-05, 6.98747e-05, 0.0132467, -0.999912, -9.25688e-07, 0.999912, 0.0132467, 24.4087, 1.45741, -16.9244)
 
 [node name="ObjetoInteractuable" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.792454, 9.92202)
@@ -838,7 +905,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0201111, 0.84906, 0)
 shape = SubResource("BoxShape3D_xsc8h")
 
 [node name="Puerta" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.197885, -0.987514, 0, -49.323)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.197885, -0.987514, 0, -49.135)
 script = ExtResource("18_1rtps")
 bloqueada = true
 lockedSound = NodePath("DoorLocked")
@@ -874,7 +941,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.854353, 1.55557, 0)
 shape = SubResource("ConcavePolygonShape3D_ixyld")
 
 [node name="door" parent="Puerta" instance=ExtResource("46_7pr1r")]
-transform = Transform3D(1.95243, 0, 0, 0, 1.3237, 0, 0, 0, 15.514, -0.115834, 0.259135, -0.0398712)
+transform = Transform3D(1.9589, 0, 0, 0, 1.35912, 0, 0, 0, 18.8766, -0.115834, 0.259135, -0.0398712)
 
 [node name="PuertaDeSalida" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
 transform = Transform3D(0.773869, 0, 0, 0, 1.12137, 0, 0, 0, 0.119316, 0.785621, 0, 4.08657)
@@ -915,7 +982,7 @@ metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 transform = Transform3D(-2.77647, 0, -8.96042e-07, 0, 1.39419, 0, 2.42727e-07, 0, -10.2495, 0.18145, 0.213221, 0)
 
 [node name="ObjetoInteractuable2" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.313246, -59.171)
+transform = Transform3D(0.934776, 0, 0.355237, 0, 1, 0, -0.355237, 0, 0.934776, -8.19757, 1.36552, -58.8468)
 script = ExtResource("31_iv302")
 metadata/_custom_type_script = "uid://csnm3bcvtwp8j"
 
@@ -1119,7 +1186,7 @@ script = ExtResource("6_ek8fi")
 metadata/_custom_type_script = "uid://dkb8ltjc6067n"
 
 [node name="door" parent="Puerta pasillo" instance=ExtResource("46_7pr1r")]
-transform = Transform3D(-2.37189, 0, 1.57072e-06, 0, 1.70373, 0, -2.07357e-07, 0, -17.9669, 0.0135878, 0, -0.17704)
+transform = Transform3D(-2.42232, 0, 1.76125e-06, 0, 1.67659, 0, -2.11766e-07, 0, -20.1463, 0.0135878, 0, -0.177046)
 
 [node name="Puerta A Enfermeria" type="StaticBody3D" parent="." node_paths=PackedStringArray("lockedSound", "CloseSound", "Open")]
 transform = Transform3D(0.238629, 0, 0, 0, 1, 0, 0, 0, 1, 14.5087, 0, -15.2748)

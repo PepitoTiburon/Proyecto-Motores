@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://x3g6fcpu6k0r"
-path.s3tc="res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"
+uid="uid://dgerq3uv0jl0h"
+path.s3tc="res://.godot/imported/vase_vase128x128.png-3fdbed22fa17684a8b6a2b6cacc573cf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "587b86b44f8a1e2bbe0afab72f68c7a2"
+}
 
 [deps]
 
-source_file="res://Assets/decoracion3/Textures/Alarm_clock_01_Emissor.png"
-dest_files=["res://.godot/imported/Alarm_clock_01_Emissor.png-ea0819180f85eab264da3d5f105f17d9.s3tc.ctex"]
+source_file="res://Assets/decoracion1/PSX-Derelict-Furniture-Standard/glb/vase_vase128x128.png"
+dest_files=["res://.godot/imported/vase_vase128x128.png-3fdbed22fa17684a8b6a2b6cacc573cf.s3tc.ctex"]
 
 [params]
 

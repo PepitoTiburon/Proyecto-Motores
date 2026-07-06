@@ -1,10 +1,14 @@
-[gd_scene load_steps=6 format=3 uid="uid://b5fa5m0vnwc5l"]
+[gd_scene load_steps=8 format=3 uid="uid://b5fa5m0vnwc5l"]
 
 [ext_resource type="Script" uid="uid://27f1khqi7iqa" path="res://scenes/levels/main_level/fusible.gd" id="1_mwkxq"]
 [ext_resource type="AudioStream" uid="uid://wgdgy2ikhuc2" path="res://Assets/audio/sfx/Fusible.mp3" id="2_r41se"]
+[ext_resource type="Texture2D" uid="uid://j31bog63qs8n" path="res://Assets/decoracion3/Textures/Cupboard_03.jpg" id="2_s8peu"]
 [ext_resource type="Script" uid="uid://dkb8ltjc6067n" path="res://addons/raytraced_audio/raytraced_audio_player_3d.gd" id="3_s8peu"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_cejy0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_65p7b"]
+albedo_texture = ExtResource("2_s8peu")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_r41se"]
 points = PackedVector3Array(-0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5)
@@ -17,6 +21,7 @@ metadata/_custom_type_script = "uid://csnm3bcvtwp8j"
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.68848, -0.405761)
 mesh = SubResource("BoxMesh_cejy0")
+surface_material_override/0 = SubResource("StandardMaterial3D_65p7b")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.68848, -0.405761)
