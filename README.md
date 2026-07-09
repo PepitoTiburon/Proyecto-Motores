@@ -19,11 +19,11 @@ Este proyecto se enfoca en el sonido como creador de atmósfera, tensión y e in
 * **Audio inmersivo:** Integración de acústica mediante **trazado de rayos (*Raytraced Audio*) para rebotes de sonido realistas** que funciona como guía y generación de atmósfera terrorífica.
 * **Sistema de tensión:** Efectos de sonido dinámicos que reaccionan al estado del jugador y del entorno (respiración agitada, latidos del corazón acelerados, sonidos ambientales aterradores).
 * **Controlador FPS:** Sistema de movimiento completo que incluye caminar, correr, agacharse y saltar.
-* **Estilo retro (PSX):** Modelos 3D de baja poligonización (*low-poly*) y texturas pixeladas que evocan la nostalgia del *survival horror* clásico de los años 90.
+* **Estilo retro (PSX):** Modelos 3D de baja poligonización y texturas pixeladas que evocan la nostalgia del *survival horror* clásico de los años 90.
 
 
 ## Controles
-El juego está diseñado para jugarse con teclado y ratón.
+El juego está diseñado para jugarse con teclado y mouse.
 
 | Acción | Tecla / Botón |
 | :--- | :--- |
@@ -38,7 +38,7 @@ El juego está diseñado para jugarse con teclado y ratón.
 
 
 ## Cómo ejecutar el proyecto en Godot
-Para abrir, compilar y jugar este proyecto localmente, sigue estos pasos:
+Para abrir y compilar el proyecto y jugar localmente, seguí estos pasos:
 
 ###
 * Descargar e instalar **Godot Engine 4.4**. Se puede descargar de forma gratuita en [godotengine.org](https://godotengine.org).
@@ -56,25 +56,25 @@ Para abrir, compilar y jugar este proyecto localmente, sigue estos pasos:
 5.  Una vez que el proyecto cargue en el editor, buscar la escena principal del nivel (`inicio.tscn`) y abrirla haciendo doble clic.
 6.  Presionar el botón de **Play** (el icono de reproducción en la esquina superior derecha) o la tecla `F5` para ejecutar el juego.
 
-## Assets y Herramientas utilizadas
+## Assets y herramientas utilizadas
 Este proyecto utiliza varios *addons* y recursos libres de la comunidad de desarrollo para lograr la estética y jugabilidad deseadas:
 
 **Addons de Godot:**
 * **Raytraced Audio**: Para la simulación acústica y reverberación en tiempo real.
 * **Character Controller 3D**: Sistema de movimiento FPS avanzado.
 
-**Gráficos 3D y Texturas:**
+**Gráficos 3D y texturas:**
 * Modelos estilo PSX (*Derelict Furniture* y *Retro Gothic*).
 * Texturas *Pixel Skies* de Digital Moons.
 * Fuente Itch.io
 
-**Efectos de Sonido (SFX) y voces:**
+**Efectos de sonido (SFX) y voces:**
 * Pasos de *Jute-DH* y otros efectos de sonido *Foley*.
 * Audios ambientales, latidos de corazón, voces y efectos de tensión extraídos de *PixaBay.com*.
 
-## Equipo de Desarrollo
+## Equipo de desarrollo
 * **Dante Moldero** - Desarrollador principal
 * **Tomás Simón** - Desarrollador artístico
 * **Matías Müller** - Dirección
 
-Desarrollado 100% por humanos para UNAHUR.
+Desarrollado 100% por humanos, con ❤️ para UNAHUR.
