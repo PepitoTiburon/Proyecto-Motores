@@ -57,20 +57,20 @@ Para abrir y compilar el proyecto y jugar localmente, seguí estos pasos:
 6.  Presionar el botón de **Play** (el icono de reproducción en la esquina superior derecha) o la tecla `F5` para ejecutar el juego.
 
 ## Assets y herramientas utilizadas
-Este proyecto utiliza varios *addons* y recursos libres de la comunidad de desarrollo para lograr la estética y jugabilidad deseadas:
+Este proyecto utiliza varios *addons* y recursos gratuitos:
 
 **Addons de Godot:**
 * **Raytraced Audio**: Para la simulación acústica y reverberación en tiempo real.
 * **Character Controller 3D**: Sistema de movimiento FPS avanzado.
 
+**Efectos de sonido (SFX) y voces:**
+* Pasos de *Jute-DH* y otros efectos de sonido *Foley*.
+* Audios ambientales, latidos de corazón, voces y efectos de tensión extraídos de *PixaBay.com*.
+
 **Gráficos 3D y texturas:**
 * Modelos estilo PSX (*Derelict Furniture* y *Retro Gothic*).
 * Texturas *Pixel Skies* de Digital Moons.
 * Fuente Itch.io
-
-**Efectos de sonido (SFX) y voces:**
-* Pasos de *Jute-DH* y otros efectos de sonido *Foley*.
-* Audios ambientales, latidos de corazón, voces y efectos de tensión extraídos de *PixaBay.com*.
 
 ## Equipo de desarrollo
 * **Dante Moldero** - Desarrollador principal
