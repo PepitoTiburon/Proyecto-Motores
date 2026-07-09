@@ -43,7 +43,7 @@ Para abrir y compilar el proyecto y jugar localmente, seguí estos pasos:
 ###
 * Descargar e instalar **Godot Engine 4.4**. Se puede descargar de forma gratuita en [godotengine.org](https://godotengine.org).
 
-### de Instalación
+### Instalación
 1.  **Clonar este repositorio** en tu máquina local usando Git:
 
   ```bash
