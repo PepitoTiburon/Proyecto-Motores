@@ -30,7 +30,7 @@
 [ext_resource type="Script" uid="uid://bmftiyy2nwc6y" path="res://scenes/objects/door/class_puerta.gd" id="18_1rtps"]
 [ext_resource type="PackedScene" uid="uid://341odhpkyxrp" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/book0.fbx" id="19_7pr1r"]
 [ext_resource type="ArrayMesh" uid="uid://dn7334qqooiuw" path="res://Assets/models/mansion/Meshes/OBJ/Decor/picture8.obj" id="20_f7qpw"]
-[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.MP3" id="20_w1rq5"]
+[ext_resource type="AudioStream" uid="uid://dv32tm3i0monm" path="res://Assets/audio/sfx/door creek.mp3" id="20_w1rq5"]
 [ext_resource type="PackedScene" uid="uid://cqwundfnx7whu" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Items/papers.fbx" id="20_y0h5s"]
 [ext_resource type="PackedScene" uid="uid://dhguewuc1dd8l" path="res://Assets/models/mansion/UE4 Ready/Content/Retro_PSX_Style_Mansion_Assets_Demo/Meshes/Decor/rug2.fbx" id="21_aj38d"]
 [ext_resource type="AudioStream" uid="uid://dqecwf72v8kij" path="res://Assets/audio/sfx/Door is locked.mp3" id="21_jyj5a"]
@@ -67,6 +67,7 @@ ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
 sky_material = SubResource("ProceduralSkyMaterial_i5arm")
 
 [sub_resource type="Environment" id="Environment_jsk3o"]
+background_mode = 1
 background_energy_multiplier = 2.0
 sky = SubResource("Sky_wc5p8")
 tonemap_mode = 2
