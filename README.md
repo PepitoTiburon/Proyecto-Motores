@@ -47,7 +47,7 @@ Para abrir y compilar el proyecto y jugar localmente, seguí estos pasos:
 1.  **Clonar este repositorio** en tu máquina local usando Git:
 
   ```bash
-  git clone https://github.com/[tu-usuario]/[nombre-del-repo].git
+  git clone https://github.com/PepitoTiburon/Proyecto-Motores.git
   ```
 
 2.  Abrir **Godot Engine**.
